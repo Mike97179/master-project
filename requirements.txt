@@ -1,0 +1,4 @@
+pandas>=2.0
+requests>=2.31
+GEOparse>=2.0.4
+biopython>=1.83

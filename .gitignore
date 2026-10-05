@@ -1,0 +1,44 @@
+# Data (large files, downloaded per-run)
+dataset/
+!dataset/.gitkeep
+
+# Virtual environments
+envs/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# Tools / binaries
+tools/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdf
+*.bbl
+*.blg
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GEOparse cache
+*.soft.gz
+
+# TEMPORAL: docs en revision — quitar estas 2 lineas cuando esten listos
+docs/
