@@ -1,9 +1,15 @@
 """
 summary_report.py — CLAUD-IA WP1: dataset summary table for reporting.
 
-Scans whatever has been downloaded under dataset/TCGA/ and writes one row
-per cancer type to dataset/summary/tcga_summary.{csv,xlsx}: sample counts
-by type, excluded samples, matrix dimensions and CLDN1 statistics.
+Scans whatever has been downloaded under dataset/ and writes, into
+dataset/summary/:
+
+    tcga_summary.csv   one row per TCGA cancer type
+    gtex_summary.csv   one row per GTEx GI tissue
+    wp1_summary.xlsx   both of the above plus "Normals per cancer", which
+                       is the table the project hinges on: how many normal
+                       samples each cancer type ends up with once GTEx is
+                       added to TCGA's few paired normals.
 
 Usage:
     python scripts/summary_report.py
@@ -18,10 +24,27 @@ import hashlib
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import DATASET_DIR, CANCER_TYPES, TCGA_VALID_SAMPLE_CODES
+from config import (DATASET_DIR, CANCER_TYPES, TCGA_VALID_SAMPLE_CODES,
+                    GTEX_TISSUE_MAP)
 from run_logger import start_logging
 
 SUMMARY_DIR = os.path.join(DATASET_DIR, "summary")
+
+
+def check_alignment(matrix_path, meta_path, id_col, n_lead):
+    """Do the metadata rows line up with the matrix columns, in order?
+
+    Same length and same ids is not enough: a positional pairing needs the
+    same order too, and the two tables are built from unrelated orderings.
+    """
+    if not (os.path.exists(matrix_path) and os.path.exists(meta_path)):
+        return None
+    with open(matrix_path) as f:
+        cols = f.readline().rstrip("\n").split(",")[n_lead:]
+    rows = list(pd.read_csv(meta_path, usecols=[id_col], low_memory=False)[id_col])
+    if set(cols) != set(rows):
+        return "id mismatch"
+    return "yes" if cols == rows else "order differs"
 
 
 def cldn1_stats(matrix_path):
@@ -138,6 +161,7 @@ def collect(project_id, check_md5=False):
             row["genes"] = sum(1 for _ in f) - 1
         row.update(cldn1_stats(matrix_path))
 
+    row["meta_aligned"] = check_alignment(matrix_path, meta_csv, "barcode", 3)
     row["clinical"] = "yes" if os.path.exists(
         os.path.join(base, "clinical", "clinical.tsv")) else "no"
     row["size_gb"] = dir_size_gb(base)
@@ -151,13 +175,151 @@ def collect(project_id, check_md5=False):
     return row
 
 
+def cldn1_stats_gtex(matrix_path, sampids=None):
+    """CLDN1 row of the GTEx matrix; 'Description' holds the gene symbol."""
+    if not os.path.exists(matrix_path):
+        return {}
+    with open(matrix_path) as f:
+        header = f.readline().rstrip("\n").split(",")
+        for line in f:
+            parts = line.rstrip("\n").split(",")
+            if len(parts) > 2 and parts[1] == "CLDN1":
+                vals = pd.Series(
+                    pd.to_numeric(pd.Series(parts[2:]), errors="coerce").values,
+                    index=header[2:],
+                ).dropna()
+                if sampids is not None:
+                    vals = vals[vals.index.isin(sampids)]
+                if vals.empty:
+                    return {}
+                return {
+                    "cldn1_detected": int((vals > 0).sum()),
+                    "cldn1_median": round(float(vals.median()), 1),
+                    "cldn1_min": int(vals.min()),
+                    "cldn1_max": int(vals.max()),
+                }
+    return {}
+
+
+def collect_gtex():
+    """One row per GI tissue, from the processed GTEx metadata."""
+    base = os.path.join(DATASET_DIR, "GTEx")
+    meta_csv = os.path.join(base, "processed", "sample_metadata_GI.csv")
+    matrix = os.path.join(base, "processed", "counts_matrix_GI.csv")
+    if not os.path.exists(meta_csv):
+        return pd.DataFrame()
+
+    sm = pd.read_csv(meta_csv, low_memory=False)
+    excl_csv = os.path.join(base, "processed", "excluded_samples.csv")
+    excl = pd.read_csv(excl_csv) if os.path.exists(excl_csv) else pd.DataFrame()
+
+    rows = []
+    for tissue, label in GTEX_TISSUE_MAP.items():
+        sub = sm[sm["SMTSD"] == tissue]
+        if sub.empty:
+            continue
+        row = {
+            "tissue": tissue,
+            "wp1_label": label,
+            "samples": len(sub),
+            "donors": sub["SUBJID"].nunique() if "SUBJID" in sub else None,
+        }
+        if "SEX" in sub:
+            row["male"] = int((sub["SEX"] == 1).sum())
+            row["female"] = int((sub["SEX"] == 2).sum())
+        if len(excl) and "SMTSD" in excl:
+            row["excluded_other_assays"] = int((excl["SMTSD"] == tissue).sum())
+        row.update(cldn1_stats_gtex(matrix, set(sub["SAMPID"])))
+        row["meta_aligned"] = check_alignment(matrix, meta_csv, "SAMPID", 2)
+        rows.append(row)
+
+    df = pd.DataFrame(rows)
+    if df.empty:
+        return df
+    totals = {"tissue": "TOTAL", "wp1_label": ""}
+    for col in df.columns:
+        if col in totals or not pd.api.types.is_numeric_dtype(df[col]):
+            continue
+        totals[col] = df[col].sum()
+    for col in ["cldn1_median", "cldn1_min", "cldn1_max"]:
+        totals.pop(col, None)
+    return pd.concat([df, pd.DataFrame([totals])], ignore_index=True)
+
+
+# GTEx groups liver donors under one label for two cancers, and terminal
+# ileum maps to no WP1 cancer at all.
+GTEX_LABEL_TO_PROJECTS = {
+    "PAAD": ["TCGA-PAAD"],
+    "COAD": ["TCGA-COAD"],
+    "STAD": ["TCGA-STAD"],
+    "ESCA": ["TCGA-ESCA"],
+    "LIHC_CHOL": ["TCGA-LIHC", "TCGA-CHOL"],
+}
+
+
+def normals_table(tcga, gtex):
+    """Normal samples per cancer type, TCGA vs GTEx.
+
+    This is the point of downloading GTEx: TCGA leaves PAAD with 4 normals
+    and CHOL with 9, too few for a tumour-vs-normal contrast.
+    """
+    if gtex.empty:
+        return pd.DataFrame()
+    gtex_body = gtex[gtex["tissue"] != "TOTAL"]
+    per_project = {}
+    for label, projects in GTEX_LABEL_TO_PROJECTS.items():
+        n = int(gtex_body.loc[gtex_body["wp1_label"] == label, "samples"].sum())
+        for proj in projects:
+            per_project[proj] = n
+
+    rows = []
+    body = tcga[tcga["project"] != "TOTAL"]
+    for _, r in body.iterrows():
+        tcga_n = r.get("solid_tissue_normal")
+        tcga_n = 0 if pd.isna(tcga_n) else int(tcga_n)
+        gtex_n = per_project.get(r["project"], 0)
+        rows.append({
+            "project": r["project"],
+            "cancer_type": r["cancer_type"],
+            "tcga_tumour": 0 if pd.isna(r.get("primary_tumor")) else int(r["primary_tumor"]),
+            "tcga_normal": tcga_n,
+            "gtex_normal": gtex_n,
+            "normal_total": tcga_n + gtex_n,
+            "note": "GTEx liver shared with CHOL" if r["project"] in ("TCGA-LIHC", "TCGA-CHOL") else "",
+        })
+    df = pd.DataFrame(rows)
+    totals = {"project": "TOTAL", "cancer_type": "", "note": ""}
+    for col in ["tcga_tumour", "tcga_normal", "gtex_normal", "normal_total"]:
+        totals[col] = df[col].sum()
+    return pd.concat([df, pd.DataFrame([totals])], ignore_index=True)
+
+
+def write_excel(path, sheets):
+    """One workbook, one sheet per table, columns sized to their contents."""
+    try:
+        with pd.ExcelWriter(path, engine="openpyxl") as writer:
+            for name, df in sheets.items():
+                if df is None or df.empty:
+                    continue
+                df.to_excel(writer, sheet_name=name, index=False)
+                sheet = writer.sheets[name]
+                for i, col in enumerate(df.columns, start=1):
+                    cells = ["" if pd.isna(v) else str(v) for v in df[col]]
+                    width = max(len(col), *(len(c) for c in cells)) + 2
+                    sheet.column_dimensions[sheet.cell(1, i).column_letter].width = min(width, 50)
+                sheet.freeze_panes = "A2"
+        return True
+    except ImportError:
+        return False
+
+
 COLUMNS = [
     "project", "cancer_type", "status",
     "files_at_gdc", "files_downloaded", "files_incomplete", "md5_verified",
     "samples_total", "primary_tumor", "solid_tissue_normal", "metastatic",
     "patients_unique", "excluded_total", "excluded_detail",
     "genes", "cldn1_detected", "cldn1_median", "cldn1_min", "cldn1_max",
-    "clinical", "size_gb",
+    "meta_aligned", "clinical", "size_gb",
 ]
 
 
@@ -196,31 +358,47 @@ def main():
         if len(vals) and (vals % 1 == 0).all():
             df[col] = df[col].astype("Int64")
 
+    print("  Reading GTEx...")
+    gtex = collect_gtex()
+    normals = normals_table(df, gtex)
+
     os.makedirs(SUMMARY_DIR, exist_ok=True)
+    root = os.path.dirname(DATASET_DIR)
+
     csv_path = os.path.join(SUMMARY_DIR, "tcga_summary.csv")
     df.to_csv(csv_path, index=False)
-    print(f"\n  CSV:   {os.path.relpath(csv_path, os.path.dirname(DATASET_DIR))}")
+    print(f"\n  {os.path.relpath(csv_path, root)}")
 
-    try:
-        xlsx_path = os.path.join(SUMMARY_DIR, "tcga_summary.xlsx")
-        with pd.ExcelWriter(xlsx_path, engine="openpyxl") as writer:
-            df.to_excel(writer, sheet_name="TCGA summary", index=False)
-            sheet = writer.sheets["TCGA summary"]
-            for i, col in enumerate(df.columns, start=1):
-                cells = ["" if pd.isna(v) else str(v) for v in df[col]]
-                width = max(len(col), *(len(c) for c in cells)) + 2
-                sheet.column_dimensions[sheet.cell(1, i).column_letter].width = min(width, 50)
-            sheet.freeze_panes = "A2"
-        print(f"  Excel: {os.path.relpath(xlsx_path, os.path.dirname(DATASET_DIR))}")
-    except ImportError:
+    if not gtex.empty:
+        gtex_csv = os.path.join(SUMMARY_DIR, "gtex_summary.csv")
+        gtex.to_csv(gtex_csv, index=False)
+        print(f"  {os.path.relpath(gtex_csv, root)}")
+
+    xlsx_path = os.path.join(SUMMARY_DIR, "wp1_summary.xlsx")
+    if write_excel(xlsx_path, {"TCGA": df, "GTEx": gtex,
+                               "Normals per cancer": normals}):
+        print(f"  {os.path.relpath(xlsx_path, root)}")
+    else:
         print("  Excel skipped (pip install openpyxl)")
 
-    print()
-    cols = ["project", "status", "samples_total", "primary_tumor",
-            "solid_tissue_normal", "metastatic", "excluded_total", "cldn1_median"]
-    view = df[[c for c in cols if c in df.columns]]
-    view = view.apply(lambda c: ["-" if pd.isna(v) else str(v) for v in c])
-    print(view.to_string(index=False))
+    def show(frame, cols):
+        view = frame[[c for c in cols if c in frame.columns]]
+        return view.apply(lambda c: ["-" if pd.isna(v) else str(v) for v in c])
+
+    print("\n  === TCGA ===")
+    print(show(df, ["project", "status", "samples_total", "primary_tumor",
+                    "solid_tissue_normal", "metastatic", "excluded_total",
+                    "cldn1_median"]).to_string(index=False))
+
+    if not gtex.empty:
+        print("\n  === GTEx (normal tissue) ===")
+        print(show(gtex, ["tissue", "wp1_label", "samples", "donors",
+                          "cldn1_median"]).to_string(index=False))
+
+    if not normals.empty:
+        print("\n  === Normals per cancer (why GTEx is needed) ===")
+        print(show(normals, ["project", "tcga_tumour", "tcga_normal",
+                             "gtex_normal", "normal_total"]).to_string(index=False))
 
 
 if __name__ == "__main__":

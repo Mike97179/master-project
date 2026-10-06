@@ -278,8 +278,19 @@ def assemble_counts(raw_dir, fname_map, out_dir):
             clin[merge_cols], left_on="patient", right_on="submitter_id", how="left"
         ).drop(columns="submitter_id", errors="ignore")
 
+    # Put the metadata rows in the matrix's column order. The matrix columns
+    # come from sorted(tsv_files) and these rows from metadata.json, which are
+    # two unrelated orderings: pairing them by position would mislabel almost
+    # every sample. Analysis should still join on barcode, but the files are
+    # shipped aligned so that a positional pairing cannot silently go wrong.
+    barcode_order = [c for c in matrix.columns if c not in ("gene_name", "gene_type")]
+    sample_meta = (sample_meta.set_index("barcode")
+                              .reindex(barcode_order)
+                              .reset_index())
+    assert list(sample_meta["barcode"]) == barcode_order
+
     sample_meta.to_csv(os.path.join(out_dir, "sample_metadata.csv"), index=False)
-    print(f"    Sample metadata: {len(sample_meta)} rows")
+    print(f"    Sample metadata: {len(sample_meta)} rows, aligned to matrix columns")
 
     return matrix, sample_meta
 
