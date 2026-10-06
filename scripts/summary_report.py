@@ -294,6 +294,73 @@ def normals_table(tcga, gtex):
     return pd.concat([df, pd.DataFrame([totals])], ignore_index=True)
 
 
+def collect_geo():
+    """GEO candidates: what the search found and what inspection concluded.
+
+    GEO is a curation step, not a bulk download: the useful summary is how
+    many candidates survive each filter, not sample counts.
+    """
+    base = os.path.join(DATASET_DIR, "GEO")
+    insp_csv = os.path.join(base, "inspected.csv")
+    if not os.path.isdir(base):
+        return pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
+
+    insp = pd.read_csv(insp_csv) if os.path.exists(insp_csv) else pd.DataFrame()
+
+    # Search results and decisions live under dataset/GEO/<CANCER>/
+    search_parts, dec_parts, downloaded = [], [], set()
+    for short in [v["short"] for v in CANCER_TYPES.values()]:
+        cdir = os.path.join(base, short)
+        if not os.path.isdir(cdir):
+            continue
+        for name, bucket in (("search_results.csv", search_parts),
+                             ("decisions.csv", dec_parts)):
+            path = os.path.join(cdir, name)
+            if os.path.exists(path):
+                part = pd.read_csv(path)
+                part["search_cancer"] = short
+                bucket.append(part)
+        downloaded |= {d for d in os.listdir(cdir)
+                       if d.startswith("GSE") and os.path.isdir(os.path.join(cdir, d))}
+
+    search = pd.concat(search_parts, ignore_index=True) if search_parts else pd.DataFrame()
+    decisions = pd.concat(dec_parts, ignore_index=True) if dec_parts else pd.DataFrame()
+    if search.empty and insp.empty:
+        return pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
+
+    rows = []
+    cancers = [v["short"] for v in CANCER_TYPES.values()]
+    for short in cancers:
+        sub = search[search["search_cancer"] == short] if len(search) else pd.DataFrame()
+        if sub.empty:
+            continue
+        accs = set(sub["accession"])
+        sub_insp = insp[insp["accession"].isin(accs)] if len(insp) else pd.DataFrame()
+        rows.append({
+            "cancer": short,
+            "candidates_found": len(sub),
+            "flagged_ok": int((sub["flags"] == "OK").sum()),
+            "flagged_cell_line": int(sub["flags"].str.contains("CELL_LINE").sum()),
+            "flagged_organoid": int(sub["flags"].str.contains("ORGANOID").sum()),
+            "flagged_single_cell": int(sub["flags"].str.contains("SINGLE_CELL").sum()),
+            "flagged_non_human": int(sub["flags"].str.contains("NON_HUMAN").sum()),
+            "inspected": len(sub_insp),
+            "with_raw_counts": int((sub_insp["has_raw"] == "yes").sum()) if len(sub_insp) else 0,
+            "downloaded": len(accs & downloaded),
+        })
+
+    df = pd.DataFrame(rows)
+    if df.empty:
+        return df, insp, decisions
+    totals = {"cancer": "TOTAL"}
+    for col in df.columns:
+        if col == "cancer":
+            continue
+        totals[col] = df[col].sum()
+    df = pd.concat([df, pd.DataFrame([totals])], ignore_index=True)
+    return df, insp, decisions
+
+
 def write_excel(path, sheets):
     """One workbook, one sheet per table, columns sized to their contents."""
     try:
@@ -361,6 +428,8 @@ def main():
     print("  Reading GTEx...")
     gtex = collect_gtex()
     normals = normals_table(df, gtex)
+    print("  Reading GEO...")
+    geo, geo_detail, geo_decisions = collect_geo()
 
     os.makedirs(SUMMARY_DIR, exist_ok=True)
     root = os.path.dirname(DATASET_DIR)
@@ -374,9 +443,17 @@ def main():
         gtex.to_csv(gtex_csv, index=False)
         print(f"  {os.path.relpath(gtex_csv, root)}")
 
+    if not geo.empty:
+        geo_csv = os.path.join(SUMMARY_DIR, "geo_summary.csv")
+        geo.to_csv(geo_csv, index=False)
+        print(f"  {os.path.relpath(geo_csv, root)}")
+
     xlsx_path = os.path.join(SUMMARY_DIR, "wp1_summary.xlsx")
     if write_excel(xlsx_path, {"TCGA": df, "GTEx": gtex,
-                               "Normals per cancer": normals}):
+                               "Normals per cancer": normals,
+                               "GEO candidates": geo,
+                               "GEO inspected": geo_detail,
+                               "GEO decisions": geo_decisions}):
         print(f"  {os.path.relpath(xlsx_path, root)}")
     else:
         print("  Excel skipped (pip install openpyxl)")
@@ -394,6 +471,12 @@ def main():
         print("\n  === GTEx (normal tissue) ===")
         print(show(gtex, ["tissue", "wp1_label", "samples", "donors",
                           "cldn1_median"]).to_string(index=False))
+
+    if not geo.empty:
+        print("\n  === GEO candidates ===")
+        print(show(geo, ["cancer", "candidates_found", "flagged_ok",
+                         "inspected", "with_raw_counts",
+                         "downloaded"]).to_string(index=False))
 
     if not normals.empty:
         print("\n  === Normals per cancer (why GTEx is needed) ===")
