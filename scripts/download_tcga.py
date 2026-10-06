@@ -40,6 +40,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from config import (
     DATASET_DIR, CANCER_TYPES, GDC_FILES_URL, GDC_CASES_URL,
     TCGA_RNASEQ_FILTER, TCGA_VALID_SAMPLE_CODES, TCGA_SAMPLE_LABELS,
+    TCGA_SAMPLE_TYPE_CODES,
 )
 from run_logger import start_logging
 
@@ -170,24 +171,50 @@ def run_gdc_client(manifest_path, output_dir):
 # ── Assembly: raw TSV files → counts matrix ──────────────────────────────
 
 def build_barcode_map(metadata):
-    """Map file_name → TCGA barcode, filtering to valid sample types."""
+    """Map file_name -> TCGA barcode, filtering to valid sample types.
+
+    Returns (kept, excluded). Excluded samples are reported by sample type
+    code rather than assumed to be cell lines: some of them (02 recurrent,
+    05 new primary) are genuine human biopsies left out by design, and that
+    distinction has to be reportable.
+    """
     fmap = {}
-    skipped = 0
+    excluded = []
     for record in metadata:
         barcode = record["associated_entities"][0]["entity_submitter_id"]
         sample_code = barcode.split("-")[3][:2]
-        if sample_code not in TCGA_VALID_SAMPLE_CODES:
-            skipped += 1
-            continue
-        fmap[record["file_name"]] = {
+        entry = {
             "barcode": barcode,
             "patient": barcode[:12],
             "sample_type_code": sample_code,
-            "sample_type_label": TCGA_SAMPLE_LABELS.get(sample_code, "Other"),
+            "sample_type_label": TCGA_SAMPLE_TYPE_CODES.get(sample_code, "Unknown code"),
         }
-    if skipped:
-        print(f"    Filtered out {skipped} non-biopsy samples (cell lines, etc.)")
-    return fmap
+        if sample_code not in TCGA_VALID_SAMPLE_CODES:
+            entry["file_name"] = record["file_name"]
+            excluded.append(entry)
+            continue
+        entry["sample_type_label"] = TCGA_SAMPLE_LABELS.get(sample_code, "Other")
+        fmap[record["file_name"]] = entry
+
+    if excluded:
+        kept_codes = ", ".join(sorted(TCGA_VALID_SAMPLE_CODES))
+        print(f"    Excluded {len(excluded)} samples (kept codes: {kept_codes}):")
+        breakdown = {}
+        for e in excluded:
+            key = (e["sample_type_code"], e["sample_type_label"])
+            breakdown[key] = breakdown.get(key, 0) + 1
+        for (code, label), n in sorted(breakdown.items()):
+            print(f"      code {code} — {label}: {n}")
+    return fmap, excluded
+
+
+def write_excluded(excluded, out_dir):
+    """Record excluded samples so the filter is auditable in the write-up."""
+    os.makedirs(out_dir, exist_ok=True)
+    path = os.path.join(out_dir, "excluded_samples.csv")
+    cols = ["barcode", "patient", "sample_type_code", "sample_type_label", "file_name"]
+    pd.DataFrame(excluded, columns=cols).to_csv(path, index=False)
+    print(f"    Excluded samples logged: {os.path.basename(path)}")
 
 
 def assemble_counts(raw_dir, fname_map, out_dir):
@@ -335,9 +362,10 @@ def process_project(project_id):
 
     # 4. Assemble
     print("\n  [4/5] Assembling counts matrix...")
-    fname_map = build_barcode_map(data["hits"])
+    fname_map, excluded = build_barcode_map(data["hits"])
     print(f"    Valid biopsy samples: {len(fname_map)}")
     matrix, sample_meta = assemble_counts(raw_dir, fname_map, processed_dir)
+    write_excluded(excluded, processed_dir)
 
     # 5. Sense check
     print("\n  [5/5] Sense check...")

@@ -71,6 +71,29 @@ TCGA_SAMPLE_LABELS = {
     "06": "Metastatic",
 }
 
+# Full TCGA sample type vocabulary, so an excluded sample can be named in the
+# log instead of being lumped under "cell lines". Codes 02 (recurrent) and 05
+# (new primary) ARE human biopsies: they are excluded on purpose, because a
+# post-treatment or second primary tumour is not comparable to a primary one,
+# not because they fail Abrar's biopsy-only directive.
+TCGA_SAMPLE_TYPE_CODES = {
+    "01": "Primary Solid Tumor",
+    "02": "Recurrent Solid Tumor",
+    "03": "Primary Blood Derived Cancer - Peripheral Blood",
+    "05": "Additional - New Primary",
+    "06": "Metastatic",
+    "07": "Additional Metastatic",
+    "10": "Blood Derived Normal",
+    "11": "Solid Tissue Normal",
+    "12": "Buccal Cell Normal",
+    "14": "Bone Marrow Normal",
+    "20": "Control Analyte",
+    "40": "Recurrent Blood Derived Cancer - Peripheral Blood",
+    "50": "Cell Lines",
+    "60": "Primary Xenograft Tissue",
+    "61": "Cell Line Derived Xenograft Tissue",
+}
+
 # ── GDC API endpoints ────────────────────────────────────────────────────
 GDC_FILES_URL = "https://api.gdc.cancer.gov/files"
 GDC_CASES_URL = "https://api.gdc.cancer.gov/cases"

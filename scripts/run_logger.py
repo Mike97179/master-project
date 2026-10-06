@@ -17,6 +17,7 @@ Log block format:
 
 import atexit
 import os
+import re
 import sys
 import time
 from datetime import datetime
@@ -26,6 +27,11 @@ from config import PROJECT_ROOT
 
 LOGS_DIR = os.path.join(PROJECT_ROOT, "logs")
 RULE = "-" * 70
+
+# Terminal colour/cursor escapes (ESC [ ... letter). Stripped from the
+# log only: a file has no colours, and leaving them in hides messages
+# from grep — "ERROR:" written in red does not start with an "E".
+ANSI_RE = re.compile(r"\x1b\[[0-9;?]*[ -/]*[@-~]")
 
 
 class _Tee:
@@ -42,9 +48,9 @@ class _Tee:
         self._pending = []
 
     def write(self, data):
-        self._stream.write(data)
+        self._stream.write(data)   # terminal: keep the colours
         self._stream.flush()
-        parts = data.split("\n")
+        parts = ANSI_RE.sub("", data).split("\n")   # log: plain text
         for part in parts[:-1]:
             self._push(part)
             self._log.write("".join(self._pending) + "\n")
