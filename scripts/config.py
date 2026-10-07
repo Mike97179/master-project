@@ -48,6 +48,24 @@ CANCER_TYPES = {
     },
 }
 
+# ── Cancer inference patterns ─────────────────────────────────────────────
+# The keywords above are search terms; these are for recognising which cancer
+# a paper is about. They have to be separate: "esophageal adenocarcinoma"
+# does not contain the phrase "esophageal cancer", so exact-phrase matching
+# labelled a third of the ESCA hits UNKNOWN.
+#
+# Ordered most specific first, which breaks ties: intrahepatic
+# cholangiocarcinoma mentions both bile ducts and liver, and CHOL is the
+# more specific answer.
+CANCER_ORGAN_PATTERNS = {
+    "CHOL": r"cholangio|biliary|bile[-\s]?duct|gall[-\s]?bladder|\bicca\b|\bgbc\b",
+    "ESCA": r"esophag|oesophag|barrett|\besca\b|\bescc\b|\beac\b|\bgej\b",
+    "PAAD": r"pancrea|\bpdac\b",
+    "COAD": r"colorectal|\bcolon\b|\brect(al|um)\b|\bcrc\b",
+    "STAD": r"gastric|stomach",
+    "LIHC": r"hepatocellular|hepatic|\bliver\b|\bhcc\b",
+}
+
 # ── GTEx tissues → WP1 cancer type mapping ────────────────────────────────
 GTEX_TISSUE_MAP = {
     "Pancreas":                                "PAAD",

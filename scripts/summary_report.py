@@ -328,26 +328,33 @@ def collect_geo():
     if search.empty and insp.empty:
         return pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
 
+    # The funnel the GEO pipeline reports: candidates found, how many
+    # survived each gate, and how the survivors were finally classed.
     rows = []
-    cancers = [v["short"] for v in CANCER_TYPES.values()]
-    for short in cancers:
+    for short in [v["short"] for v in CANCER_TYPES.values()]:
         sub = search[search["search_cancer"] == short] if len(search) else pd.DataFrame()
         if sub.empty:
             continue
         accs = set(sub["accession"])
         sub_insp = insp[insp["accession"].isin(accs)] if len(insp) else pd.DataFrame()
-        rows.append({
-            "cancer": short,
-            "candidates_found": len(sub),
-            "flagged_ok": int((sub["flags"] == "OK").sum()),
-            "flagged_cell_line": int(sub["flags"].str.contains("CELL_LINE").sum()),
-            "flagged_organoid": int(sub["flags"].str.contains("ORGANOID").sum()),
-            "flagged_single_cell": int(sub["flags"].str.contains("SINGLE_CELL").sum()),
-            "flagged_non_human": int(sub["flags"].str.contains("NON_HUMAN").sum()),
-            "inspected": len(sub_insp),
-            "with_raw_counts": int((sub_insp["has_raw"] == "yes").sum()) if len(sub_insp) else 0,
-            "downloaded": len(accs & downloaded),
-        })
+        sub_dec = (decisions[decisions["accession"].isin(accs)]
+                   if len(decisions) else pd.DataFrame())
+
+        row = {"cancer": short, "candidates_found": len(sub)}
+        if len(sub_insp):
+            hard = sub_insp["hard"].fillna("")
+            row["past_gates_1_2"] = int((hard == "").sum())
+            row["with_raw_counts"] = int((sub_insp["has_raw"] == "yes").sum())
+        if len(sub_dec):
+            row["tissue_confirmed"] = int((sub_dec["decision"] == "DOWNLOAD").sum())
+            row["ambiguous"] = int((sub_dec["decision"] == "AMBIGUOUS").sum())
+            row["rejected"] = int((sub_dec["decision"] == "SKIP").sum())
+            if "declares" in sub_dec:
+                decl = sub_dec["declares"].fillna("")
+                row["declare_tissue"] = int((decl == "tissue").sum())
+                row["declare_culture"] = int((decl == "culture").sum())
+        row["downloaded"] = len(accs & downloaded)
+        rows.append(row)
 
     df = pd.DataFrame(rows)
     if df.empty:
@@ -474,8 +481,8 @@ def main():
 
     if not geo.empty:
         print("\n  === GEO candidates ===")
-        print(show(geo, ["cancer", "candidates_found", "flagged_ok",
-                         "inspected", "with_raw_counts",
+        print(show(geo, ["cancer", "candidates_found", "past_gates_1_2",
+                         "with_raw_counts", "tissue_confirmed", "ambiguous",
                          "downloaded"]).to_string(index=False))
 
     if not normals.empty:
