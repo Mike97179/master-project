@@ -1,8 +1,8 @@
-cancer,candidates_found,past_gates_1_2,with_raw_counts,tissue_confirmed,ambiguous,rejected,declare_tissue,declare_culture,downloaded
-COAD,2080,457,538,38,41,2132,86,389,86
-PAAD,1021,251,298,18,16,1075,43,231,39
-ESCA,317,56,72,5,3,357,11,52,10
-STAD,485,95,101,6,8,532,19,86,14
-LIHC,2036,363,408,28,29,2107,70,315,60
-CHOL,204,57,71,7,8,258,18,55,10
-TOTAL,6143,1279,1488,102,105,6461,247,1128,219
+cancer,candidates_found,past_gates_1_2,with_raw_counts,tissue_confirmed,ambiguous,rejected,declare_tissue,declare_culture,downloaded,recovered,usable
+COAD,2080,457,538,38,41,2132,86,389,86,14,52
+PAAD,1021,251,298,18,16,1075,43,231,39,9,27
+ESCA,317,56,72,5,3,357,11,52,10,2,7
+STAD,485,95,101,6,8,532,19,86,14,2,8
+LIHC,2036,363,408,28,29,2107,70,315,60,9,37
+CHOL,204,57,71,7,8,258,18,55,10,0,7
+TOTAL,6143,1279,1488,102,105,6461,247,1128,219,36,138

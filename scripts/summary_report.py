@@ -307,6 +307,17 @@ def collect_geo():
 
     insp = pd.read_csv(insp_csv) if os.path.exists(insp_csv) else pd.DataFrame()
 
+    # Series the decimal rule rejected and the audit recovered. Their rows in
+    # decisions.csv still read SKIP, because recover_decimals.py downloads
+    # them without reinspecting, so counting only `tissue_confirmed` under-
+    # reports what is on disk by 36 datasets. See curation/GEO/REVISION_DECIMALES.md
+    rec_csv = os.path.join(base, "decimal_rejections.csv")
+    rec_by_cancer = {}
+    if os.path.exists(rec_csv):
+        rec = pd.read_csv(rec_csv)
+        rec = rec[(rec["veredicto"] == "RECUPERABLE") & (rec["declara"] == "tissue")]
+        rec_by_cancer = {c: set(g["accession"]) for c, g in rec.groupby("cancer")}
+
     # The record is under curation/GEO/<CANCER>/, the files themselves under
     # dataset/GEO/<CANCER>/. Two roots, so count what is on disk from the
     # second one — reading both from `base` silently reported 0 downloaded.
@@ -359,6 +370,12 @@ def collect_geo():
                 row["declare_tissue"] = int((decl == "tissue").sum())
                 row["declare_culture"] = int((decl == "culture").sum())
         row["downloaded"] = len(accs & downloaded)
+
+        # Recovered datasets are on disk but still SKIP in decisions.csv, so
+        # they are counted from the audit, not from the decision rows.
+        rec_here = rec_by_cancer.get(short, set())
+        row["recovered"] = len(rec_here & downloaded)
+        row["usable"] = row.get("tissue_confirmed", 0) + row["recovered"]
         rows.append(row)
 
     df = pd.DataFrame(rows)
@@ -487,8 +504,8 @@ def main():
     if not geo.empty:
         print("\n  === GEO candidates ===")
         print(show(geo, ["cancer", "candidates_found", "past_gates_1_2",
-                         "with_raw_counts", "tissue_confirmed", "ambiguous",
-                         "downloaded"]).to_string(index=False))
+                         "tissue_confirmed", "recovered", "usable",
+                         "ambiguous", "downloaded"]).to_string(index=False))
 
     if not normals.empty:
         print("\n  === Normals per cancer (why GTEx is needed) ===")
