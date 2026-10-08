@@ -1,0 +1,8 @@
+project,cancer_type,status,files_at_gdc,files_downloaded,files_incomplete,samples_total,primary_tumor,solid_tissue_normal,metastatic,patients_unique,excluded_total,excluded_detail,genes,cldn1_detected,cldn1_median,cldn1_min,cldn1_max,meta_aligned,clinical,size_gb
+TCGA-COAD,Colorectal / Colon Cancer,complete,524,524,0,523,481,41,1,458,1,02 Recurrent Solid Tumor x1,60660,523,2616.0,31,39286,yes,yes,2.15
+TCGA-PAAD,Pancreatic Cancer / PDAC,complete,183,183,0,183,178,4,1,178,0,,60660,183,5977.0,84,79759,yes,yes,0.75
+TCGA-ESCA,Esophageal Cancer,complete,198,198,0,198,184,13,1,184,0,,60660,198,11200.5,34,200883,yes,yes,0.82
+TCGA-STAD,Gastric / Stomach Cancer,complete,448,448,0,448,412,36,0,415,0,,60660,448,4279.5,11,65274,yes,yes,1.85
+TCGA-LIHC,Liver Cancer / HCC,complete,424,424,0,421,371,50,0,371,3,02 Recurrent Solid Tumor x3,60660,421,12655.0,28,80071,yes,yes,1.73
+TCGA-CHOL,Biliary Cancer / Cholangiocarcinoma,complete,44,44,0,44,35,9,0,36,0,,60660,44,23497.5,118,77958,yes,yes,0.18
+TOTAL,,,1821,1821,0,1817,1661,153,3,1642,4,,,1817,,,,,,7.48

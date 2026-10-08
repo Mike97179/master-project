@@ -1,0 +1,486 @@
+accession,decision,cancer,n_samples,size,declares,reason,ambiguity,title,search_cancer
+GSE148355,AMBIGUOUS,LIHC,128,33.8 MB,tissue,"the text points at LIHC, not CHOL","the text points at LIHC, not CHOL",Preoperative immune landscape predisposes adverse outcomes i,STAD
+GSE255122,SKIP,ESCA,13,1.1 MB,unstated,"the 'raw' counts contain decimals, so they are not counts","the abstract mentions NOT_RNASEQ, which the sample records did not confirm; the text points at ESCA, not COAD; the samples declare neither tissue nor cell line, so the type could not be confirmed",Cancer-associated fibroblasts reveal aberrant DNA methylatio,STAD
+GSE288482,AMBIGUOUS,UNKNOWN,52,2.2 MB,tissue,the abstract names no cancer type clearly,the abstract names no cancer type clearly,Integration activity of evolutionarily recent human retroele,STAD
+GSE220728,SKIP,COAD,20,5.6 MB,culture,the samples declare culture (CELL_LINE): caco-2,,5’ isoforms of miR-1246 have distinct targets and stronger f,STAD
+GSE186587,SKIP,COAD,127,3.9 MB,culture,the samples declare culture (NOT_TISSUE): plasma,"the abstract mentions NOT_TISSUE, which the sample records did not confirm",Plasma Multi-omics Nucleic Acid Landscape of Gastrointestina,STAD
+GSE180941,SKIP,UNKNOWN,22,2.3 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): a549","the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly",Cancer Cell Resistance to IFNγ Can Occur via Enhanced Double,STAD
+GSE165404,SKIP,UNKNOWN,15,133.0 MB,culture,"the samples declare culture: sorted immune cells (live/dead, cd45+)","the abstract mentions NON_HUMAN, which the sample records did not confirm; the abstract names no cancer type clearly; the matrix has 27788 numeric columns but GEO declares 15 samples",Targeting TREM2 on tumor associated macrophages enhances eff,STAD
+GSE320255,SKIP,UNKNOWN,14,699.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): nugc4,"the abstract mentions NOT_RNASEQ, which the sample records did not confirm; the abstract names no cancer type clearly",Pan-Cancer Analysis Reveals Mutation-Driven TE Dysregulation,STAD
+GSE261882,SKIP,STAD,4,872.0 KB,culture,the samples declare another organ: glioblastoma,"the text points at STAD, not LIHC; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers",MAGED2 mediates AKT pathway regulates the biological functio,STAD
+GSE262922,SKIP,STAD,6,6.7 MB,culture,the samples declare culture (CELL_LINE): hgc_27,"the abstract mentions CELL_LINE, which the sample records did not confirm; the text points at STAD, not LIHC; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of overexpssion Kallistatin(SERPINA4) in HGC-27 cell ,STAD
+GSE246215,SKIP,UNKNOWN,38,69.2 MB,culture,the samples declare culture: stomach,"the abstract mentions SINGLE_CELL, which the sample records did not confirm; the abstract names no cancer type clearly; the matrix has 27078 numeric columns but GEO declares 38 samples",Cross-tissue human fibroblast atlas reveals myofibroblast su,STAD
+GSE297257,SKIP,STAD,6,3.2 MB,culture,the samples declare culture (CELL_LINE): hgc-27,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",RUNX2 influences alternative splicing of genes associated wi,STAD
+GSE334190,SKIP,STAD,4,568.0 KB,culture,the samples declare culture (CELL_LINE): ags,"the abstract mentions CELL_LINE, XENOGRAFT, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines",The RBP2–BECN1–VEGF Axis Orchestrates a Self-Amplifying Circ,STAD
+GSE342194,SKIP,UNKNOWN,6,3.0 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): 44as3","the abstract mentions NOT_TISSUE, which the sample records did not confirm; the abstract names no cancer type clearly; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",EV-Tracer enables lineage-resolved detection and molecular p,STAD
+GSE305941,SKIP,STAD,12,1.5 MB,culture,the samples declare culture (CELL_LINE): mkn45 cells,,Effect of upregulation of MiR-29c-3p on gene expression duri,STAD
+GSE275647,DOWNLOAD,STAD,216,8.9 MB,tissue,tissue confirmed,,Role of Cancer-Associated Fibroblasts in Prognostic Stratifi,STAD
+GSE339180,SKIP,STAD,6,1.9 MB,culture,the samples declare culture (CELL_LINE): ags,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers",RNA-seq of CDO1-overexpressing AGS gastric cancer cells,STAD
+GSE315562,SKIP,STAD,6,5.4 MB,culture,the samples declare culture (CELL_LINE): mkn-45,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 29 numeric columns but GEO declares 6 samples",Transcriptomic profiling of NNMT knockdown in MKN-45 gastric,STAD
+GSE298341,SKIP,STAD,18,739.0 KB,culture,the samples declare culture (CELL_LINE): lymphoblastoid cell line,,ISG15-Mediated Suppression of Type I Interferon Signaling Le,STAD
+GSE316572,SKIP,STAD,6,9.8 MB,culture,the samples declare culture (CELL_LINE): 7901,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Transcriptome analysis of Galectin-1 (LGALS1) knockout and o,STAD
+GSE326004,SKIP,STAD,6,5.3 MB,culture,the samples declare culture (CELL_LINE): mkn45,"the abstract mentions CELL_LINE, XENOGRAFT, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Angiotensin II Type 1 Receptor Blockade Inhibits Gastric Can,STAD
+GSE297687,SKIP,STAD,6,1.3 MB,culture,sample-type flag in the matrix header: CELL_LINE; sample-type flag inside filelist.txt: CELL_LINE; the samples declare culture (CELL_LINE): ags,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Ephrin-A4 Ligand Promotes Gastric Cancer Cell Epithelial-Mes,STAD
+GSE316970,SKIP,STAD,18,5.4 MB,culture,the samples declare culture (CELL_LINE): ga0518,"the abstract mentions XENOGRAFT, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm",CYD-4-61 Suppresses Gastric Tumor Growth by Targeting SOX9–C,STAD
+GSE315867,SKIP,STAD,18,1.2 MB,culture,"sample-type flag in the matrix header: CELL_LINE, XENOGRAFT; the samples declare culture (CELL_LINE, XENOGRAFT): c666-1","the abstract mentions CELL_LINE, XENOGRAFT, NOT_RNASEQ, which the sample records did not confirm",EBNA1 inhibitors reveal CDC7 and POU2F1 as direct functional,STAD
+GSE290384,SKIP,STAD,6,13.0 MB,culture,"the samples declare culture (CELL_LINE): sgc7901,primary human gastric cancer fibroblasts","the abstract mentions CELL_LINE, NOT_RNASEQ, NOT_TISSUE, which the sample records did not confirm; the title is about non-coding RNA, so gene-level counts may be a by-product; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",LncRNA NEAT1 promotes immunosuppression in gastric cancer by,STAD
+GSE293976,SKIP,STAD,12,1.9 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): ags",,Histon lactylation drives HAS2 expression in gastric cancer ,STAD
+GSE228159,SKIP,UNKNOWN,9,320.0 KB,culture,the samples declare culture (CELL_LINE): ags,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",Gene Regulation through the downregulation of H3K9ac induced,STAD
+GSE314812,SKIP,STAD,55,3.5 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Divergent clonal evolution and tumor microenvironment remode,STAD
+GSE312820,SKIP,STAD,12,578.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): ags,"the abstract mentions CELL_LINE, which the sample records did not confirm",Effect of cantharidin sodium treatment on gene expression in,STAD
+GSE277340,DOWNLOAD,STAD,9,4.8 MB,tissue,tissue confirmed,,Transcriptomic Profiling Reveals the Role of Hedgehog Signal,STAD
+GSE271762,SKIP,STAD,12,6.9 MB,culture,the samples declare culture (CELL_LINE): yccel1,"the abstract mentions CELL_LINE, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Effect of Alpelisib treatment and MAEA knockout on gene expr,STAD
+GSE271761,SKIP,STAD,8,3.9 MB,culture,the samples declare culture (CELL_LINE): yccel1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Effect of Alpelisib treatment and PIK3CA knockout on gene ex,STAD
+GSE266551,SKIP,STAD,23,6.3 MB,culture,"the samples declare culture (CELL_LINE, ORGANOID): human organoid tissue with cassette for conditional knockout of aqp5, no treatment, 12 hour timepoint, replicate 1","the abstract mentions ORGANOID, which the sample records did not confirm",Understanding Aquaporin-5 (Aqp5) functions in human gastric ,STAD
+GSE285616,SKIP,STAD,24,804.0 KB,culture,the samples declare culture (CELL_LINE): ags,"the abstract mentions CELL_LINE, which the sample records did not confirm",Using constraint-based metabolic modeling to elucidate drug-,STAD
+GSE303453,SKIP,STAD,16,878.0 KB,culture,sample-type flag inside GSE303453_analysis_BC_RNAseq_table.txt.gz: NON_HUMAN; the samples declare culture (CELL_LINE): gx117,"the abstract mentions CELL_LINE, ORGANOID, XENOGRAFT, NON_HUMAN, which the sample records did not confirm; the first column does not look like gene identifiers; the matrix has 7 numeric columns but GEO declares 16 samples",A combined enteric neuron-gastric tumor organoid reveals met,STAD
+GSE289744,SKIP,PAAD,23,509.0 KB,culture,the samples declare culture: monoculture of human dorsal root ganglia (drg) neurons,"the abstract mentions CELL_LINE, which the sample records did not confirm; the text points at PAAD, not STAD",Cancer-induced nerve injury promotes resistance to anti-PD-1,STAD
+GSE289743,AMBIGUOUS,PAAD,83,4.2 MB,tissue,"the text points at PAAD, not STAD","the text points at PAAD, not STAD",Cancer-induced nerve injury promotes resistance to anti-PD-1,STAD
+GSE287606,SKIP,STAD,6,487.0 KB,culture,the samples declare culture (CELL_LINE): mgc-803,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,Effect of ZYHT Recipe on transcriptome profiling of cancer c,STAD
+GSE289710,SKIP,STAD,6,463.0 KB,culture,the samples declare culture (CELL_LINE): snu719,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Regulation of Epstein–Barr Virus latency by histone variant ,STAD
+GSE298096,SKIP,STAD,9,561.0 KB,culture,the samples declare culture (CELL_LINE): peripheral blood mononuclear cells,only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines,ISG15-Mediated Suppression of Type I Interferon Signaling Le,STAD
+GSE287176,SKIP,STAD,4,2.1 MB,culture,the samples declare culture (CELL_LINE): hgc-27,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 10 numeric columns but GEO declares 4 samples",RNA sequencing of HGC - 27 and AGS cells that were treated w,STAD
+GSE295523,SKIP,STAD,24,14.4 MB,culture,the samples declare culture (CELL_LINE): hgc27,,Gastric epithelial cells infected with Helicobacter pylori f,STAD
+GSE291766,SKIP,STAD,6,9.9 MB,culture,the samples declare culture (CELL_LINE): hgc27,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",The role of OASL in Helicobacter pylori infection and Gastri,STAD
+GSE285828,SKIP,STAD,3,26.0 MB,culture,the samples declare culture (CELL_LINE): snu-16 (crl-5974),"the abstract mentions CELL_LINE, SINGLE_CELL, which the sample records did not confirm; only 3 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Human gastric cancer cell line; RNA-seq analysis of SNU-16 c,STAD
+GSE270417,SKIP,STAD,4,2.0 MB,culture,the samples declare culture (CELL_LINE): snu638,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines",RNA N6-methyladenosine-binding protein YTHDFs redundantly at,STAD
+GSE286972,SKIP,STAD,6,8.5 MB,culture,the samples declare culture (CELL_LINE): ags-ebv,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of GPX4 knockdown on gene expression profile of EBV p,STAD
+GSE280755,SKIP,STAD,12,13.9 MB,culture,"sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE, ORGANOID): mkn-1","the abstract mentions CELL_LINE, ORGANOID, SINGLE_CELL, which the sample records did not confirm",PI3/Elafin expression predicts recurrence after chemotherapy,STAD
+GSE229195,SKIP,UNKNOWN,12,1.6 MB,culture,the samples declare culture (CELL_LINE): nugc-4,the abstract names no cancer type clearly,Synergism of FAK and ROS1 inhibitors in the treatment of CDH,STAD
+GSE268396,SKIP,STAD,6,948.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): mgc-803","the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers; the matrix has 1 numeric columns but GEO declares 6 samples",MGC-803 Cells: Control vs. MGC-803 Cells MYBL2 Overexpressed,STAD
+GSE274529,SKIP,STAD,8,1.6 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): ags","the abstract mentions CELL_LINE, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",Deciphering the landscape of GATA-mediated transcriptional r,STAD
+GSE265934,SKIP,STAD,3,853.0 KB,culture,the samples declare another organ: breast,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 3 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers",Global transcriptomic alterations in MDA-MB-231 cells follow,STAD
+GSE217209,SKIP,STAD,6,744.8 KB,culture,the samples declare culture (CELL_LINE): mkn45,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Guanylate binding protein 5 accelerates gastric cancer progr,STAD
+GSE186732,SKIP,STAD,6,1.3 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): bgc823,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Next Generation Sequencing Facilitates Quantitative Analysis,STAD
+GSE267825,SKIP,STAD,6,2.6 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): hgc-27","the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Assessing the impact of GXYLT2 knockdown on the expression l,STAD
+GSE278591,SKIP,STAD,6,5.3 MB,culture,the samples declare culture (CELL_LINE): mgc 803,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",SOD2 promotes gastric tumorigenesis mediated by Helicobacter,STAD
+GSE241046,SKIP,STAD,12,3.1 MB,culture,the samples declare culture (CELL_LINE): ags,"the abstract mentions CELL_LINE, which the sample records did not confirm",miR-BART1-3p inhibits proliferation and invasion of gastric ,STAD
+GSE237822,SKIP,STAD,6,399.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the gene identifiers are ENSMUSG: this is mouse data; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): mkn45","the abstract mentions NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Impaired glycosylation drives golgi stress-mediated gastric ,STAD
+GSE267811,SKIP,STAD,6,2.3 MB,culture,the samples declare culture (CELL_LINE): mkn-45,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of knockdown of GRP94 on gene expression of MKN-45 ce,STAD
+GSE262056,DOWNLOAD,STAD,6,2.1 MB,tissue,tissue confirmed,,RNA-sequencing of gastric cancer PDX mice model after treate,STAD
+GSE270984,SKIP,STAD,12,2.4 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): yccel1,"the abstract mentions NOT_RNASEQ, which the sample records did not confirm",MUC1-C auto-regulatory complex with EBNA1 is responsible for,STAD
+GSE270390,SKIP,UNKNOWN,6,4.7 MB,culture,the samples declare culture (CELL_LINE): ags,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 466 numeric columns but GEO declares 6 samples",Next Generation Sequencing Analysis of Gene expression of wi,STAD
+GSE264144,SKIP,STAD,14,1.3 MB,culture,the samples declare culture (CELL_LINE): jsc18-1,"the abstract mentions XENOGRAFT, NON_HUMAN, which the sample records did not confirm",Intratumor transforming growth factor-β signaling with extra,STAD
+GSE200646,SKIP,STAD,6,5.5 MB,culture,the samples declare culture (CELL_LINE): nci-n87,"the abstract mentions CELL_LINE, XENOGRAFT, NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",The inhibitory effect of EGLN3 on proliferation in gastric c,STAD
+GSE262114,SKIP,UNKNOWN,12,2.8 MB,culture,the samples declare culture (CELL_LINE): gastric cancer cell line snu-668,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",RNA transcriptome sequencing analysis of SNU-668 Erastin-res,STAD
+GSE260598,SKIP,UNKNOWN,48,3.2 MB,unstated,"the 'raw' counts contain decimals, so they are not counts","the abstract mentions NON_HUMAN, which the sample records did not confirm; the abstract names no cancer type clearly; the samples declare neither tissue nor cell line, so the type could not be confirmed",Anti-tumor activity of a novelLAIR1antagonist in combination,STAD
+GSE245887,SKIP,STAD,6,1.5 MB,culture,the samples declare culture (CELL_LINE): jsc15-3,"the abstract mentions CELL_LINE, XENOGRAFT, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Pharmacological targeting of histone H3K27 acetylation/BRD4-,STAD
+GSE197571,SKIP,STAD,12,2.4 MB,culture,the samples declare culture (CELL_LINE): mgc803 cells,"the abstract mentions CELL_LINE, which the sample records did not confirm",RNA-seq analysis of FOXM1 depletion and RNF112 overexpressio,STAD
+GSE214817,SKIP,STAD,6,408.0 KB,culture,"the samples declare culture (CELL_LINE, NOT_TISSUE): ags","the abstract mentions CELL_LINE, NOT_TISSUE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Gastric cancer cells treated with exosomes derived from Fuso,STAD
+GSE207636,SKIP,STAD,4,506.0 KB,culture,the samples declare culture (CELL_LINE): ags,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers",RNA helicase DDX5-induced circPHF14 promotes gastric cancer ,STAD
+GSE220137,SKIP,STAD,6,1.9 MB,culture,the samples declare culture (ORGANOID): drug treated tumor organoid,"the abstract mentions ORGANOID, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",RNA sequencing of human gastric cancer drug treatment organo,STAD
+GSE210249,SKIP,STAD,6,1002.0 KB,culture,the samples declare culture (NOT_TISSUE): gastric cancer,"the abstract mentions NOT_TISSUE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",RNA-seq of primary tumor-derived human gastric cancer stem c,STAD
+GSE217567,SKIP,STAD,6,280.0 KB,culture,the samples declare culture (CELL_LINE): sgc7901,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",CEP120 Promotes Centrosome Amplification And Progression Of ,STAD
+GSE210592,SKIP,STAD,6,302.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): mkn45-her2,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",The target antigen determines the mechanism of acquired resi,STAD
+GSE212521,AMBIGUOUS,UNKNOWN,34,3.6 MB,tissue,the abstract names no cancer type clearly,the abstract names no cancer type clearly,First-in-human study of the novel fibroblast activation prot,STAD
+GSE207820,SKIP,UNKNOWN,6,555.0 KB,culture,the samples declare culture (CELL_LINE): hgc-27,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Transcriptome profiling of over-expression of GC0643 in HGC-,STAD
+GSE134150,SKIP,STAD,9,546.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): hgc-27,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",BRD4 promotes gastric cancer progression and metastasis thro,STAD
+GSE150299,SKIP,STAD,9,10.4 MB,culture,the samples declare culture (CELL_LINE): ags-ebv,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue","RNA-seq in AGS-EBV, shRNA",STAD
+GSE201412,SKIP,UNKNOWN,105,6.1 MB,culture,"sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE, XENOGRAFT): aspc1","the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly",Anti-tumor efficacy of a potent and selective non-covalent K,STAD
+GSE164961,AMBIGUOUS,STAD,53,3.4 MB,tissue,the matrix has 16 numeric columns but GEO declares 53 samples,the matrix has 16 numeric columns but GEO declares 53 samples,Glucose metabolic profiles evaluated by PET associated with ,STAD
+GSE184336,DOWNLOAD,STAD,461,17.0 MB,tissue,tissue confirmed,,Next Generation Sequencing Facilitates Quantitative Analysis,STAD
+GSE179252,DOWNLOAD,STAD,76,45.1 MB,tissue,tissue confirmed,,Next Generation Sequencing Facilitates Quantitative Analysis,STAD
+GSE174288,SKIP,STAD,12,2.5 MB,culture,the samples declare culture: gastric adenocarcinoma cells,,A Novel Strategy for Combination of Clofarabine and Pictilis,STAD
+GSE161825,SKIP,STAD,6,3.2 MB,culture,sample-type flag inside GSE161825_DEG_tip_vs_control_all.txt.gz: CELL_LINE; the samples declare culture: gastric cancer,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,RNA-seq of Tipranavir-treated primary tumor-derived human ga,STAD
+GSE180887,SKIP,STAD,30,4.1 MB,tissue,"the identifier column is 'transcript_id', so the rows are not genes; the identifiers are transcripts, not genes",,Next-generation sequencing analysis of molecular subtypes of,STAD
+GSE174237,SKIP,STAD,12,38.5 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",, Whole transcriptome sequencing of gastric cancer and its ad,STAD
+GSE176441,SKIP,STAD,6,1.6 MB,culture,the samples declare culture: huvec,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,Next Generation Sequencing of endothelial cells (HUVECs) aft,STAD
+GSE169059,SKIP,UNKNOWN,3,8.0 MB,culture,the samples declare culture (CELL_LINE): katoiii jcrb0611,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; only 3 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",RNA expression in KATOIII cells harboring biallelic deletion,STAD
+GSE140182,SKIP,STAD,357,18.1 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",the matrix has 144 numeric columns but GEO declares 357 samples,Single cell RNA sequencing of advanced gastric cancer,STAD
+GSE158631,DOWNLOAD,STAD,94,623.0 KB,tissue,tissue confirmed,,Comprehensive analysis of metastatic gastric cancer tumor ce,STAD
+GSE121382,SKIP,STAD,6,390.0 KB,culture,the samples declare culture (CELL_LINE): mgc-803,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Transcriptome Analysis of CircMRPS35 mediated mRNA expressio,STAD
+GSE132333,SKIP,STAD,8,326.0 KB,culture,the samples declare culture (CELL_LINE): hgc27,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",Gene expression profile of HGC27 gastric cancer cell p53 KO ,STAD
+GSE132331,SKIP,STAD,12,434.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): lmsu,"the abstract mentions CELL_LINE, which the sample records did not confirm",Gene expression profile of LMSU gastric cancer cell p53 KO a,STAD
+GSE111556,SKIP,STAD,12,1.5 MB,culture,the samples declare culture: naã¯ve msc,the first column does not look like gene identifiers,Reciprocal Reprogramming of Cancer Cells and Associated Mese,STAD
+GSE119021,SKIP,STAD,12,543.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): gastric cancer cell line bgc-823,"the abstract mentions CELL_LINE, which the sample records did not confirm",A novel long non-coding RNA HOXC-AS3 mediates tumorigenesis ,STAD
+GSE114406,SKIP,STAD,8,1.1 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): gtl16","the abstract mentions CELL_LINE, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",miR-205 mediates adaptive resistance to MET inhibition via E,STAD
+GSE154548,SKIP,COAD,40,4.6 MB,,no file recognisable as a count matrix,,Transcriptomic profiles of advanced colorectal adenomas from,STAD
+GSE157086,SKIP,UNKNOWN,184,273.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Large-scale genomic alterations identified in cancer patient,STAD
+GSE262648,SKIP,STAD,24,36.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The tumor immune microenvironment and therapeutic efficacy o,STAD
+GSE256301,SKIP,ESCA,2,437.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mutational signature-based identification of DNA repair defi,STAD
+GSE231539,SKIP,STAD,18,10.2 GB,,no file recognisable as a count matrix,,Tumor-infiltrating Monocytic Myeloid-derived suppressor cell,STAD
+GSE231540,SKIP,STAD,40,0.0 B,,no supplementary files: the data may only be in SRA,,Tumor-infiltrating monocytic myeloid-derived suppressor cell,STAD
+GSE251990,SKIP,ESCA,22,784.0 MB,,no file recognisable as a count matrix,,Concerted epithelial and stromal changes during progression ,STAD
+GSE174302,SKIP,ESCA,230,17.7 MB,,no file recognisable as a count matrix,,Cancer specific microbiome revealed by cell-free RNA reads i,STAD
+GSE148005,SKIP,UNKNOWN,32,0.0 B,,no supplementary files: the data may only be in SRA,,Acetyl-lysine Reader CECR2 Drives Breast Cancer Metastasis b,STAD
+GSE147995,SKIP,UNKNOWN,26,2.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Acetyl-lysine Reader CECR2 Drives Breast Cancer Metastasis b,STAD
+GSE120101,SKIP,COAD,105,27.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,T-cell receptor repertoire analysis of advanced solid tumors,STAD
+GSE120028,SKIP,COAD,19,2.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of advanced solid tumors in first-in,STAD
+GSE331422,SKIP,STAD,6,4.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptomic profiling of gastrointestinal cancer cells tr,STAD
+GSE134195,SKIP,PAAD,14,2.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Next Generation Sequencing Facilitates Quantitative Analysis,STAD
+GSE120102,SKIP,UNKNOWN,124,30.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TCR repertoire and transcriptomic analyses of advanced solid,STAD
+GSE296060,SKIP,COAD,12,672.0 KB,,no file recognisable as a count matrix,,"Myricone C, a novel neolignan from Myristica fragrans, induc",STAD
+GSE264582,SKIP,COAD,6,32.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Sequencing to Explore the Mechanism Network of N-acetyltrans,STAD
+GSE249657,SKIP,STAD,42,3.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Enhancing transcription replication conflict targets ecDNA p,STAD
+GSE249656,SKIP,STAD,8,540.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Enhancing transcription replication conflict targets ecDNA p,STAD
+GSE184731,SKIP,UNKNOWN,54,1.8 MB,,no file recognisable as a count matrix,,A scalable derivative-free optimizer trained through learnin,STAD
+GSE251765,SKIP,COAD,4,4.7 MB,,no file recognisable as a count matrix,,OLFM4 promotes the progression of intestinal metaplasia thro,STAD
+GSE236987,SKIP,STAD,9,4.8 MB,,"only circRNA/isoform/miRNA counts, not gene level",,A novel lncRNA FUAT1/TNS4 axis confers chemoresistance by su,STAD
+GSE186607,SKIP,UNKNOWN,404,0.0 B,,no supplementary files: the data may only be in SRA,,Plasma Multi-omics Nucleic Acid Landscape of Gastrointestina,STAD
+GSE180943,SKIP,UNKNOWN,49,0.0 B,,no supplementary files: the data may only be in SRA,,Cancer Cell Resistance to IFNγ Can Occur via Enhanced Double,STAD
+GSE215214,SKIP,UNKNOWN,4,4.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The differentially expressed genes regulated by 5-Aza-CdR,STAD
+GSE222379,SKIP,UNKNOWN,62,121.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Oncogene-like addiction to aneuploidy in human cancers,STAD
+GSE77661,SKIP,UNKNOWN,26,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA Sequencing Facilitates Quantitative Analysis of Transcri,STAD
+GSE43093,SKIP,COAD,3,280.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Direct ChIP-bisulfite sequencing reveals a role of H3K27me3 ,STAD
+GSE320398,SKIP,UNKNOWN,28,2.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pan-Cancer Analysis Reveals Mutation-Driven TE Dysregulation,STAD
+GSE246219,SKIP,UNKNOWN,80,0.0 B,,no supplementary files: the data may only be in SRA,,Cross-tissue human fibroblast atlas reveals myofibroblast su,STAD
+GSE237876,SKIP,STAD,66,171.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Deciphering metastatic route-specific signals and their micr,STAD
+GSE161928,SKIP,UNKNOWN,15,38.4 MB,,no file recognisable as a count matrix | sample-type flag in the file names: NON_HUMAN,,RNA sequencing analysis of organoids and their parental tiss,STAD
+GSE348880,SKIP,STAD,6,8.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effect of amlodipine treatment on gene expression in AGS gas,STAD
+GSE243515,SKIP,STAD,6,1.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RBM8A coordinately regulates expression and alternative spli,STAD
+GSE276926,SKIP,STAD,4,10.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Delactylase effects of SIRT1 on a positive feedback loop inv,STAD
+GSE276703,SKIP,STAD,4,10.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Delactylase effects of SIRT1 on a positive feedback loop inv,STAD
+GSE346057,SKIP,STAD,4,3.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Dasatinib suppresses apatinib-induced drug-tolerant persiste,STAD
+GSE314680,SKIP,STAD,6,1.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,HnRNPF extensively regulates expression and alternative spli,STAD
+GSE292180,SKIP,UNKNOWN,118,4.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genetically driven immune microenvironment states associate ,STAD
+GSE275649,SKIP,STAD,15,6.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Role of Cancer-Associated Fibroblasts in Prognostic Stratifi,STAD
+GSE341101,SKIP,STAD,16,1.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,scRNA-sequencing of gastric tissues derived from eight infla,STAD
+GSE299321,SKIP,STAD,15,2.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Implications of TEAD4 in Metabolic Processes of Gastric Canc,STAD
+GSE309453,SKIP,STAD,18,3.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,EBV infection in epithelial malignancies induces resistance ,STAD
+GSE309452,SKIP,STAD,12,15.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,EBV infection in epithelial malignancies induces resistance ,STAD
+GSE338421,SKIP,STAD,12,14.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification of the Molecular Targets Underlying the Antic,STAD
+GSE307738,SKIP,STAD,6,6.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression analysis of cancer-associated fibroblasts fr,STAD
+GSE334279,SKIP,STAD,12,3.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,RPL27 promotes gastric cancer progression by enhancing oxida,STAD
+GSE319116,SKIP,STAD,6,2.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,USP22 Facilitates Gastric Cancer Progression via Hippo/YAP a,STAD
+GSE234209,SKIP,STAD,12,225.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression profile at single cell level of immune cells,STAD
+GSE330529,SKIP,STAD,6,1.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptomic changes associated with GPNMB knockdown in HG,STAD
+GSE316165,SKIP,STAD,6,207.0 KB,,no file recognisable as a count matrix,,ZNF384-Driven WTAP Transactivation Promotes H. pylori-Induce,STAD
+GSE315868,SKIP,UNKNOWN,22,1.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,EBNA1 inhibitors reveal CDC7 and POU2F1 as direct functional,STAD
+GSE314036,SKIP,STAD,49,6.0 MB,,sample-type flag in the file names: CELL_LINE,,Oncolytic vaccinia virus JX-594 demonstrates subtype-specifi,STAD
+GSE303469,SKIP,STAD,6,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptome profiling of protein-coding RNAs in AGS follow,STAD
+GSE297015,SKIP,STAD,2,1.2 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,LncRNA NEAT1 promotes immunosuppression in gastric cancer by,STAD
+GSE315928,SKIP,STAD,94,4.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: SINGLE_CELL",,Differential T cell clonal dynamics underlie outcomes to fro,STAD
+GSE293091,SKIP,STAD,6,3.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The differentially expressed genes after overexpression of N,STAD
+GSE277561,SKIP,STAD,6,5.7 MB,,no file recognisable as a count matrix,,INHBA activated PI3K/AKT pathway in gastric cancer cell line,STAD
+GSE321676,SKIP,STAD,2,315.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Dural scRNA-seq in two organoids derived from malignant asci,STAD
+GSE311114,SKIP,STAD,6,8.9 MB,,no file recognisable as a count matrix,,Oncogenic LncRNA SLC16A1-AS1 Cooperates with NSUN2 to Stabil,STAD
+GSE310529,SKIP,STAD,12,10.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Oncogenic LncRNA SLC16A1-AS1 Cooperates with NSUN2 to Stabil,STAD
+GSE319750,SKIP,STAD,14,1.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ARID1A Deficiency in Diffuse-Type Gastric Cancer Promotes a ,STAD
+GSE319577,SKIP,STAD,2,189.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-Cell Profiling of HDAC Inhibitor-Induced EBV Lytic He,STAD
+GSE318886,SKIP,STAD,6,1.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,ALDH18A1 Promotes Gastric Cancer Progression and Regulates t,STAD
+GSE314675,SKIP,STAD,12,2.1 MB,,no file recognisable as a count matrix,,Expression data from Knockdown of SKA2 in SNU638 cell line,STAD
+GSE275648,SKIP,STAD,11,1.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Role of Cancer-Associated Fibroblasts in Prognostic Stratifi,STAD
+GSE317888,SKIP,UNKNOWN,6,1.3 MB,,no file recognisable as a count matrix,,RNA transcriptome sequencing analysis of SNU-668 Erastin-res,STAD
+GSE317886,SKIP,STAD,12,23.0 MB,,"only circRNA/isoform/miRNA counts, not gene level",,m1A enrichment analysis of SNU-668 Erastin-resistant cells t,STAD
+GSE317885,SKIP,STAD,4,1.8 MB,,no file recognisable as a count matrix,,Ribo-seq analysis analysis of SNU-668 Erastin-resistant cell,STAD
+GSE317882,SKIP,UNKNOWN,6,6.3 MB,,no file recognisable as a count matrix,,RNA transcriptome sequencing analysis of SNU-668 Erastin-res,STAD
+GSE317661,SKIP,STAD,2,397.0 KB,,no file recognisable as a count matrix,,CSN3 promotes gastric cancer invasion and is associated with,STAD
+GSE316152,SKIP,STAD,3,2.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effect of depletion of USP16 on gene expression of HGC-27 ce,STAD
+GSE308231,SKIP,STAD,6,634.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell sequencing technology reveals the characteristic,STAD
+GSE287892,SKIP,STAD,12,25.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gastric Cancer AVIL overexpression and pharmacologic inhibit,STAD
+GSE295401,SKIP,STAD,10,572.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Spatial transcriptomics reveal lineage complexity of gastric,STAD
+GSE305469,SKIP,STAD,6,1.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of gastric cancer cells under stress,STAD
+GSE270680,SKIP,STAD,77,3.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A spatially resolved atlas of gastric cancer characterises a,STAD
+GSE270679,SKIP,STAD,16,36.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A spatially resolved atlas of gastric cancer characterises a,STAD
+GSE309938,SKIP,STAD,20,4.5 MB,,sample-type flag in the file names: CELL_LINE,,Transcriptomic analysis of pathway activation after decitabi,STAD
+GSE274738,SKIP,STAD,12,18.7 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Whole transcriptome sequencing of gastric cancer stem cells ,STAD
+GSE300926,SKIP,STAD,9,2.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Comprehensive long-read transcriptomic analysis reveals mult,STAD
+GSE276294,SKIP,STAD,8,695.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,UMP functions as an endogenous regulator of NR4A1 to control,STAD
+GSE307200,SKIP,STAD,12,215.0 KB,,no file recognisable as a count matrix,,tRF-394 has the potential to be a RNA-based therapy for H. p,STAD
+GSE309701,SKIP,STAD,4,6.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,CD3ε-targeted circRNA-LNP enables One-Step in vivo CAR-T cel,STAD
+GSE307717,SKIP,STAD,6,3.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,ENO1 influences ATP pool of cytoplasm and lactate homeostasi,STAD
+GSE214293,SKIP,STAD,50,14.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Construction and validation of a scoring system for perineur,STAD
+GSE214155,SKIP,STAD,8,77.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-sequencing assay to Identify changed gene expression in ,STAD
+GSE308456,SKIP,STAD,6,301.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Human peritoneal CCR2LowCRIgHigh macrophage subset exhibits ,STAD
+GSE214126,SKIP,STAD,2,2.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,N6-methyladenine DNA demethylase ALKBH1 promotes gastric car,STAD
+GSE289465,SKIP,STAD,18,11.3 MB,,"only circRNA/isoform/miRNA counts, not gene level | sample-type flag in the file names: CELL_LINE",,Targeting a Galectin-3/EGR1 transcriptional complex inhibits,STAD
+GSE275773,SKIP,STAD,6,713.0 KB,,no file recognisable as a count matrix,,RNA-seq data of ginsenoside Rg3-treated BGC823 gastric cance,STAD
+GSE237451,SKIP,STAD,53,11.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,DNA-hypermethylated human gastric cancer circumvents apoptos,STAD
+GSE103045,SKIP,STAD,3,296.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Genetic and epigenetic gene inactivation coupling with KRAS ,STAD
+GSE275688,SKIP,UNKNOWN,14,6.1 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Role of ADAR1 and NOP14 on transcriptional output in cancer ,STAD
+GSE273826,SKIP,STAD,30,3.5 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Non-catalytic role of SETD1A promotes  gastric cancer cell p,STAD
+GSE273825,SKIP,STAD,6,1.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Non-catalytic role of SETD1A promotes  gastric cancer cell p,STAD
+GSE302909,SKIP,STAD,6,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effect of knockdown of miR-BART19-3p on gene expression of A,STAD
+GSE298955,SKIP,PAAD,15,488.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Joint representation and visualization of derailed cell stat,STAD
+GSE286081,SKIP,STAD,2,5.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,NR4A1 Expression Aberrations Contribute to Radiotherapy Resi,STAD
+GSE204669,SKIP,STAD,6,1.5 MB,,no file recognisable as a count matrix,,The miR-3648/FRAT1-FRAT2/c-Myc feedback loop modulates the m,STAD
+GSE289037,SKIP,STAD,17,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Non-invasive liquid biopsy based on transcriptomic profiling,STAD
+GSE288835,SKIP,STAD,2,6.4 KB,,no file recognisable as a count matrix,,The transcriptome sequencing of Galangin treated BGC823 Exos,STAD
+GSE292234,SKIP,STAD,6,4.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,mRNA expression profiling analysis in  AGS cells after RBM8A,STAD
+GSE293656,SKIP,STAD,6,3.9 KB,,no file recognisable as a count matrix,,Phosphodiesterase 12 facilitates the growth and metastatic c,STAD
+GSE288489,SKIP,STAD,12,12.1 MB,,"only circRNA/isoform/miRNA counts, not gene level",,LncRNA LUCAT1 and exosomal MIF induced by Helicobacter pylor,STAD
+GSE283111,SKIP,STAD,6,2.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Regulatory mechanisms of the Hippo/YAP axis by G-protein cou,STAD
+GSE268238,SKIP,STAD,17,22.0 GB,,no file recognisable as a count matrix,,Characterization of the Tumor Immune Microenvironment in Gas,STAD
+GSE292280,SKIP,STAD,6,6.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,FBXO44 Regulates Rac1 Spatiotemporal Dynamics: An Exploitabl,STAD
+GSE286483,SKIP,STAD,4,3.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",, An inherited predisposition allele promotes gastric cancer ,STAD
+GSE231642,SKIP,STAD,30,4.4 MB,,no file recognisable as a count matrix,,The function of IQGAP3 in gastric cancer,STAD
+GSE276928,SKIP,STAD,6,1.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,IGF2BP3 Regulates Expression and Alternative Splicing of Gen,STAD
+GSE281274,SKIP,STAD,20,267.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic profiling of signet ring cell precursors of d,STAD
+GSE289470,SKIP,STAD,4,1.0 MB,,no file recognisable as a count matrix,,Effect of Periplocymarin on Gene Expression in Gastric Cance,STAD
+GSE284839,SKIP,STAD,12,22.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,USP7 inhibitors disrupt EBNA1 interactome and EBV tumorigene,STAD
+GSE166217,SKIP,STAD,6,7.9 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Modulation of RUNX1-BRD4 cooperation by post-translational m,STAD
+GSE285402,SKIP,STAD,6,1.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of gastric cancer cells in response ,STAD
+GSE285296,SKIP,STAD,6,1.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of human gastric cancer and normal e,STAD
+GSE271913,SKIP,STAD,12,16.0 GB,,no file recognisable as a count matrix,,Differential Impacts of CD8+ T-cells landscapes on Gastric C,STAD
+GSE285448,SKIP,STAD,12,2.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Next Generation sequencing Facilitates Quantitative Analysis,STAD
+GSE255085,SKIP,STAD,6,11.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Next Generation Sequencing Quantitative Analysis of altered ,STAD
+GSE255276,SKIP,STAD,6,260.1 MB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Accessible Homeostatic Gastric Organoids Reveal Secondary Ce,STAD
+GSE254188,SKIP,STAD,11,10.0 GB,,no file recognisable as a count matrix,,Tim-3 on natural killer cells regulates immune response via ,STAD
+GSE206444,SKIP,STAD,4,44.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RORγ hijacks HIF-1α to promote peritoneal metastasis of gast,STAD
+GSE203069,SKIP,STAD,7,6.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,RORγ hijacks HIF-1α to promote peritoneal metastasis of gast,STAD
+GSE215400,SKIP,UNKNOWN,15,4.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The intrinsically disordered region of SPIN1 regulates its f,STAD
+GSE215399,SKIP,UNKNOWN,9,6.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The intrinsically disordered region of SPIN1 regulates its f,STAD
+GSE283517,SKIP,STAD,6,940.5 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The interplay between oxytocin receptor and YAP in regulatin,STAD
+GSE282776,SKIP,STAD,6,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,USP1 identified as an important factor in the progression of,STAD
+GSE252074,SKIP,STAD,6,2.9 MB,,no file recognisable as a count matrix,,Contradictory Effect of ANGPTL4 on Hedgehog pathway by Galec,STAD
+GSE282336,SKIP,STAD,6,11.0 MB,,no file recognisable as a count matrix,,H. pylori SlyD Enhances TPT1 Stability via hnRNPK to Promote,STAD
+GSE282738,SKIP,STAD,6,1.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,AGS infected with H. pylori for 24 hours,STAD
+GSE189471,SKIP,STAD,8,100.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq and CUT&Tag analysis of the effects of lncRNA LOC105,STAD
+GSE243535,SKIP,STAD,2,11.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A novel cooperative therapeutic regimen using gene fusion ne,STAD
+GSE246847,SKIP,STAD,4,790.4 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of gastric cancer cells in response ,STAD
+GSE275727,SKIP,STAD,9,1.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The control of H. pylori-mediated gastric cancer development,STAD
+GSE245851,SKIP,STAD,15,21.6 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Transcriptomic analysis of human gastric cancer cell lines f,STAD
+GSE262378,SKIP,STAD,8,6.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,SUMOylation-Induced Membrane Localization of TRPV1 Suppresse,STAD
+GSE186232,SKIP,STAD,4,15.0 MB,,no file recognisable as a count matrix,,The inhibitory effect of ZSCAN18 on proliferation in gastric,STAD
+GSE252526,SKIP,STAD,6,2.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-sequencing assay to Identify changed gene expression in ,STAD
+GSE240276,SKIP,UNKNOWN,12,0.0 B,,no supplementary files: the data may only be in SRA,,OLFM4 is a direct target of the cGAS-STING pathway and acts ,STAD
+GSE240275,SKIP,STAD,6,12.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,OLFM4 is a direct target of the cGAS-STING pathway and acts ,STAD
+GSE240274,SKIP,UNKNOWN,6,11.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,OLFM4 is a direct target of the cGAS-STING pathway and acts ,STAD
+GSE206245,SKIP,UNKNOWN,18,599.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-Cell and Spatial Transcriptome Analyses Reveal Tertia,STAD
+GSE264203,SKIP,STAD,6,120.0 MB,,no file recognisable as a count matrix,,CCKBR+ cancer cells contribute to the intertumor heterogenei,STAD
+GSE212900,SKIP,STAD,4,498.0 KB,,no file recognisable as a count matrix,,Effect of SLC7A9 on gene expression in AGS gastric cancer ce,STAD
+GSE212686,SKIP,STAD,8,0.0 B,,no supplementary files: the data may only be in SRA,,Expression profile of ATF2 knockdown in gastric cancer cell ,STAD
+GSE212684,SKIP,STAD,6,4.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Expression profile of ATF2 knockdown in gastric cancer cell ,STAD
+GSE272591,SKIP,STAD,12,4.5 MB,,no file recognisable as a count matrix,,Thioridazine reverses trastuzumab resistance in gastric canc,STAD
+GSE182544,SKIP,STAD,4,3.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ALKBH5 cooperated with LINC00659 promote gastric cancer prog,STAD
+GSE182543,SKIP,STAD,6,1.5 MB,,no file recognisable as a count matrix,,ALKBH5 cooperated with LINC00659 promote gastric cancer prog,STAD
+GSE182542,SKIP,STAD,2,0.0 B,,no supplementary files: the data may only be in SRA,,ALKBH5 cooperated with LINC00659 promote gastric cancer prog,STAD
+GSE201420,SKIP,STAD,10,0.0 B,,no supplementary files: the data may only be in SRA,,RNA Binding protein KPNA2 promotes the progress of gastric c,STAD
+GSE201419,SKIP,STAD,4,2.2 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNA Binding protein KPNA2 promotes the progress of gastric c,STAD
+GSE201418,SKIP,STAD,6,1.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA Binding protein KPNA2 promotes the progress of gastric c,STAD
+GSE248612,SKIP,STAD,12,1.7 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNA Sequencing of six pairs of gastric cancer,STAD
+GSE246662,SKIP,STAD,9,197.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell profiling reveals altered immune landscape and i,STAD
+GSE267854,SKIP,STAD,3,519.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Effect of knocking down FOXP4 and YAP1 in gastric cancer cel,STAD
+GSE180494,SKIP,STAD,8,253.0 KB,,"only circRNA/isoform/miRNA counts, not gene level | sample-type flag in the file names: CELL_LINE",,ac4C RIP-seq analysis of AGS cells upon NAT10 knockout.,STAD
+GSE236522,SKIP,STAD,33,4.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,mRNA expression in gastric cancer,STAD
+GSE168618,SKIP,UNKNOWN,4,3.1 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Whole transcriptomes analyses of HGC-27 cell line treated wi,STAD
+GSE234584,SKIP,STAD,4,16.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genome-wide maps in gastric cancer MKN-45 cells with or with,STAD
+GSE235401,SKIP,STAD,8,480.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effect of Palbociclib on gene expression of two gastric canc,STAD
+GSE233331,SKIP,STAD,6,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Different gene expression between normal and cancer-associat,STAD
+GSE232733,SKIP,STAD,1,14.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,5' droplet-based single-cell RNA sequencing of human gastric,STAD
+GSE200790,SKIP,STAD,4,2.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptomes analyses of gastric cancer HGC-27 cell line t,STAD
+GSE200789,SKIP,UNKNOWN,4,379.0 KB,,no file recognisable as a count matrix,,Transcriptomes analyses of AARS1 knockdown HGC-27 cells trea,STAD
+GSE239676,SKIP,STAD,68,950.0 MB,,sample-type flag in the file names: SINGLE_CELL,,Atlas of metastatic gastric cancer links ferroptosis to dise,STAD
+GSE267263,SKIP,STAD,6,907.0 KB,,no file recognisable as a count matrix,,Increased ONECUT2 induced by Helicobacter pylori promotes ga,STAD
+GSE266159,SKIP,STAD,13,4.6 MB,,no file recognisable as a count matrix,,Machine learning identifies activation of RUNX/AP-1 as drive,STAD
+GSE173219,SKIP,STAD,2,10.0 MB,,"only circRNA/isoform/miRNA counts, not gene level",,High-throughput sequencing of oxidative stress for Human gas,STAD
+GSE247539,SKIP,STAD,52,8.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Integrated Enhancer Regulatory Network by Enhancer-Promoter ,STAD
+GSE247538,SKIP,STAD,16,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Integrated Enhancer Regulatory Network by Enhancer-Promoter ,STAD
+GSE255046,SKIP,UNKNOWN,12,890.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,A Repressive Type of TEAD4 Condensation and Engineering a Gl,STAD
+GSE255045,SKIP,UNKNOWN,6,814.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,A Repressive Type of TEAD4 Condensation and Engineering a Gl,STAD
+GSE244420,SKIP,UNKNOWN,14,2.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A Repressive Type of TEAD4 Condensation and Engineering a Gl,STAD
+GSE244417,SKIP,UNKNOWN,4,631.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,A Repressive Type of TEAD4 Condensation and Engineering a Gl,STAD
+GSE173195,SKIP,STAD,6,704.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Roles of LTBP1 in the gastric cancer cells,STAD
+GSE228598,SKIP,STAD,28,662.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression profile at single cell level of Peritoneal C,STAD
+GSE238103,SKIP,STAD,8,4.5 MB,,no file recognisable as a count matrix,,RNA sequencing  (RNA-seq) of ANKRD6 in MKN45 gastric cancer ,STAD
+GSE171054,SKIP,STAD,2,200.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,NINJ2 inhibition increased chemo-sensitivity by decreasing C,STAD
+GSE249966,SKIP,STAD,4,3.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cancer-associated fibroblast-secreted FGF2 faliciates gastri,STAD
+GSE260599,SKIP,UNKNOWN,61,3.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Anti-tumor activity of a novelLAIR1antagonist in combination,STAD
+GSE210623,SKIP,STAD,12,10.9 MB,,"only circRNA/isoform/miRNA counts, not gene level",,FTO-dependent inhibition of ferroptosis in gastric cancer th,STAD
+GSE248874,SKIP,STAD,6,22.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression profiling of BGC-823 cells with or without P,STAD
+GSE245557,SKIP,STAD,4,3.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of the downstream target genes of TGFbeta,STAD
+GSE254012,SKIP,STAD,2,26.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,TMEM65 promotes gastric tumorigenesis by targeting YWHAZ to ,STAD
+GSE201347,SKIP,STAD,22,18.0 GB,,no file recognisable as a count matrix,,Tumor-infiltrating monocytic myeloid-derived suppressor cell,STAD
+GSE235075,SKIP,STAD,4,3.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HNF4A-induced lncRNA MIR194-2HG derived miR-194 and miR-192 ,STAD
+GSE218422,SKIP,STAD,4,641.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Gastric cancer cells exploit FABP5 via the PD-L1/TNF/IL-17 s,STAD
+GSE217526,SKIP,STAD,6,1.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Parthenolide induces ROS-dependent cell death in human gastr,STAD
+GSE233931,SKIP,STAD,4,1.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Decoding target genes of ESRP1 by crosslinking-immunoprecipi,STAD
+GSE233685,SKIP,STAD,6,1.1 MB,,no file recognisable as a count matrix,,Effect of overexpression of ESRP1 on gene expression of SGC7,STAD
+GSE250207,SKIP,STAD,4,400.4 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Aberrant upregulation of RUNX3 activates developmental genes,STAD
+GSE200183,SKIP,STAD,6,14.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,BPTF inhibitor increases gastric cancer response to Erlotini,STAD
+GSE200182,SKIP,STAD,2,13.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,BPTF inhibitor increases gastric cancer response to Erlotini,STAD
+GSE249874,SKIP,STAD,18,1.7 GB,,sample-type flag in the file names: SINGLE_CELL,,Single-cell transcriptomic profiling uncovers cellular compl,STAD
+GSE228692,SKIP,STAD,4,0.0 B,,no supplementary files: the data may only be in SRA,,H. pylori-induced PIEZO1 drives gastric carcinogenesis by ac,STAD
+GSE228691,SKIP,STAD,2,451.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Effect of stimulating PIEZO1 in gastric cancer cells,STAD
+GSE228690,SKIP,STAD,2,367.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Effect of knocking down PIEZO1 in gastric cancer cells,STAD
+GSE214227,SKIP,STAD,4,4.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification of genes targeted by miR-501 in two gastric c,STAD
+GSE243154,SKIP,UNKNOWN,130,5.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Therapeutic efficacy of INX-315, a selective CDK2 inhibitor,",STAD
+GSE233094,SKIP,STAD,6,2.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Regulation of Hippo/YAP axis by CXCR7 in the tumorigenesis o,STAD
+GSE246963,SKIP,STAD,40,5.5 MB,,no file recognisable as a count matrix,,HOXA11 promotes lymphatic metastasis of gastric cancer via t,STAD
+GSE246567,SKIP,STAD,6,3.1 MB,,no file recognisable as a count matrix,,RNA-sequencing assay to Identify changed gene expression in ,STAD
+GSE227288,SKIP,STAD,9,3.8 MB,,"only circRNA/isoform/miRNA counts, not gene level",,miR-199a and miR-199b facilitate diffuse gastric cancer prog,STAD
+GSE245889,SKIP,STAD,12,892.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pharmacological targeting of histone H3K27 acetylation/BRD4-,STAD
+GSE239994,SKIP,STAD,3,319.0 KB,,sample-type flag in the file names: CELL_LINE,,The three-dimensional structure of the EBV genome plays a cr,STAD
+GSE234020,SKIP,STAD,6,1.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,MAPK1 promotes the metastasis and invasion of gastric cancer,STAD
+GSE224890,SKIP,STAD,13,24.1 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Lactylation of METTL16 promotes cuproptosis via m6A-modifica,STAD
+GSE241477,SKIP,UNKNOWN,76,0.0 B,,no supplementary files: the data may only be in SRA,,A genetically engineered mouse model of NUT carcinoma,STAD
+GSE233167,SKIP,STAD,4,5.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Identification of downstream target genes of NR2F1 in gastri,STAD
+GSE212184,SKIP,UNKNOWN,9,2.3 MB,,no file recognisable as a count matrix,,RNautophagic regulation of DNMT3a-dependent DNA methylation,STAD
+GSE168537,SKIP,STAD,10,287.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-Cell Transcriptome Analysis Reveals Neutrophil Popula,STAD
+GSE210016,SKIP,STAD,6,5.4 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Next-generation sequencing reveals the regulatory mechanism ,STAD
+GSE186521,SKIP,STAD,163,8.4 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Regulatory Enhancer Profiling of Mesenchymal-type Gastric Ca,STAD
+GSE210909,SKIP,STAD,6,4.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,identification of differentially expressed Long Non-coding R,STAD
+GSE239904,SKIP,STAD,4,1.2 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,N-linked glycosylation is essential for anti-tumor activitie,STAD
+GSE218220,SKIP,STAD,6,11.0 KB,,no file recognisable as a count matrix,,IQGAP1 mediates the communication between the nucleus and th,STAD
+GSE229379,SKIP,STAD,12,254.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Prior antibiotic administration disrupts outcomes of PD-1 bl,STAD
+GSE235631,SKIP,STAD,20,36.4 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,CBF-beta mitigates PI3K-alpha specific inhibitor killing thr,STAD
+GSE233777,SKIP,UNKNOWN,12,3.0 MB,,no file recognisable as a count matrix,,A novel tumor suppressing role for RUNX3 is shown where a di,STAD
+GSE214818,SKIP,STAD,12,0.0 B,,no supplementary files: the data may only be in SRA,,Gastric cancer cells treated with exosomes derived from Fuso,STAD
+GSE210320,SKIP,STAD,6,75.0 KB,,no file recognisable as a count matrix,,Effect of VPS35 on gene expression in MKN28 gastric cancer c,STAD
+GSE212212,SKIP,STAD,44,15.2 MB,,no file recognisable as a count matrix,,Gene expression profile at single cell level of immune cells,STAD
+GSE225649,SKIP,UNKNOWN,6,2.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effect of platycodon D on gene expression in AZ-521 cell lin,STAD
+GSE214471,SKIP,STAD,12,13.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification of downstream target genes of transcription f,STAD
+GSE224056,SKIP,STAD,20,1.5 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Next generation sequencing of expression and differentially ,STAD
+GSE223763,SKIP,STAD,4,600.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Effect of knocking down HOXB9 in gastric cancer cells,STAD
+GSE182831,SKIP,STAD,13,22.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of CT-Detected extramural vessel invasion rel,STAD
+GSE193993,SKIP,STAD,24,2.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA sequencing of SSTR2 overexpression or knockout in gastri,STAD
+GSE165023,SKIP,UNKNOWN,52,8.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Sstr2 knockout mice,STAD
+GSE143497,SKIP,STAD,2,1.9 MB,,no file recognisable as a count matrix,,TfR1 binding with H-ferritin nanocarrier achieves prognostic,STAD
+GSE171838,SKIP,STAD,8,1.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Down-regulation of FABP5 suppresses the proliferation and in,STAD
+GSE191275,SKIP,STAD,30,15.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Expression data from gastric tissues with non-atrophic gastr,STAD
+GSE220531,SKIP,STAD,2,10.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TNFα secreted from macrophages increases expression of prome,STAD
+GSE189926,SKIP,STAD,22,362.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Disulfiram Plus Nivolumab in Patients with Advanced Gastric ,STAD
+GSE184198,SKIP,STAD,2,126.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell sequencing of gastric cancer and adjacent normal,STAD
+GSE213582,SKIP,STAD,5,15.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,DUSP5P1 promotes gastric cancer metastasis and platinum drug,STAD
+GSE213560,SKIP,STAD,2,2.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,DUSP5P1 promotes gastric cancer metastasis and platinum drug,STAD
+GSE202140,SKIP,STAD,6,29.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Sirtuin 3 is a common target of non-steroidal anti-inflammat,STAD
+GSE206785,SKIP,STAD,48,236.1 MB,,no file recognisable as a count matrix,,Parallel single cell and bulk transcriptome analyses reveal ,STAD
+GSE112302,SKIP,STAD,10,11.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Comprehensive Molecular Characterizations of Gastric Tissue ,STAD
+GSE165394,SKIP,STAD,12,30.6 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Examining exosomes from blood taken from gastric cancer samp,STAD
+GSE212848,SKIP,STAD,6,5.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-sequencing of SGC-7901 cells with and without PUM1 knock,STAD
+GSE211512,SKIP,UNKNOWN,24,7.5 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,RNA data of baseline and ERY974-treated tumour samples for v,STAD
+GSE211373,SKIP,UNKNOWN,24,111.0 KB,,no file recognisable as a count matrix,,RNA data of MKN45 tumours treated with ERY974 and/or capecit,STAD
+GSE211072,SKIP,UNKNOWN,6,7.1 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNA transcriptome sequencing analysis of SNU-668 Erastin-res,STAD
+GSE210662,SKIP,STAD,12,618.0 KB,,no file recognisable as a count matrix,,ZNF165 as a potential novel immunotherapeutic target for gas,STAD
+GSE207373,SKIP,STAD,2,735.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Knockdown of IGFBP7 decreases FGF2 expression in GC.,STAD
+GSE206329,SKIP,STAD,9,1.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptome sequencing of triple-matched samples of gastri,STAD
+GSE132327,SKIP,UNKNOWN,4,1.6 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Transcriptomic profile of TP53 wildtype or knockout cells af,STAD
+GSE204725,SKIP,STAD,3,3.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Knockdown of serine protease PRSS23 decreased FGF2 expressio,STAD
+GSE204967,SKIP,STAD,4,345.0 KB,,no file recognisable as a count matrix,,Isorhamnetin Inhibits Proliferation and Invasion and Induces,STAD
+GSE188741,SKIP,UNKNOWN,12,6.4 MB,,"only circRNA/isoform/miRNA counts, not gene level",,"mRNA, ncRNA-seq and miRNA-seq of AGS cellline and AGS cellli",STAD
+GSE191170,SKIP,STAD,8,913.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,METTL3 preferentially enhances non-m6A translation of epigen,STAD
+GSE163310,SKIP,STAD,36,12.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,METTL3 preferentially enhances non-m6A translation of epigen,STAD
+GSE201204,SKIP,STAD,2,1.5 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Gamma-glutamyltransferase 7 suppresses gastric cancer by coo,STAD
+GSE200618,SKIP,STAD,4,910.6 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HTR1D inhibitor GR127935 suppresses proliferation and migrat,STAD
+GSE193739,SKIP,UNKNOWN,18,11.0 MB,,no file recognisable as a count matrix,,RNA Sequencing Analysis between Control and CGA knockdown Mu,STAD
+GSE129219,SKIP,STAD,65,141.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genomic Analyses of early-stage diffuse-type gastric cancer ,STAD
+GSE198930,SKIP,STAD,6,3.9 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Comprehensive transcriptome profile of AGS gastric cancer ce,STAD
+GSE102156,SKIP,STAD,60,131.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome analysis by RNA-seq of gastric cancer derived ,STAD
+GSE193700,SKIP,STAD,6,1.5 MB,,no file recognisable as a count matrix,,Expression data of knock down LOC441461 in MKN74 cell lines,STAD
+GSE193453,SKIP,STAD,12,89.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Profiling of mRNAs, long chain non-coding RNAs and circular ",STAD
+GSE128286,SKIP,STAD,5,11.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome analysis by RNA-seq of juvenile gastric cancer,STAD
+GSE128285,SKIP,STAD,5,11.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome analysis by RNA-seq of patient or cell line de,STAD
+GSE198136,SKIP,ESCA,34,6.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA Sequencing of a Phase Ib/II Study of Regorafenib and Pac,STAD
+GSE197424,SKIP,STAD,10,25.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq and miRNA-seq of gastric cancer cell lines after ove,STAD
+GSE197422,SKIP,STAD,6,25.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-sequencing of HGC27 cells with and without FN1 3' UTR ov,STAD
+GSE197135,SKIP,STAD,6,2.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,OTUB1 promotes gastric cancer proliferation through regulati,STAD
+GSE163558,SKIP,STAD,10,363.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptional heterogeneity in primary and metastatic gast,STAD
+GSE196262,SKIP,STAD,6,1.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,DUB1 suppresses Hippo signaling via modulating TAZ protein i,STAD
+GSE150290,SKIP,STAD,52,1.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Characterization of heterogeneity in gastric cancer cells de,STAD
+GSE124909,SKIP,UNKNOWN,4,2.6 MB,,no file recognisable as a count matrix,,Transcriptomic profile of MYC wild type and knockdown NUGC3 ,STAD
+GSE192631,SKIP,STAD,8,918.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,Construction of a Competing Endogenous RNA Network and Ident,STAD
+GSE192468,SKIP,STAD,12,9.4 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Silencing of LncRNA C1RL-AS1 Suppresses the Malignant Phenot,STAD
+GSE191227,SKIP,STAD,2,470.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-sequencing of HGC27 cells with and without linc01133 ove,STAD
+GSE191139,SKIP,STAD,12,1.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Comparative transcriptome characterization of paired primary,STAD
+GSE171879,SKIP,STAD,6,2.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The Keratin 17/YAP/IL6 Axis contributes to E-cadherin Loss a,STAD
+GSE179581,SKIP,STAD,6,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Analysis of genes of different expression in gastric cancer ,STAD
+GSE185158,SKIP,UNKNOWN,30,0.0 B,,no supplementary files: the data may only be in SRA,,Pre-neoplastic somatic mutations including MYD88L265P in lym,STAD
+GSE186205,SKIP,STAD,6,2.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic profilling of cisplatin sensitive and  resist,STAD
+GSE185627,SKIP,STAD,6,2.4 MB,,sample-type flag in the file names: CELL_LINE,,EBV-induced CXCL8 upregulation promotes vasculogenic mimicry,STAD
+GSE183654,SKIP,STAD,2,626.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification of the downstream target genes of miR-138 in ,STAD
+GSE183538,SKIP,STAD,4,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Knockdown of lncRNA NR2F1-AS1 in gastric cancer cells,STAD
+GSE183904,SKIP,STAD,40,329.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Single-cell atlas of lineage states, tumor microenvironment ",STAD
+GSE161551,SKIP,UNKNOWN,3,883.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification of differentially expressed lncRNAs and codin,STAD
+GSE161544,SKIP,STAD,6,1.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Knockdown of ILF2/ILF3 (NF45/NF90) in the gastric cancer cel,STAD
+GSE161291,SKIP,STAD,8,9.7 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Knockdown of lncRNA ELF3-AS1 in two gastric cancer cell line,STAD
+GSE181840,SKIP,STAD,4,560.3 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ELK3 controls gastric cancer cell migration and invasion by ,STAD
+GSE146283,SKIP,STAD,5,32.0 MB,,no file recognisable as a count matrix,,Nuclear IQGAP1 promotes gastric cancer cell growth by alteri,STAD
+GSE164225,SKIP,UNKNOWN,10,1.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,MKN7_EB by EHF knockdown,STAD
+GSE164224,SKIP,UNKNOWN,2,1.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genome-wide analysis of gene expression in MKN7_EB by EHF kn,STAD
+GSE181492,SKIP,UNKNOWN,6,2.8 MB,,no file recognisable as a count matrix,,The RNA-seq result of GC cells which were treated with chrys,STAD
+GSE167297,SKIP,STAD,14,48.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Spatially distinct reprogramming of the tumor microenvironme,STAD
+GSE181369,SKIP,STAD,9,875.0 KB,,no file recognisable as a count matrix,,Gold nanorod based delivery system could bring about superio,STAD
+GSE164166,SKIP,STAD,24,0.0 B,,no supplementary files: the data may only be in SRA,,Expression profile in the progression of the gastric cancer,STAD
+GSE163416,SKIP,STAD,12,13.4 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Expression profiles in the progression of the gastric cancer,STAD
+GSE151361,SKIP,STAD,3,13.0 MB,,no file recognisable as a count matrix,,RNA sequencing in AGS cells with SFA and SFE treatment,STAD
+GSE158242,SKIP,STAD,6,1.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,KRT18 regulates the alternative splicing of cell proliferati,STAD
+GSE162214,SKIP,STAD,129,17.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA sequence of gastric cancer with malignant ascites [RNA-s,STAD
+GSE152415,SKIP,STAD,47,9.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq of human gastric cancer,STAD
+GSE174128,SKIP,STAD,16,8.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome-wide maps of subcutaneous adipose tissues in c,STAD
+GSE168611,SKIP,STAD,6,434.0 KB,,no file recognisable as a count matrix,,YTHDF2 inhibits gastric cancer cell growth by regulating FOX,STAD
+GSE163813,SKIP,STAD,9,2.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Knockdown of pseudogene lncRNA UBE2CP3 in gastric cancer cel,STAD
+GSE172131,SKIP,STAD,6,119.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell RNA sequencing reveals the transcriptomic charac,STAD
+GSE157941,SKIP,UNKNOWN,2,2.7 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RIP-seq analysis of PTBP1-bound RNAs,STAD
+GSE157582,SKIP,UNKNOWN,2,800.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression profiling data following PTBP1 knockout in M,STAD
+GSE166972,SKIP,UNKNOWN,18,1023.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,Gene expression and m6A profiling for AGS cells with sh-NC o,STAD
+GSE112350,SKIP,STAD,2,5.2 MB,,no file recognisable as a count matrix,,Identification of IL-6/Jak/STAT3 axis as a specific communic,STAD
+GSE147006,SKIP,STAD,3,17.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Next Generation Sequencing Facilitates Quantitative Analysis,STAD
+GSE165211,SKIP,STAD,18,12.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA sequencing of stroma from good (survival) and bad (letha,STAD
+GSE162004,SKIP,STAD,6,434.0 KB,,no file recognisable as a count matrix,,YTHDF2 inhibits gastric cancer cell growth by regulating FOX,STAD
+GSE164179,SKIP,STAD,6,15.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A CRISPR/Cas9-engineered ARID1A-deficient human gastric canc,STAD
+GSE161631,SKIP,STAD,8,3.3 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Common and Unique Transcription Signatures of YAP and TAZ in,STAD
+GSE147199,SKIP,STAD,2,450.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Trancriptome sequencing of BGC823 with or without ZBTB7A kno,STAD
+GSE157750,SKIP,STAD,20,7.4 MB,,no file recognisable as a count matrix,,Long-read transcriptome sequencing reveals abundant promoter,STAD
+GSE141352,SKIP,STAD,132,35.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Effects of EGF, cetuximab, trastuzumab and afatinib on gene ",STAD
+GSE144714,SKIP,STAD,36,427.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genomic and Epigenomic EBF1 Alterations Modulate TERT Expres,STAD
+GSE121501,SKIP,STAD,3,5.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genomic and Epigenomic EBF1 Alterations Modulate TERT Expres,STAD
+GSE121140,SKIP,STAD,75,459.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genomic and Epigenomic EBF1 Alterations Modulate TERT Expres,STAD
+GSE153413,SKIP,STAD,10,23.8 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Long noncoding RNA profiles in plasma exosomes of patients w,STAD
+GSE135086,SKIP,STAD,2,3.1 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Whole transcriptomes analyses of gastric cancer HGC-27 cell ,STAD
+GSE135085,SKIP,STAD,6,4.8 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Whole transcriptomes analyses of gastric cancer HGC-27 cell ,STAD
+GSE142000,SKIP,STAD,13,30.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The significance of interleukin 2 receptor subunit gamma in ,STAD
+GSE141385,SKIP,STAD,12,155.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Epstein-Barr virus positive gastric cancer involves enhancer,STAD
+GSE147152,SKIP,STAD,10,7.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genome-wide analysis of gene expression in EBV(+) GC cell li,STAD
+GSE135176,SKIP,UNKNOWN,75,146.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genome-wide analysis of histone modification alteration in E,STAD
+GSE139326,SKIP,STAD,4,1.5 MB,,no file recognisable as a count matrix,,Tumor suppressive long non-coding RNA AFDN-DT inhibits gastr,STAD
+GSE137480,SKIP,STAD,6,1.3 MB,,no file recognisable as a count matrix,,Essential Oil from Pinus Koraiensis pinecones Inhibits Gastr,STAD
+GSE148112,SKIP,STAD,4,1.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Proteomic and transcriptomic studies of BCG823 cells stimula,STAD
+GSE113255,SKIP,STAD,140,15.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression profiling study to identify distinct subtype,STAD
+GSE147043,SKIP,STAD,14,1.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Distinct immune microenvironments between primary and paired,STAD
+GSE146380,SKIP,UNKNOWN,2,1.8 MB,,no file recognisable as a count matrix,,RNA sequencing of trastuzumab plus pertuzumab-refractory tum,STAD
+GSE145894,SKIP,STAD,6,488.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,cirRNA-seq of the fourth passage xenografts treated with 5-F,STAD
+GSE113045,SKIP,STAD,12,300.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ONECUT2 is a putative oncogene associated with CpG hypomethy,STAD
+GSE145105,SKIP,STAD,6,20.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,JMJD1A inhibits proliferation and aggressiveness of gastric ,STAD
+GSE114018,SKIP,STAD,23,27.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HNF4α Pathway Mapping Identifies Wild-type IDH1 as a Targeta,STAD
+GSE142750,SKIP,STAD,11,352.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell transcriptome sequencing of gastric cancer cell ,STAD
+GSE133036,SKIP,STAD,16,3.2 MB,,no file recognisable as a count matrix,,AQP5-Expressing Cells Serve as Stem Cells and Cancer Origins,STAD
+GSE137253,SKIP,UNKNOWN,4,2.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,MYC predetermines the sensitivity of gastrointestinal cancer,STAD
+GSE134308,SKIP,STAD,4,1.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification of miR-194-5p target genes in gastric cancer,STAD
+GSE120496,SKIP,STAD,2,360.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of gastric cancer cells in response ,STAD
+GSE112859,SKIP,STAD,8,1.9 MB,,no file recognisable as a count matrix,,Targets mediated microRNA arm-imbalance promotes gastric can,STAD
+GSE133629,SKIP,STAD,12,2.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Targets mediated microRNA arm-imbalance promotes gastric can,STAD
+GSE134520,SKIP,STAD,13,83.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Dissecting the single-cell transcriptome network underlying ,STAD
+GSE119196,SKIP,STAD,2,199.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,HOXC10 Overexpression Promotes Cell Proliferation and Migrat,STAD
+GSE132334,SKIP,STAD,20,0.0 B,,no supplementary files: the data may only be in SRA,,Gene expression profile of HGC27 and LMSU gastric cancer cel,STAD
+GSE114055,SKIP,STAD,2,380.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of gastric cancer cells in response ,STAD
+GSE128967,SKIP,STAD,11,963.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The Wnt/β-catenin and RAS-ERK Pathways were Activated  in Ti,STAD
+GSE122130,SKIP,STAD,2,5.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Next generation sequencing analysis of mRNA profile in cispl,STAD
+GSE122439,SKIP,UNKNOWN,7,4.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ISL1-binding site,STAD
+GSE122437,SKIP,STAD,3,4.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ISL1 predicts poor outcomes for patients with gastric cancer,STAD
+GSE110182,SKIP,STAD,4,255.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,LINC00261 is an epigenetically-regulated tumor suppressor th,STAD
+GSE111520,SKIP,STAD,4,4.5 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,mRNA sequence  Analysis of Apocynin treated MKN45,STAD
+GSE122401,SKIP,STAD,160,172.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Proteogenomic characterization of human early-onset gastric ,STAD
+GSE122796,SKIP,STAD,6,2.2 MB,,no file recognisable as a count matrix,,RNA Sequencing of three pairs of gastric cancer,STAD
+GSE106874,SKIP,STAD,8,220.7 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Combinatory RNA sequencing analyses reveal RNA editing-depen,STAD
+GSE110875,SKIP,STAD,80,28.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA sequencing data for diffuse gastric cancer,STAD
+GSE106338,SKIP,STAD,15,2.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression profiling study by RNA-seq in PDX model base,STAD
+GSE121870,SKIP,STAD,198,30.7 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Identifying novel small RNA biomarkers unique to patients wi,STAD
+GSE112586,SKIP,UNKNOWN,6,2.2 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNA transcriptome sequencing analysis of SGC-7901 cells tran,STAD
+GSE83834,SKIP,STAD,22,8.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RHBDF2 in Stromal Fibroblasts Mediates TGF-b Signal and Enha,STAD
+GSE102112,SKIP,STAD,3,2.4 MB,,no file recognisable as a count matrix,,RNAseq analyze global transcriptome of changes between siIRF,STAD
+GSE116782,SKIP,STAD,21,8.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A robust qualitative transcriptional signature for the early,STAD
+GSE87785,SKIP,STAD,19,91.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Sequencing-based analyses characterize a tumor suppressive r,STAD
+GSE114796,SKIP,UNKNOWN,4,4.9 MB,,no file recognisable as a count matrix,,RNA transcriptome sequencing analysis of AGS cells transfect,STAD
+GSE114360,SKIP,UNKNOWN,6,4.3 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNA transcriptome sequencing analysis of MKN45 cells transfe,STAD
+GSE109028,SKIP,STAD,3,2.4 MB,,no file recognisable as a count matrix,,RNAseq analyze global transcriptome of changes between siIRF,STAD
+GSE107096,SKIP,STAD,4,1.5 MB,,no file recognisable as a count matrix,,Transcriptome analysis of HGC-27 after infection with Sendai,STAD
+GSE106387,SKIP,STAD,4,677.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Overexpression of TREM2 in human gastric cancer cells,STAD
+GSE89129,SKIP,UNKNOWN,166,5.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Suppression of adaptive responses to targeted cancer therapy,STAD
+GSE84897,SKIP,STAD,8,1.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genome-wide analysis of DNA hydroxymethylation and methylati,STAD
+GSE80389,SKIP,STAD,110,147.0 KB,,no file recognisable as a count matrix,,Gastric cancer targeted RNA-seq,STAD
+GSE80388,SKIP,STAD,9,46.0 MB,,no file recognisable as a count matrix,,Gastric cancer RNA-seq,STAD
+GSE63765,SKIP,UNKNOWN,15,718.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ChIP-seq and RNA-seq in BGC823 cells after downregulation of,STAD
+GSE63764,SKIP,STAD,6,2.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,A novel lncRNA GAS1 promotes gastric carcinogenesis and acts,STAD
+GSE85467,SKIP,STAD,259,7.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Epigenomic Profiling of Primary Gastric Adenocarcinoma Revea,STAD
+GSE85465,SKIP,STAD,27,6.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Epigenomic Profiling of Primary Gastric Adenocarcinoma Revea,STAD
+GSE81265,SKIP,STAD,6,8.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Next-Generation Sequencing reveals the effects of MYC silenc,STAD
+GSE46598,SKIP,STAD,37,638.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Integrated epigenomic analyses of enhancer as well as promot,STAD
+GSE46597,SKIP,STAD,15,856.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Integrated epigenomic analyses of enhancer as well as promot,STAD
+GSE61910,SKIP,STAD,8,2.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Reduced expression of RBM47 enhances Nrf2 activity to promot,STAD
+GSE70513,SKIP,STAD,4,2.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Latency expression of the Epstein-Barr virus-encoded MHC cla,STAD
+GSE63288,SKIP,STAD,44,5.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,HNF4α is a therapeutic target that links AMPK to WNT signali,STAD
+GSE60873,SKIP,STAD,9,19.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome of EBV-infected gastric cancer cell lines,STAD
+GSE43096,SKIP,UNKNOWN,16,6.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Direct ChIP-bisulfite sequencing reveals a role of H3K27me3 ,STAD
+GSE44866,SKIP,STAD,12,333.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Classification of cancer cell lines using a promoter-targete,STAD
+GSE41476,SKIP,STAD,8,41.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq for gastric cancer and normal tissues/cells,STAD
+GSE36968,SKIP,STAD,55,5.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,AMPKα Modulation in Cancer Progression: Multilayer Integrati,STAD

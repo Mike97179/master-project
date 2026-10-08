@@ -1,0 +1,1022 @@
+accession,decision,cancer,n_samples,size,declares,reason,ambiguity,title,search_cancer
+GSE284506,SKIP,LIHC,6,13.0 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): huh7","the abstract mentions CELL_LINE, which the sample records did not confirm; the text points at LIHC, not CHOL; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 14 numeric columns but GEO declares 6 samples",RNA sequencing of wild-type and FBXO32-knockout hepatocellul,PAAD
+GSE212014,SKIP,CHOL,31,1.6 MB,culture,"the samples declare culture (CELL_LINE, XENOGRAFT): patient-derived xenograft","the abstract mentions ORGANOID, which the sample records did not confirm",Culture media composition influences patient-derived organoi,PAAD
+GSE183635,SKIP,UNKNOWN,2351,41.0 MB,culture,the samples declare culture (NOT_TISSUE): blood_platelets_vumc-hd-101,"the abstract mentions NOT_TISSUE, which the sample records did not confirm; the abstract names no cancer type clearly; the counts are in .gz, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Detection and localization of early- and late-stage cancers ,PAAD
+GSE160306,AMBIGUOUS,UNKNOWN,79,12.2 MB,tissue,the abstract names no cancer type clearly,the abstract names no cancer type clearly,In-depth transcriptomic analyses investigating molecular mec,PAAD
+GSE66729,SKIP,UNKNOWN,376,45.0 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): lung_a427_cell_line_lung_adenocarcinoma",the abstract names no cancer type clearly,The Landscape of Antisense Gene Expression in Human Cancer,PAAD
+GSE212890,SKIP,UNKNOWN,47,66.4 MB,culture,the samples declare culture: brca,"the abstract mentions SINGLE_CELL, which the sample records did not confirm; the abstract names no cancer type clearly; the first column does not look like gene identifiers; the matrix has 2 numeric columns but GEO declares 47 samples",A Pan-Cancer Single Cell Panorama of Natural Killer Cells,PAAD
+GSE215307,SKIP,UNKNOWN,375,31.0 MB,culture,"the samples declare culture (CELL_LINE, XENOGRAFT): subcutaneous tumor","the abstract mentions XENOGRAFT, which the sample records did not confirm; the abstract names no cancer type clearly",Cancer-Associated Fibroblasts are the Main Source of Epithel,PAAD
+GSE348745,SKIP,PAAD,9,463.0 KB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Comparative Analysis of Primary and Liver Fibroblasts Reveal,PAAD
+GSE335154,SKIP,PAAD,16,2.3 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; sample-type flag inside GSE335154_Metadata.csv.gz: CELL_LINE; the samples declare culture (CELL_LINE): psc1","the abstract mentions NOT_TISSUE, which the sample records did not confirm",Trogocytosis of cancer-associated fibroblasts promotes pancr,PAAD
+GSE347768,SKIP,PAAD,12,2.5 MB,culture,the samples declare culture (NOT_TISSUE): primary t cells from pbmc,"the abstract mentions CELL_LINE, ORGANOID, NON_HUMAN, which the sample records did not confirm",Reprogramming tumor-colonizing bacteria into modular immune ,PAAD
+GSE347008,SKIP,PAAD,43,7.4 MB,culture,the samples declare culture (CELL_LINE): pa03c,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; the matrix has 14 numeric columns but GEO declares 43 samples",Redox effector factor-1 (Ref-1) CRISPR-Engineered Cys93 and ,PAAD
+GSE346317,SKIP,PAAD,6,7.7 MB,culture,the samples declare culture (CELL_LINE): bxpc-3,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",FUT3-dependent DDX21 fucosylation links elevated CA19-9 to p,PAAD
+GSE314073,SKIP,PAAD,40,7.0 MB,culture,the samples declare culture (CELL_LINE): 8988t k275,"the abstract mentions CELL_LINE, which the sample records did not confirm",Transcriptomic profiling of KRAS mutants in a panel of isoge,PAAD
+GSE279207,SKIP,PAAD,6,1.5 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): panc-1/ps-1,"the abstract mentions CELL_LINE, ORGANOID, NON_HUMAN, NOT_TISSUE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Targeting the calcium-activated K+ channel KCa3.1 in pancrea,PAAD
+GSE314343,SKIP,PAAD,24,8.2 MB,culture,the samples declare culture (CELL_LINE): miapaca-2,"the abstract mentions CELL_LINE, XENOGRAFT, NON_HUMAN, which the sample records did not confirm",Interference with PADI1 and PADI3 re-sensitizes KRAS-Mutant ,PAAD
+GSE265950,AMBIGUOUS,PAAD,12,4.4 MB,unstated,"the abstract mentions CELL_LINE, ORGANOID, NON_HUMAN, which the sample records did not confirm; the matrix has 35 numeric columns but GEO declares 12 samples; the samples declare neither tissue nor cell line, so the type could not be confirmed","the abstract mentions CELL_LINE, ORGANOID, NON_HUMAN, which the sample records did not confirm; the matrix has 35 numeric columns but GEO declares 12 samples; the samples declare neither tissue nor cell line, so the type could not be confirmed",N-glycans in non-malignant tumor microenvironment cells damp,PAAD
+GSE304640,SKIP,UNKNOWN,22,1.4 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): h1703,"the abstract mentions XENOGRAFT, NON_HUMAN, NOT_TISSUE, which the sample records did not confirm; the abstract names no cancer type clearly; the matrix has 6 numeric columns but GEO declares 22 samples",Decoding SOS: eIF2B as a Key Driver of Mutant KRAS Signaling,PAAD
+GSE319384,SKIP,PAAD,24,1.0 MB,culture,the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm",Metabolic Plasticity Underlies Ferroptosis Resistance Driven,PAAD
+GSE282103,SKIP,PAAD,6,8.3 MB,culture,the samples declare culture (CELL_LINE): sw620,"the abstract mentions NOT_RNASEQ, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",SOWAHA as a cancer suppressor gene Influence Metabolic Repro,PAAD
+GSE312205,SKIP,PAAD,12,838.0 KB,culture,the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, which the sample records did not confirm",Splicing inhibition hampers pancreatic cancer cell viability,PAAD
+GSE303903,SKIP,PAAD,6,2.2 MB,culture,the samples declare culture (CELL_LINE): sw1990,"the abstract mentions NOT_RNASEQ, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of DOT1L inhibition on gene expression in SW1990 panc,PAAD
+GSE303707,SKIP,PAAD,21,4.5 MB,culture,the samples declare culture (CELL_LINE): hum-icell-n008,"the abstract mentions CELL_LINE, which the sample records did not confirm",Decoding Schwann cell activation in pancreatic cancer neural,PAAD
+GSE309679,DOWNLOAD,PAAD,13,2.5 MB,tissue,tissue confirmed,,Addressing the multiple facets of ligand-receptor network in,PAAD
+GSE338354,SKIP,PAAD,6,8.5 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): panc-1,"the abstract mentions NOT_RNASEQ, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",PRMT1-mediated arginine methylation redirects a metastasis-p,PAAD
+GSE336471,SKIP,PAAD,6,499.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): bxpc-3,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,KRAS-Mutation Driven RASA2 Promotes Pancreatic Cancer Metast,PAAD
+GSE289055,SKIP,UNKNOWN,18,1.0 MB,culture,sample-type flag in the matrix header: CELL_LINE; sample-type flag inside filelist.txt: CELL_LINE; the samples declare culture (CELL_LINE): kbm7,"the abstract mentions NON_HUMAN, which the sample records did not confirm; the abstract names no cancer type clearly",P2RY2 fuelled by eATP drives cancer immune evasion and thera,PAAD
+GSE336518,DOWNLOAD,PAAD,17,420.4 KB,tissue,tissue confirmed,,Multinucleated giant cells in human pancreatic cancer are a ,PAAD
+GSE275078,SKIP,UNKNOWN,136,2.5 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): aspc1,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly",In vitro drug screening of RAF/MEK/ERK Inhibitors in combina,PAAD
+GSE334534,SKIP,PAAD,12,475.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): pl45","the abstract mentions CELL_LINE, which the sample records did not confirm",Transcriptomic determinants of humoral immunity for heteroge,PAAD
+GSE333988,SKIP,PAAD,10,42.0 MB,culture,the samples declare culture: peripheral blood,the matrix has 4 numeric columns but GEO declares 10 samples,Transcriptomic analysis of GKB202-treated circulating tumor ,PAAD
+GSE306366,DOWNLOAD,PAAD,24,578.0 KB,tissue,tissue confirmed,,Dynamic remodeling of the pancreas immune landscape in obesi,PAAD
+GSE306178,SKIP,PAAD,10,1.8 MB,tissue,sample-type flag inside filelist.txt: SINGLE_CELL,the matrix has 10478 numeric columns but GEO declares 10 samples,Dynamic remodeling of the pancreas immune landscape in obesi,PAAD
+GSE248031,SKIP,PAAD,24,1.2 MB,culture,"sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE, NOT_TISSUE): cf_pac1","the abstract mentions CELL_LINE, ORGANOID, which the sample records did not confirm",IGF2BP3 promotes tumour cells survival in organoid pancreati,PAAD
+GSE292214,SKIP,PAAD,27,11.3 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): hei-286,"the abstract mentions CELL_LINE, which the sample records did not confirm",Effect of mechanical compression on gene expression in HEI-2,PAAD
+GSE304335,SKIP,PAAD,4,117.0 KB,culture,the samples declare culture (CELL_LINE): mcw512,"the abstract mentions NON_HUMAN, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines",Mitochondrial targeted metformin stimulates ER stress-mediat,PAAD
+GSE330683,AMBIGUOUS,PAAD,18,5.3 MB,tissue,the matrix has 478 numeric columns but GEO declares 18 samples,the matrix has 478 numeric columns but GEO declares 18 samples,Mitophagy Competent Cancer Associated Fibroblasts fuel Chemo,PAAD
+GSE295683,AMBIGUOUS,PAAD,66,21.0 MB,tissue,"the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue","the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",RNA-seq Analysis of KRAS Mutant HPNE Pancreatic Ductal Epith,PAAD
+GSE313826,SKIP,PAAD,37,13.1 MB,culture,"the samples declare culture (CELL_LINE, ORGANOID): patient-derived organoid","the abstract mentions ORGANOID, which the sample records did not confirm; the counts are in .zip, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Cancer associated fibroblasts promote epithelial to mesenchy,PAAD
+GSE285406,SKIP,PAAD,48,2.9 MB,culture,sample-type flag inside filelist.txt: CELL_LINE; the samples declare culture (CELL_LINE): aspc1,,ZNF274 constrains lineage plasticity and drives intrinsic re,PAAD
+GSE284686,SKIP,UNKNOWN,18,884.0 KB,culture,the samples declare culture (CELL_LINE): capan-1,"the abstract mentions NON_HUMAN, which the sample records did not confirm; the abstract names no cancer type clearly","Human scFv based, ALPPL2-specific CAR expressing T cells ind",PAAD
+GSE303578,SKIP,PAAD,12,1.6 MB,culture,the samples declare culture (CELL_LINE): panc 10.05,"the abstract mentions CELL_LINE, which the sample records did not confirm",JUN is a master mediator of resistance to MAPK pathway inhib,PAAD
+GSE143584,SKIP,PAAD,401,61.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Gene expression from laser capture microdissected epithelium,PAAD
+GSE318648,SKIP,PAAD,6,2.3 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, SINGLE_CELL, NOT_TISSUE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",FGFBP2 p.T186S mutation in tumor associated fibroblasts supp,PAAD
+GSE310927,SKIP,PAAD,36,35.6 MB,culture,the samples declare culture: human pancreatic cancer cells (l3.6pl),"the abstract mentions CELL_LINE, XENOGRAFT, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",PRMT5 Inhibition Triggers Functional ATM Deficiency and Sens,PAAD
+GSE313827,AMBIGUOUS,UNKNOWN,18,3.1 MB,tissue,the abstract names no cancer type clearly; the first column does not look like gene identifiers,the abstract names no cancer type clearly; the first column does not look like gene identifiers,Dysregulation of the Hippo Pathway in Cancer Associated Fibr,PAAD
+GSE319924,AMBIGUOUS,PAAD,36,871.0 KB,unstated,"the first column does not look like gene identifiers; the samples declare neither tissue nor cell line, so the type could not be confirmed","the first column does not look like gene identifiers; the samples declare neither tissue nor cell line, so the type could not be confirmed",Netrin-1 blockade alleviates resistance to first line chemot,PAAD
+GSE316796,SKIP,PAAD,2,153.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",the matrix has 36601 numeric columns but GEO declares 2 samples,Spatial analysis of IPMNs defines a paradoxical KRT17-positi,PAAD
+GSE311738,SKIP,PAAD,12,7.6 MB,culture,the samples declare culture (CELL_LINE): pa03c,"the abstract mentions CELL_LINE, which the sample records did not confirm; the matrix has 1193 numeric columns but GEO declares 12 samples",E96A TMZ Treatment Study,PAAD
+GSE311737,SKIP,PAAD,4,5.9 MB,culture,the samples declare culture (CELL_LINE): pa03c,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 307 numeric columns but GEO declares 4 samples",E96A baseline transcriptional changes,PAAD
+GSE286514,SKIP,PAAD,12,801.0 KB,culture,the samples declare culture (CELL_LINE): miapaca-2,"the abstract mentions XENOGRAFT, which the sample records did not confirm",Cytosolic transport of citrate protects pancreatic cancer fr,PAAD
+GSE270204,SKIP,PAAD,15,2.2 MB,culture,the samples declare culture (CELL_LINE): patu-8988t,,Therapeutic efficacy of CDK7 inhibition in pancreatic cancer,PAAD
+GSE274806,SKIP,PAAD,6,366.0 KB,culture,the samples declare culture (CELL_LINE): panc-1,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers,RRM2 Promotes Liver Metastasis of Pancreatic Cancer by Stabi,PAAD
+GSE291085,SKIP,PAAD,12,2.2 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): gsc923,"the abstract mentions CELL_LINE, which the sample records did not confirm; the matrix has 4 numeric columns but GEO declares 12 samples",Transcriptomic Profiling of Kinase Inhibitor Treated Cancer ,PAAD
+GSE314358,SKIP,PAAD,9,5.6 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): s2-007","the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 29 numeric columns but GEO declares 9 samples","Gene expression profiles in S2-007, S2-020 and S2-028 pancre",PAAD
+GSE285193,SKIP,PAAD,18,87.0 KB,culture,"the gene identifiers are ENSMUSG: this is mouse data; the samples declare culture (CELL_LINE, NOT_TISSUE): panc-1","the abstract mentions NOT_TISSUE, which the sample records did not confirm",Effect of pancreatic cancer derived extracellular vesicles o,PAAD
+GSE310957,SKIP,PAAD,129,22.1 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,DeCAF redefines fibroblast states uncovering multidimensiona,PAAD
+GSE296719,SKIP,PAAD,36,1.5 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): 185,"the abstract mentions XENOGRAFT, which the sample records did not confirm",Inhibition of cancer stem cell self-renewal by a platinum(II,PAAD
+GSE313101,SKIP,PAAD,37,1.8 MB,tissue,"the 'raw' counts contain decimals, so they are not counts; sample-type flag inside GSE313101.txt.gz: SINGLE_CELL, NOT_TISSUE",,FOLFIRINOX Plus Nivolumab Promotes Irregular Intra-Tumoral L,PAAD
+GSE294244,SKIP,PAAD,3,2.8 MB,culture,the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 3 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 1 numeric columns but GEO declares 3 samples","The promising miRNAs, Let-7b-5p and miR-24-3p, have the pote",PAAD
+GSE276264,SKIP,PAAD,4,9.6 MB,culture,the samples declare culture (CELL_LINE): kp4,only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 12 numeric columns but GEO declares 4 samples,Comparison of the transcriptome of KP4 controls or resistant,PAAD
+GSE243141,SKIP,PAAD,10,2.5 MB,culture,the samples declare another organ: ovar,"the abstract mentions CELL_LINE, which the sample records did not confirm; the matrix has 33 numeric columns but GEO declares 10 samples",Codon Specific Readthrough as a Mechanism of BRCA2 Restorati,PAAD
+GSE216038,SKIP,PAAD,21,11.0 MB,culture,"the samples declare culture (CELL_LINE): panc-1, atcc crl-1469","the abstract mentions CELL_LINE, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Effect of continued exposure to drugs on gene expression in ,PAAD
+GSE309364,SKIP,UNKNOWN,60,1.8 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): a549","the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; the matrix has 9 numeric columns but GEO declares 60 samples",RNA-Seq analysis of cancer models with altered SLX4/XPF reve,PAAD
+GSE308760,SKIP,PAAD,8,864.0 KB,culture,the samples declare culture (CELL_LINE): primary human t cells,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",A versatile one-shot high-multiplex base editing strategy en,PAAD
+GSE277629,SKIP,UNKNOWN,24,4.3 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE, XENOGRAFT): aspc-1 cell line-derived xenograft","the abstract mentions CELL_LINE, XENOGRAFT, NON_HUMAN, which the sample records did not confirm; the abstract names no cancer type clearly",RNA-seq of AsPC-1 cell line-derived xenograft mouse tumors t,PAAD
+GSE301126,SKIP,PAAD,6,2.0 MB,culture,the samples declare culture (CELL_LINE): pl45,"only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Menin regulates YBX1 nuclear translocation to drive HKDC1 tr,PAAD
+GSE306772,SKIP,PAAD,8,1.2 MB,culture,the samples declare culture (CELL_LINE): hpsc127,"the abstract mentions NON_HUMAN, SINGLE_CELL, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",Targeting myoferlin in ER/Golgi vesicle trafficking reprogra,PAAD
+GSE306771,SKIP,PAAD,12,6.1 MB,culture,the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Bulk RNA-seq analysis of PDAC PANC-1 cells silenced with siR,PAAD
+GSE248719,SKIP,PAAD,2,2.8 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag inside GSE248719_Processed_Data.txt.gz: NOT_TISSUE; the samples declare culture (CELL_LINE): miapaca2",only 2 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 9 numeric columns but GEO declares 2 samples,RNA-seq analysis of the effect of mitochondrial glutamine tr,PAAD
+GSE303766,SKIP,PAAD,36,3.0 MB,culture,sample-type flag in the matrix header: CELL_LINE; sample-type flag inside filelist.txt: CELL_LINE; the samples declare culture (CELL_LINE): schwann cell,"the abstract mentions NOT_RNASEQ, which the sample records did not confirm; the matrix has 4 numeric columns but GEO declares 36 samples",Tumor-associated Schwann cell remodeling under metabolic str,PAAD
+GSE289759,SKIP,PAAD,9,2.3 MB,culture,the samples declare culture (CELL_LINE): mia paca-2,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",ERK signaling promotes IKKε expression and oncogenic functio,PAAD
+GSE303643,SKIP,PAAD,12,636.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture: pancreas","the abstract mentions CELL_LINE, which the sample records did not confirm",Pancreatic cells are resistant to KRASQ61L expression due to,PAAD
+GSE295616,SKIP,PAAD,6,797.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): aspc-1,"the abstract mentions CELL_LINE, XENOGRAFT, SINGLE_CELL, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Targeting FGFR4 Abrogates HNF1A-driven Metastasis in Pancrea,PAAD
+GSE254877,DOWNLOAD,PAAD,84,3.3 MB,tissue,tissue confirmed,,Molecular Subtypes of Human Skeletal Muscle in Cancer Cachex,PAAD
+GSE298925,SKIP,PAAD,48,5.3 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): mia paca-2",,ZBTB11 Depletion Targets Metabolic Vulnerabilities in K-Ras ,PAAD
+GSE298803,SKIP,PAAD,70,7.5 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): mia paca-2",,ZBTB11 Depletion Targets Metabolic Vulnerabilities in K-Ras ,PAAD
+GSE282795,SKIP,PAAD,18,1.0 MB,culture,the samples declare another organ: lung,"the abstract mentions CELL_LINE, which the sample records did not confirm","Effect of PRMT5i (MRTX1719), ERKi (Adagrasib), RAFi (Belvara",PAAD
+GSE282794,SKIP,PAAD,6,428.0 KB,culture,the samples declare another organ: glioblastoma,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of PRMT5i (MRTX1719) on glioblastoma cell line (A172),PAAD
+GSE271450,SKIP,PAAD,24,2.9 MB,culture,the samples declare culture (CELL_LINE): mia paca-2,"the abstract mentions CELL_LINE, which the sample records did not confirm",Transcriptomic analysis of two human pancreatic cancer cell ,PAAD
+GSE299145,SKIP,PAAD,6,2.6 MB,culture,the samples declare culture (CELL_LINE): panc1,"the abstract mentions NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .gz, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Phosphorylated TLR3 nuclear translocation in cancer cell pro,PAAD
+GSE269714,SKIP,PAAD,4,1.5 MB,culture,the samples declare culture (CELL_LINE): sw1990,only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines,Erianin inhibits the progression of pancreatic cancer by dir,PAAD
+GSE272838,SKIP,PAAD,27,897.6 KB,culture,the samples declare another organ: breast,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm","Inhibitor of DNA binding-1, a master regulator of vasculogen",PAAD
+GSE299600,SKIP,PAAD,12,3.2 MB,culture,sample-type flag inside GSE299600_p1_lac_vs_p1_nc.sig.DE_result.annot.txt.gz: NOT_TISSUE; the samples declare culture (CELL_LINE): panc-1,"the abstract mentions NON_HUMAN, which the sample records did not confirm; the matrix has 3 numeric columns but GEO declares 12 samples",Lactylation-driven NSUN2-mediated RNA m5C modification promo,PAAD
+GSE206943,SKIP,PAAD,9,506.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): su 86.86  cells","the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",RNA-Seq Analysis of p53 Knockdown validated Human SU. 86.86 ,PAAD
+GSE238017,SKIP,UNKNOWN,54,49.0 MB,culture,the samples declare culture (CELL_LINE): qgp1,"the abstract names no cancer type clearly; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Endocrine cell ER stress conservation,PAAD
+GSE183860,SKIP,PAAD,6,1.6 MB,culture,the samples declare culture (CELL_LINE): panc-1 cells,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Transcriptome alterlation by ZIC5 knockdown in pancreatic ca,PAAD
+GSE230355,SKIP,UNKNOWN,6,14.5 MB,culture,"the samples declare culture (CELL_LINE, ORGANOID): patient-derived organoids","the abstract mentions ORGANOID, which the sample records did not confirm; the abstract names no cancer type clearly; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Influence of the anti-MUC16 humanized monoclonal antibody AR,PAAD
+GSE273492,SKIP,PAAD,36,4.3 MB,culture,the samples declare culture (CELL_LINE): mia paca-2,"the abstract mentions XENOGRAFT, NON_HUMAN, SINGLE_CELL, NOT_RNASEQ, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Selective NSD2 Inhibition Reveals an Epigenetic Vulnerabilit,PAAD
+GSE291188,SKIP,PAAD,24,10.0 MB,culture,the samples declare culture (CELL_LINE): bxpc-3,,Unravelling the antitumor mechanism of Ocoxin through cancer,PAAD
+GSE277280,SKIP,PAAD,8,10.7 MB,culture,the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, XENOGRAFT, NON_HUMAN, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .gz, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",BARD1 is an exploitable therapeutic target for homologous re,PAAD
+GSE293756,SKIP,PAAD,6,1.3 MB,culture,the samples declare culture (CELL_LINE): aspc-1/mr,"the abstract mentions CELL_LINE, ORGANOID, XENOGRAFT, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",PANCREATIC DUCTAL ADENOCARCINOMAS RESISTANT TO KRAS INHIBITI,PAAD
+GSE278909,SKIP,PAAD,6,1.2 MB,culture,"the samples declare culture (CELL_LINE, NOT_TISSUE): thp-1","the abstract mentions NOT_TISSUE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Tumor-Derived Exosomal CCT6A Serves as a Matchmaker Introduc,PAAD
+GSE148188,SKIP,PAAD,49,4.9 MB,culture,the samples declare culture (CELL_LINE): miapaca2,"the abstract mentions CELL_LINE, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",NOXA dependent induction of apoptosis in pancreatic cancer c,PAAD
+GSE287340,SKIP,PAAD,12,724.0 KB,culture,the samples declare culture (CELL_LINE): panc1,"the abstract mentions CELL_LINE, NOT_RNASEQ, which the sample records did not confirm",Effects of SOX9 Downregulation on the Transcriptomic Landsca,PAAD
+GSE272019,AMBIGUOUS,PAAD,48,2.1 MB,unstated,"the samples declare neither tissue nor cell line, so the type could not be confirmed","the samples declare neither tissue nor cell line, so the type could not be confirmed",Opposing Regulation of TNF Responses and IL-1b+ Macrophages ,PAAD
+GSE291851,SKIP,PAAD,4,328.3 KB,culture,the samples declare culture (CELL_LINE): mia paca-2,"the abstract mentions XENOGRAFT, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines","Cannabichromene: Integrative modulation of apoptosis, ferrop",PAAD
+GSE277386,SKIP,PAAD,44,7.6 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Presurgical ablative radiation downstages high-risk features,PAAD
+GSE256511,SKIP,PAAD,4,166.0 KB,culture,the samples declare culture (CELL_LINE): neuroblastoma,"the abstract mentions NON_HUMAN, SINGLE_CELL, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines",BPTF cooperates with MYCN/MYC to link neuroblastoma cell cyc,PAAD
+GSE288907,SKIP,PAAD,10,1.6 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Identifying genetic expression patterns as marker for sensit,PAAD
+GSE287602,SKIP,PAAD,12,572.0 KB,culture,the samples declare culture (CELL_LINE): kp4,"the abstract mentions CELL_LINE, which the sample records did not confirm",Effect PELO knockdown in FOCAD intact vs deleted KP4 pancrea,PAAD
+GSE287105,SKIP,PAAD,24,2.9 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): pdac3,"the abstract mentions CELL_LINE, XENOGRAFT, NON_HUMAN, which the sample records did not confirm",LINE-1 ORF1p immune evasion mechanisms in pancreatic ductal ,PAAD
+GSE255747,SKIP,PAAD,6,466.0 KB,culture,the samples declare culture (CELL_LINE): pdac#253,"the abstract mentions ORGANOID, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers",Three-Dimensional Environment Sensitizes Pancreatic Cancer C,PAAD
+GSE255746,SKIP,PAAD,6,390.0 KB,culture,the samples declare culture (CELL_LINE): pdac#253,"the abstract mentions ORGANOID, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Three-Dimensional Environment Sensitizes Pancreatic Cancer C,PAAD
+GSE254968,SKIP,PAAD,6,803.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of STN1 knockdown on gene expression of PDAC cell lin,PAAD
+GSE247762,SKIP,PAAD,20,3.3 MB,culture,the samples declare culture (CELL_LINE): pa03c,"the abstract mentions CELL_LINE, which the sample records did not confirm",In vivo CRISPR screening identifies geranylgeranyl diphospha,PAAD
+GSE247129,SKIP,PAAD,28,1.7 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,MYC ecDNA promotes intratumour heterogeneity and plasticity ,PAAD
+GSE284703,SKIP,PAAD,26,1.6 MB,culture,the samples declare culture (CELL_LINE): panc10.05,"the abstract mentions CELL_LINE, which the sample records did not confirm; the matrix has 6 numeric columns but GEO declares 26 samples",Differential control of growth and identity by HNF4α isoform,PAAD
+GSE279527,SKIP,PAAD,6,653.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): panc1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Differential Gene Expression in oxaliplatin-resistant versus,PAAD
+GSE260587,SKIP,PAAD,39,2.7 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): klm1","the abstract mentions CELL_LINE, which the sample records did not confirm; the matrix has 19 numeric columns but GEO declares 39 samples",Excess shed mesothelin disrupts pancreatic cancer cell clust,PAAD
+GSE280866,SKIP,PAAD,11,1.0 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): pdac3,"the abstract mentions CELL_LINE, which the sample records did not confirm",Cancer cells restrict immunogenicity of retrotransposon expr,PAAD
+GSE283340,SKIP,PAAD,9,2.4 MB,culture,the samples declare culture (CELL_LINE): bxpc3,only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines,Mechanism of pyroptosis of pancreatic cancer induced by arac,PAAD
+GSE247666,SKIP,PAAD,6,6.9 MB,culture,the samples declare culture (CELL_LINE): pdac,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Influence of the MUC16 on gene expression of cancer cells fr,PAAD
+GSE255533,SKIP,PAAD,6,5.2 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): panc1,"the abstract mentions XENOGRAFT, NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 29 numeric columns but GEO declares 6 samples",Functional screen for mediators of onco-mRNA translation spe,PAAD
+GSE223135,SKIP,PAAD,2,564.1 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture: pancreatic ductal adenocarcinoma tumorspheroids","the abstract mentions ORGANOID, NON_HUMAN, which the sample records did not confirm; only 2 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 359 numeric columns but GEO declares 2 samples",A decision-point between programmed cell death and transdiff,PAAD
+GSE268743,SKIP,PAAD,28,1.2 MB,culture,the samples declare culture (CELL_LINE): mia paca2,"the abstract mentions CELL_LINE, SINGLE_CELL, which the sample records did not confirm",Effect of TNFα and RELA inhibition on gene expression in hum,PAAD
+GSE246231,SKIP,PAAD,17,9.7 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag inside GSE246231_AMT-RNA_Seq-3_sample_attributes.txt.gz: NON_HUMAN; the samples declare another organ: breast","the abstract mentions ORGANOID, XENOGRAFT, NON_HUMAN, which the sample records did not confirm",Implantation of engineered adipocytes that outcompete tumors,PAAD
+GSE245319,SKIP,PAAD,6,428.5 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture: pancreas","the abstract mentions ORGANOID, SINGLE_CELL, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Transfer learning associates CAFs with EMT and inflammation ,PAAD
+GSE205154,SKIP,PAAD,289,103.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Bulk RNA-Seq gene expression data for 289 primary and metast,PAAD
+GSE226038,SKIP,PAAD,6,477.0 KB,culture,the samples declare culture (CELL_LINE): mia paca-2,"the abstract mentions NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Hypoxia limits  the tumor-suppressive effects of C/EBPδ in p,PAAD
+GSE270796,SKIP,PAAD,4,17.1 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): mia paca-2","the abstract mentions CELL_LINE, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 22 numeric columns but GEO declares 4 samples",Unraveling the CDK9/PP2A/ERK network in transcriptional paus,PAAD
+GSE270409,SKIP,PAAD,3,26.0 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): pancreas","the abstract mentions CELL_LINE, which the sample records did not confirm; only 3 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 18 numeric columns but GEO declares 3 samples",Unraveling the CDK9/PP2A/ERK network in transcriptional paus,PAAD
+GSE239817,SKIP,COAD,72,2.2 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): nci-h23,"the abstract mentions CELL_LINE, which the sample records did not confirm; the text points at COAD, not PAAD",Mutant p53 gain-of-function impact is repressed in the prese,PAAD
+GSE270676,SKIP,PAAD,4,2.2 MB,culture,the samples declare culture (CELL_LINE): sw1990,only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 10 numeric columns but GEO declares 4 samples,Gomisin G inhibits pancreatic cancer cell growth through the,PAAD
+GSE259390,SKIP,PAAD,8,779.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): pancreatic ductal adenocarcinoma cell line (cfpac-1)",only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines,ADRA2A is a suppressor of the basal-like/squamous subtype an,PAAD
+GSE268948,SKIP,PAAD,6,256.0 KB,culture,the samples declare culture (CELL_LINE): l6.6pl,"the abstract mentions NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Enhanced Collagen Secretion in Epithelial Cancer Cells is as,PAAD
+GSE235244,DOWNLOAD,PAAD,8,427.0 KB,tissue,tissue confirmed,,Senescent cancer-associated fibroblasts in pancreatic adenoc,PAAD
+GSE262707,SKIP,PAAD,12,5.9 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the identifiers are transcripts, not genes; the samples declare culture (CELL_LINE): primary peripheral blood nk cells","the abstract mentions CELL_LINE, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm",In vivo perturbomics identifies CALHM2 as a checkpoint of NK,PAAD
+GSE252002,SKIP,UNKNOWN,152,2.8 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): aspc1,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly",In vitro drug screening of RAF/MEK/ERK Inhibitors in two PDA,PAAD
+GSE263949,SKIP,PAAD,6,1.2 MB,culture,sample-type flag inside GSE263949_M_vs_LN.DE_results.txt.gz: CELL_LINE; the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, NOT_TISSUE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",mRNA profile of PANC-1 treated with CAF-derived Evs,PAAD
+GSE228801,SKIP,PAAD,14,5.1 MB,culture,sample-type flag in the matrix header: ORGANOID; the samples declare culture (ORGANOID): pancreas,"the abstract mentions ORGANOID, which the sample records did not confirm; the matrix has 125 numeric columns but GEO declares 14 samples",Patient-derived organoids of pancreatic ductal adenocarcinom,PAAD
+GSE247243,SKIP,PAAD,15,3.4 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): cfpac-1,"the abstract mentions CELL_LINE, which the sample records did not confirm",Sendai virus is robust and consistent in delivering genes in,PAAD
+GSE243584,SKIP,PAAD,42,5.2 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Mapping functional to morphological variation reveals the ba,PAAD
+GSE243583,SKIP,PAAD,4,2.1 MB,culture,the samples declare culture (CELL_LINE): patc69,"the abstract mentions SINGLE_CELL, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 11 numeric columns but GEO declares 4 samples",Mapping functional to morphological variation reveals the ba,PAAD
+GSE208732,SKIP,PAAD,102,10.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Mapping functional to morphological variation reveals the ba,PAAD
+GSE244287,SKIP,PAAD,6,760.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): a13a","the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Comparison of gene expression in CSCs (tumorspheres) vs non-,PAAD
+GSE246660,SKIP,PAAD,8,765.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): panc 10.05",only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines,LMO3 is a suppressor of the basal-like/squamous PDAC subtype,PAAD
+GSE246925,SKIP,PAAD,28,385.9 KB,culture,the samples declare culture (NOT_TISSUE): plasma,"the abstract mentions NOT_TISSUE, which the sample records did not confirm; the matrix has 12 numeric columns but GEO declares 28 samples",Statistical algorithm enabled high precision tumor biomarker,PAAD
+GSE243879,SKIP,PAAD,8,768.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): panc 10.05",only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines,ELAPOR1 induces the classical/progenitor subtype and contrib,PAAD
+GSE253662,SKIP,PAAD,15,1.5 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): mia paca-2","the abstract mentions CELL_LINE, XENOGRAFT, which the sample records did not confirm",Cytidine deaminase resolves replicative stress and protects ,PAAD
+GSE252544,SKIP,PAAD,6,2.2 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): mia paca-2,"the abstract mentions CELL_LINE, XENOGRAFT, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Cytidine deaminase resolves replicative stress and protects ,PAAD
+GSE228106,SKIP,PAAD,18,4.3 MB,culture,the samples declare culture (CELL_LINE): suit.2-028,"the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",ABCB1 amplification drives paclitaxel resistance in PDAC cel,PAAD
+GSE226448,SKIP,PAAD,12,5.5 MB,culture,the samples declare culture: human healthy blood donor monocytes-derived macrophages,the matrix has 35 numeric columns but GEO declares 12 samples,Folfirinox-dependent reprogramming of macrophages by primary,PAAD
+GSE252667,SKIP,PAAD,12,1.0 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): pancreas,"the abstract mentions CELL_LINE, which the sample records did not confirm",CPSF3 inhibition blocks pancreatic cancer cell proliferation,PAAD
+GSE222952,SKIP,PAAD,4,54.0 MB,culture,the samples declare culture (SINGLE_CELL): pancreatic cancer cells,"the abstract mentions NON_HUMAN, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 10698 numeric columns but GEO declares 4 samples",BRD9-SMAD2/3 orchestrates stemness and tumorigenesis   in pa,PAAD
+GSE249726,SKIP,PAAD,6,302.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): aspc1,"the abstract mentions ORGANOID, XENOGRAFT, NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Pien Tze Huang Targets Cancer Proliferation and Inhibits Gro,PAAD
+GSE217965,SKIP,PAAD,6,544.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): panc-1,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,Depletion of Nrf2 in pancreatic cancer cells shifts arginine,PAAD
+GSE225011,SKIP,PAAD,32,25.0 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE, ORGANOID): u123m15-t","the abstract mentions ORGANOID, which the sample records did not confirm; the matrix has 172 numeric columns but GEO declares 32 samples",Triptolide analogs induced apoptosis on pancreatic cancer pa,PAAD
+GSE162078,SKIP,PAAD,20,1.3 MB,culture,the samples declare culture (CELL_LINE): sw1990,"the abstract mentions NON_HUMAN, which the sample records did not confirm",Identification of transcriptional changes after treatment wi,PAAD
+GSE161208,DOWNLOAD,PAAD,10,880.0 KB,tissue,tissue confirmed,,Identification of transcriptional changes after QYHJ treatme,PAAD
+GSE150223,SKIP,PAAD,9,502.0 KB,culture,the samples declare culture (CELL_LINE): aspc1,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",HOXC6 drives a therapeutically targetable pancreatic cancer ,PAAD
+GSE150222,SKIP,PAAD,9,500.0 KB,culture,the samples declare culture (CELL_LINE): panc1,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",HOXC6 drives a therapeutically targetable pancreatic cancer ,PAAD
+GSE146944,SKIP,PAAD,9,8.3 MB,culture,the samples declare culture (CELL_LINE): panc1,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .gz, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",HOXC6 drives a therapeutically targetable pancreatic cancer ,PAAD
+GSE223908,SKIP,PAAD,44,2.4 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): panc10.05",the matrix has 16 numeric columns but GEO declares 44 samples,SERPINB3 induces the aggressive basal-like/squamous subtype ,PAAD
+GSE223536,SKIP,PAAD,12,1.6 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE, XENOGRAFT): aspc-1_sb3",,SERPINB3 induces the aggressive basal-like/squamous subtype ,PAAD
+GSE242916,SKIP,PAAD,87,3.0 MB,culture,the samples declare culture: t follicular helper cells,the first column does not look like gene identifiers,Pro-tumor Tfh2 cells induce detrimental IgG4 production and ,PAAD
+GSE242915,AMBIGUOUS,PAAD,79,3.6 MB,unstated,"the first column does not look like gene identifiers; the samples declare neither tissue nor cell line, so the type could not be confirmed","the first column does not look like gene identifiers; the samples declare neither tissue nor cell line, so the type could not be confirmed",Pro-tumor Tfh2 cells induce detrimental IgG4 production and ,PAAD
+GSE242307,SKIP,PAAD,6,364.0 KB,culture,the samples declare culture (CELL_LINE): miapaca-2,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,Mechanisms of triptolide's anti-pancreatic cancer effects th,PAAD
+GSE218546,SKIP,PAAD,6,220.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, NOT_RNASEQ, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",m6A methylation regulates hypoxia-induced pancreatic cancer ,PAAD
+GSE217331,SKIP,PAAD,12,3.2 MB,culture,the samples declare culture (CELL_LINE): l3.6pl,the matrix has 39 numeric columns but GEO declares 12 samples,Targeting an RNA polymerase II-associated PHF5A transcriptio,PAAD
+GSE135686,DOWNLOAD,PAAD,18,1.0 MB,tissue,tissue confirmed,,Gene-expression profiling in pancreatic cancer cells treated,PAAD
+GSE185335,SKIP,PAAD,15,1.0 MB,culture,the samples declare culture (XENOGRAFT): patient-derived xenograft,,DOCK8 is a Novel Regulator of Lysosome-Mediated Pancreatic C,PAAD
+GSE149981,SKIP,PAAD,6,334.0 KB,culture,the samples declare culture (CELL_LINE): um143,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",BMI Expression is Required for Pancreatic Cancer Progression,PAAD
+GSE216036,SKIP,PAAD,10,8.5 MB,culture,"the samples declare culture (CELL_LINE): panc-1, atcc crl-1469","the abstract mentions CELL_LINE, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Effect of Okadaic Acid on gene expression in human pancreati,PAAD
+GSE225767,DOWNLOAD,PAAD,55,1.2 MB,tissue,tissue confirmed,,Towards a mechanistic understanding of response to SBRT by p,PAAD
+GSE226307,AMBIGUOUS,PAAD,7,3.8 MB,tissue,"the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue","the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",The Potent G-Quadruplex-Binding Compound QN-302 Downregulate,PAAD
+GSE207319,SKIP,PAAD,18,1.1 MB,culture,the samples declare culture (CELL_LINE): miapaca-2,"the abstract mentions CELL_LINE, which the sample records did not confirm",Gene expression of leaders and laggers MiaPaCa-2 pancreatic ,PAAD
+GSE220620,SKIP,PAAD,36,1.6 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): bxpc-3,"the abstract mentions CELL_LINE, which the sample records did not confirm",Effect of LXR ligands on gene expression in human PDAC cells,PAAD
+GSE222890,SKIP,PAAD,4,715.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; sample-type flag inside GSE222890_E3LZ10.7_shHMGA_gene_abundance.txt.gz: CELL_LINE; the samples declare culture (CELL_LINE): e3lz10.7","the abstract mentions CELL_LINE, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines",HMGA1 induces FGF19 to drive pancreatic carcinogenesis and s,PAAD
+GSE226829,AMBIGUOUS,PAAD,277,767.5 MB,tissue,"the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue","the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Analysis of donor pancreata defines the transcriptomic signa,PAAD
+GSE210199,SKIP,PAAD,3,202.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",the first column does not look like gene identifiers; the matrix has 17958 numeric columns but GEO declares 3 samples,Tissue-resident memory T-cells in pancreatic ductal adenocar,PAAD
+GSE207359,SKIP,PAAD,48,1.1 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): miapaca2,"the abstract mentions CELL_LINE, which the sample records did not confirm",Transcriptomic and functional analysis of ANGPTL4 overexpres,PAAD
+GSE222482,SKIP,PAAD,4,196.0 KB,culture,"the samples declare culture (CELL_LINE, ORGANOID): pdac organoid pat.65","the abstract mentions ORGANOID, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of hypoxia and normoxia in Pancreatic Ductal Adenocar,PAAD
+GSE193268,SKIP,PAAD,6,967.0 KB,culture,the samples declare culture (CELL_LINE): panc-1-in,"the abstract mentions CELL_LINE, XENOGRAFT, NON_HUMAN, NOT_RNASEQ, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Epigenetic reprogramming-induced guanidinoacetic acid synthe,PAAD
+GSE193411,SKIP,PAAD,35,605.4 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): aspc-1,,Ornithine aminotransferase supports polyamine synthesis in p,PAAD
+GSE214894,DOWNLOAD,PAAD,8,208.0 KB,tissue,tissue confirmed,,RNA-seq analysis of pancreatic orthotopic tumor and primary ,PAAD
+GSE178714,SKIP,PAAD,24,1.9 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): bxpc3 cells","the abstract mentions CELL_LINE, which the sample records did not confirm",SMAD2/3 mediate oncogenic effects of TGF-β in the absence of,PAAD
+GSE214028,SKIP,PAAD,24,1.0 MB,culture,the samples declare culture (CELL_LINE): mia paca-2,"the abstract mentions CELL_LINE, which the sample records did not confirm",CEBPD suppresses motility-associated gene signatures and red,PAAD
+GSE184029,SKIP,PAAD,48,1.9 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): h-929,,HSP70-driven molecular response to the proteasome machinery ,PAAD
+GSE201307,SKIP,PAAD,4,322.0 KB,culture,the samples declare culture (CELL_LINE): aspc-1 cell line,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines",TANK binding kinase 1 induces transcription factor BACH1 to ,PAAD
+GSE210351,SKIP,PAAD,41,4.8 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Molecular heterogeneity and commonalities in pancreatic canc,PAAD
+GSE207611,SKIP,UNKNOWN,16,844.0 KB,culture,the samples declare culture (CELL_LINE): bxpc3,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly",Perturbation-informed signatures from crosswise integration ,PAAD
+GSE179057,SKIP,PAAD,30,1.2 MB,culture,the samples declare culture (CELL_LINE): bxpc-3,"the abstract mentions CELL_LINE, NOT_RNASEQ, which the sample records did not confirm",Perturbation-informed signatures from crosswise integration ,PAAD
+GSE164976,SKIP,PAAD,12,599.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): miapaca2","the abstract mentions CELL_LINE, NOT_RNASEQ, which the sample records did not confirm","Transcriptional, chromatin, and metabolic landscapes of LDHA",PAAD
+GSE205430,SKIP,PAAD,100,6.5 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): caov.3,"the abstract mentions CELL_LINE, which the sample records did not confirm",Satellite repeat RNA expression in epithelial ovarian cancer,PAAD
+GSE179248,SKIP,PAAD,28,7.6 MB,culture,the samples declare culture: pancreatic acinar cells,"the abstract mentions NON_HUMAN, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Transcriptional Profile Of Human Pancreatic Acinar Ductal Me,PAAD
+GSE201110,SKIP,PAAD,6,2.6 MB,culture,the samples declare culture (CELL_LINE): capan-2,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",RNA-Seq of pancreatic cancer cell line CAPAN-2 with or witho,PAAD
+GSE124166,SKIP,UNKNOWN,16,4.1 MB,culture,the samples declare culture (CELL_LINE): insulinoma cell line -832/13,"the abstract mentions NON_HUMAN, which the sample records did not confirm; the abstract names no cancer type clearly",Acute IL-1beta exposure in rat insulinoma cells and human is,PAAD
+GSE199102,DOWNLOAD,PAAD,608,162.4 MB,tissue,tissue confirmed,,Spatial transcriptome profiling of pancreatic cancer identif,PAAD
+GSE165948,SKIP,PAAD,6,3.5 MB,culture,"the samples declare culture (CELL_LINE, NOT_TISSUE): pancreatic ductal adenocarcinoma (pdac) cell line",only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 313 numeric columns but GEO declares 6 samples,Interferon regulatory factor 1 (IRF1) controls the metabolic,PAAD
+GSE200477,SKIP,PAAD,24,947.0 KB,culture,the samples declare culture (CELL_LINE): panc1,"the abstract mentions CELL_LINE, ORGANOID, NON_HUMAN, which the sample records did not confirm",Polysome profiling quantified by RNA sequencing in PANC1 cel,PAAD
+GSE175374,SKIP,PAAD,6,394.0 KB,culture,the samples declare culture (CELL_LINE): panc-1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",HDAC5 modulates PD-L1 expression and cancer immunity via p65,PAAD
+GSE185190,AMBIGUOUS,PAAD,80,3.5 MB,unstated,"the samples declare neither tissue nor cell line, so the type could not be confirmed","the samples declare neither tissue nor cell line, so the type could not be confirmed",Transcriptional changes underlying progression from islet au,PAAD
+GSE197613,SKIP,PAAD,91,22.1 MB,unstated,"the 'raw' counts contain decimals, so they are not counts","the abstract mentions SINGLE_CELL, which the sample records did not confirm; the samples declare neither tissue nor cell line, so the type could not be confirmed",Multi-omics analyses of changes in the tumor microenvironmen,PAAD
+GSE186154,SKIP,PAAD,2,3.9 MB,culture,the samples declare culture (CELL_LINE): panc1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 2 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",RNA Sequencing Facilitates Quantitative Analysis of shWBSCR2,PAAD
+GSE184834,SKIP,PAAD,4,8.8 MB,culture,the samples declare culture (CELL_LINE): panc1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",RNA Sequencing Facilitates Quantitative Analysis of shL3MBTL,PAAD
+GSE156562,SKIP,PAAD,9,422.0 KB,culture,the samples declare culture (CELL_LINE): iwt-kras-mia -paca-2,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",Loss of heterozygosity of K-RAS in pancreatic cancer cell li,PAAD
+GSE190078,SKIP,PAAD,8,369.0 KB,culture,the samples declare culture (CELL_LINE): miapaca-2,"the abstract mentions CELL_LINE, NOT_RNASEQ, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",MeRIP-seq to explore the targets of METTL3 in pancreatic can,PAAD
+GSE160154,SKIP,PAAD,42,5.2 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture: m5car t cells (pbmcs)","the abstract mentions SINGLE_CELL, which the sample records did not confirm",Induction of T cell dysfunction and NK-like T cell different,PAAD
+GSE184125,SKIP,COAD,6,512.0 KB,culture,the samples declare culture (ORGANOID): colorectal tumor organoids,"the abstract mentions ORGANOID, which the sample records did not confirm; the text points at COAD, not PAAD; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines","9-ING-41, a small molecule inhibitor of GSK-3β, potentiates ",PAAD
+GSE185331,SKIP,COAD,6,435.0 KB,culture,the samples declare culture (CELL_LINE): km12sm_parental,"the abstract mentions CELL_LINE, XENOGRAFT, NOT_RNASEQ, which the sample records did not confirm; the text points at COAD, not PAAD; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",super-ehancer landscape shaped by master regulator in liver ,PAAD
+GSE169758,SKIP,PAAD,12,661.0 KB,culture,the samples declare culture (CELL_LINE): miapaca2,,PRR11 unveiled as a top candidate biomarker within the RBM3-,PAAD
+GSE178901,SKIP,PAAD,9,3.6 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): suit2","the abstract mentions XENOGRAFT, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",STING-driven interferon signaling triggers metabolic alterat,PAAD
+GSE181961,SKIP,PAAD,12,778.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): aspc1",,MUC1-C DICTATES NEUROENDOCRINE LINEAGE SPECIFICATION   IN PA,PAAD
+GSE179351,DOWNLOAD,PAAD,54,16.5 MB,tissue,tissue confirmed,,Radiation Therapy Inhances Immunotherapy Response in  Micros,PAAD
+GSE152830,SKIP,PAAD,6,454.0 KB,culture,the samples declare culture (CELL_LINE): capan1,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,TNFα-producing Macrophages Determine Subtype Identity and Pr,PAAD
+GSE164665,SKIP,PAAD,38,1.4 MB,culture,the samples declare culture: pdac,,Transcriptomic Analysis of Laser Capture Microdissected Tumo,PAAD
+GSE160442,SKIP,PAAD,18,641.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): hpne,"the abstract mentions NON_HUMAN, which the sample records did not confirm",ARID1A deficiency promotes pancreatic tumorigenesis by reduc,PAAD
+GSE157830,SKIP,PAAD,12,26.1 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; sample-type flag inside filelist.txt: CELL_LINE; the samples declare culture (CELL_LINE): tu8902","the abstract mentions CELL_LINE, which the sample records did not confirm",Labile Iron Release Primes Pancreatic Cancer for Ferroptosis,PAAD
+GSE157096,SKIP,PAAD,29,2.4 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): panc1 cells,"the abstract mentions CELL_LINE, which the sample records did not confirm; the matrix has 96 numeric columns but GEO declares 29 samples",Pooled CRISPR screening in pancreatic cancer cells implicate,PAAD
+GSE146722,SKIP,PAAD,27,2.4 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): aspc1,"the abstract mentions CELL_LINE, ORGANOID, NOT_TISSUE, which the sample records did not confirm",Detection of Chemotherapy-Resistant Pancreatic Cancer Using ,PAAD
+GSE133979,SKIP,PAAD,68,4.5 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,The muscle and adipose transcriptome data from patients with,PAAD
+GSE124231,DOWNLOAD,PAAD,48,2.6 MB,tissue,tissue confirmed,,Pancreatic cancer prognosis is predicted by chromatin access,PAAD
+GSE124230,DOWNLOAD,PAAD,97,1.7 MB,tissue,tissue confirmed,,Pancreatic cancer prognosis is predicted by chromatin access,PAAD
+GSE169321,DOWNLOAD,PAAD,20,2.6 MB,tissue,tissue confirmed,,Patient-derived organoids after neoadjuvant FOLFIRINOX predi,PAAD
+GSE165548,SKIP,PAAD,45,3.0 MB,culture,"the samples declare culture (CELL_LINE, NON_HUMAN): mia-paca2",,Radiosensitizing pancreatic cancer with PARP inhibitor and g,PAAD
+GSE162689,DOWNLOAD,PAAD,59,10.4 MB,tissue,tissue confirmed,,A histological and transcriptional characterization of the p,PAAD
+GSE144833,SKIP,PAAD,24,61.6 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): suit-2,,Increased fitness of pancreatic cancer cells Adapted to nutr,PAAD
+GSE160252,SKIP,PAAD,44,2.3 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (NOT_TISSUE): blood platelets","the abstract mentions NOT_TISSUE, which the sample records did not confirm",Omics Analysis of Pancreatic Cancer Platelets Reveals Active,PAAD
+GSE158527,SKIP,PAAD,12,3.8 MB,culture,the samples declare culture (CELL_LINE): suit2 013 subclone - rep.1,"the abstract mentions CELL_LINE, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Glycosyltransferase ST6Gal-I promotes the epithelial to mese,PAAD
+GSE155442,SKIP,PAAD,8,5.7 MB,culture,the samples declare culture (CELL_LINE): mgh1319,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Neoplastic-stromal cell crosstalk regulates matrisome expres,PAAD
+GSE156963,SKIP,UNKNOWN,8,371.0 KB,culture,the samples declare culture (CELL_LINE): pdac stroma,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",To determine the differentially expressed genes in cancer as,PAAD
+GSE114704,SKIP,PAAD,70,1.2 MB,culture,the samples declare culture: circulating tumor cell (bloodsteam),"the abstract mentions XENOGRAFT, SINGLE_CELL, which the sample records did not confirm",Transcriptional dissection by single-cell RNASeq analysis of,PAAD
+GSE134864,SKIP,PAAD,41,669.4 KB,culture,"sample-type flag inside filelist.txt: CELL_LINE; the samples declare culture (CELL_LINE, NOT_RNASEQ): s2vp10","the abstract mentions CELL_LINE, which the sample records did not confirm; the matrix has 8 numeric columns but GEO declares 41 samples",H2BG53D mutation in PDAC,PAAD
+GSE152345,SKIP,PAAD,18,907.2 KB,tissue,sample-type flag in the matrix header: CELL_LINE; sample-type flag inside filelist.txt: CELL_LINE,,Impact of chronic extracellular acidosis on gene expression ,PAAD
+GSE151580,DOWNLOAD,PAAD,33,1.4 MB,tissue,tissue confirmed,,Integrative transcriptomic characterization of matched prima,PAAD
+GSE147340,SKIP,UNKNOWN,9,1.0 MB,culture,the samples declare culture (CELL_LINE): patu-8988t,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",Discovery and Characterization of a Potent and Selective Pin,PAAD
+GSE107184,SKIP,PAAD,9,8.3 MB,culture,the samples declare culture (CELL_LINE): panc1,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .gz, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",The role of  KLF7 in pancreatic adenocarcinoma (PDAC) progre,PAAD
+GSE144561,SKIP,PAAD,81,8.1 MB,culture,the samples declare culture: primary purified circulating tumor cells,,Pancreatic Circulating Tumour Cell Profiling Identifies LIN2,PAAD
+GSE141116,SKIP,PAAD,77,9.6 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): primary pancreatic ductal adenocarcinoma cell line,,Epithelial to Mesenchymal Plasticity and Differential Respon,PAAD
+GSE97766,SKIP,PAAD,16,13.8 MB,culture,the samples declare culture (CELL_LINE): mia-paca-2,"the abstract mentions CELL_LINE, which the sample records did not confirm","Gene Expression Profiling of Gemcitabine, Genistein and Comb",PAAD
+GSE139673,SKIP,PAAD,12,10.0 MB,culture,the samples declare culture (CELL_LINE): aspc-1,,Characterisation of HIF-dependent alternative isoforms in pa,PAAD
+GSE129075,SKIP,PAAD,18,937.0 KB,culture,the samples declare culture (CELL_LINE): bxpc-3,,Functional Comparison of the HGF/Met and MSP/Ron Systems in ,PAAD
+GSE125506,SKIP,PAAD,14,3.4 MB,culture,the samples declare culture: pancreatic adenocarcinoma,,Gene expression for surgically treated pancreatic cancer aft,PAAD
+GSE114040,SKIP,PAAD,3,257.0 KB,culture,the samples declare culture (CELL_LINE): panc-1,"the abstract mentions XENOGRAFT, which the sample records did not confirm; only 3 samples (< 10): small studies are usually mechanistic experiments on cell lines",The combination of cantharidin and anti-angiogenic therapeut,PAAD
+GSE93326,DOWNLOAD,PAAD,204,4.3 MB,tissue,tissue confirmed,,Gene expression from laser capture microdissected pancreatic,PAAD
+GSE96931,SKIP,PAAD,15,30.0 MB,culture,the samples declare culture (CELL_LINE): aspc1,"the abstract mentions CELL_LINE, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",RNA sequencing of lncRNAs knockdown in human pancreatic canc,PAAD
+GSE88735,SKIP,UNKNOWN,6,1.1 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): miapaca2 clonal cell line,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Cooptation of tandem DNA repeats for the control of epitheli,PAAD
+GSE99305,SKIP,PAAD,96,1.3 MB,culture,the samples declare culture (CELL_LINE): low passage patient-derived pdac cells,"the abstract mentions CELL_LINE, SINGLE_CELL, which the sample records did not confirm",Single-cell RNA-seq following APE1/Ref-1 knockdown in Pancre,PAAD
+GSE105083,SKIP,PAAD,104,630.4 KB,culture,sample-type flag inside filelist.txt: CELL_LINE; the samples declare culture (CELL_LINE): atcc cell lines,"the abstract mentions CELL_LINE, which the sample records did not confirm; the matrix has 12 numeric columns but GEO declares 104 samples",Targeting multiple effector pathways in pancreatic ductal ad,PAAD
+GSE103152,SKIP,PAAD,34,949.0 KB,culture,the samples declare culture: hd_peripheral blood,,Improved Detection of Circulating Epithelial Cells in Patien,PAAD
+GSE71876,SKIP,PAAD,11,2.0 MB,culture,"the samples declare culture (CELL_LINE, NON_HUMAN): a13","the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; the counts are in .gz, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Survival of pancreatic cancer cells lacking KRAS function,PAAD
+GSE97215,SKIP,PAAD,12,4.8 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): panc-1",the matrix has 27 numeric columns but GEO declares 12 samples,Genetic-to-epigenetic Therapy for Pancreatic Cancer,PAAD
+GSE80411,SKIP,PAAD,6,1.6 MB,culture,"the samples declare culture (CELL_LINE, XENOGRAFT): pdac cell line_xenograft_tumor_off-dox","the abstract mentions XENOGRAFT, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers",Genomic deletion of malic enzyme 2 confers collateral lethal,PAAD
+GSE100327,SKIP,PAAD,30,1.4 MB,culture,"sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE, XENOGRAFT): an established cell line from a primary pancreas tumor transduced with a retrovirus that expressed human e47","the abstract mentions CELL_LINE, which the sample records did not confirm",RNA-sequencing profiles of five different pancreas cancer ce,PAAD
+GSE88997,SKIP,PAAD,8,697.0 KB,culture,the samples declare culture (CELL_LINE): transduced ductal cell clone,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 1 numeric columns but GEO declares 8 samples",Reconstituting development of pancreatic intraepithelial neo,PAAD
+GSE82110,SKIP,PAAD,12,613.0 KB,culture,the samples declare culture (CELL_LINE): hepg2,"the abstract mentions CELL_LINE, which the sample records did not confirm",Acriflavine inhibits the epithelial-to-mesenchymal transitio,PAAD
+GSE82104,SKIP,PAAD,9,497.0 KB,culture,"the samples declare culture (CELL_LINE): panc-1 pancreatic cancer cell line (atcc, crl-1469)","the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",Acriflavine inhibits the epithelial-to-mesenchymal transitio,PAAD
+GSE63124,AMBIGUOUS,PAAD,20,1.1 MB,culture,the matrix has 8 numeric columns but GEO declares 20 samples; the samples name lung in a metastasis context but never PAAD: check whether these are metastases of our cancer or another primary,the matrix has 8 numeric columns but GEO declares 20 samples; the samples name lung in a metastasis context but never PAAD: check whether these are metastases of our cancer or another primary,Large-scale epigenetic reprogramming is punctuated late duri,PAAD
+GSE75797,SKIP,PAAD,12,810.0 KB,culture,the samples declare culture (CELL_LINE): mia paca-2,"the abstract mentions CELL_LINE, which the sample records did not confirm",Image based identification and targeting of cancer stem cell,PAAD
+GSE64018,AMBIGUOUS,UNKNOWN,24,4.1 MB,tissue,the abstract names no cancer type clearly,the abstract names no cancer type clearly,RNA-seq of autistic and control cortex,PAAD
+GSE60407,SKIP,PAAD,7,2.0 MB,culture,the samples declare culture (SINGLE_CELL): circulating pancreas tumor cell,"the abstract mentions NON_HUMAN, SINGLE_CELL, which the sample records did not confirm; only 7 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .gz, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Human Pancreatic CTCs Express the ECM Protein SPARC,PAAD
+GSE295725,SKIP,UNKNOWN,98,10.0 MB,,no file recognisable as a count matrix,,Multimodal delineation of a layer of effector function among,PAAD
+GSE224942,SKIP,UNKNOWN,356,0.0 B,,no supplementary files: the data may only be in SRA,,Restoring Tumor Immunogenicity with Dendritic Cell Reprogram,PAAD
+GSE184398,SKIP,UNKNOWN,1072,357.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-sequencing of tumor infiltrating cells across 12 differe,PAAD
+GSE157086,SKIP,UNKNOWN,184,273.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Large-scale genomic alterations identified in cancer patient,PAAD
+GSE160310,SKIP,UNKNOWN,158,0.0 B,,no supplementary files: the data may only be in SRA,,In-depth transcriptomic analyses investigating molecular mec,PAAD
+GSE66728,SKIP,UNKNOWN,353,0.0 B,,no supplementary files: the data may only be in SRA,,The Landscape of Antisense Gene Expression in Human Cancers ,PAAD
+GSE290554,SKIP,UNKNOWN,94,178.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mapping the Molecular Signature of Progressive Multiple Scle,PAAD
+GSE290552,SKIP,UNKNOWN,16,30.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mapping the Molecular Signature of Progressive Multiple Scle,PAAD
+GSE290450,SKIP,UNKNOWN,78,147.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mapping the Molecular Signature of Progressive Multiple Scle,PAAD
+GSE275621,SKIP,PAAD,4,2.9 MB,,no file recognisable as a count matrix,,Effects of neobractatin and trametinib on gene expression in,PAAD
+GSE120101,SKIP,COAD,105,27.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,T-cell receptor repertoire analysis of advanced solid tumors,PAAD
+GSE120028,SKIP,COAD,19,2.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of advanced solid tumors in first-in,PAAD
+GSE349252,SKIP,PAAD,45,4.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Functional genetic screening identifies ITGA3 as a regulator,PAAD
+GSE342309,SKIP,PAAD,2,130.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Resistance to targeted therapy Sotorasib in MIA PaCa-2 Pancr,PAAD
+GSE344891,SKIP,PAAD,9,31.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Targeting Distinct Cell Cycle Nodes Overcomes KRAS/RAS Inhib,PAAD
+GSE304842,SKIP,PAAD,3,8.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Landscape of the Tumor Microenvironment and Cellular Mechani,PAAD
+GSE304841,SKIP,PAAD,43,1.9 GB,,no file recognisable as a count matrix,,Landscape of the Tumor Microenvironment and Cellular Mechani,PAAD
+GSE309927,SKIP,PAAD,8,1.3 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,RNAseq analysis of transcriptome changes induced by ALDH1B1 ,PAAD
+GSE331422,SKIP,STAD,6,4.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptomic profiling of gastrointestinal cancer cells tr,PAAD
+GSE348275,SKIP,UNKNOWN,35,3.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Clonal lineage tracing and parallel multiomics profiling rev,PAAD
+GSE348038,SKIP,PAAD,14,716.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell RNA-seq profiling of ARID1A-loss-associated tran,PAAD
+GSE346894,SKIP,PAAD,24,8.6 MB,,sample-type flag in the file names: ORGANOID,,Longitudinal Analysis of Matched Patient Biospecimens Reveal,PAAD
+GSE345774,SKIP,PAAD,11,6.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Longitudinal Analysis of Matched Patient Biospecimens Reveal,PAAD
+GSE293726,SKIP,PAAD,23,162.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Decrypting Oncogenic Circuitry Through Translocation-Induced,PAAD
+GSE334103,SKIP,PAAD,6,825.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-seq was performed on PANC1 cells after treatment with 0.,PAAD
+GSE306971,SKIP,PAAD,4,2.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting Intratumoral Heterogeneity in Pancreatic Cancer wi,PAAD
+GSE345120,SKIP,UNKNOWN,12,4.1 MB,,no file recognisable as a count matrix,,Nitrofurantoin Enhances Cuproptosis Sensitivity in Cancer Ce,PAAD
+GSE344277,SKIP,UNKNOWN,4,337.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,scRNA-seq of adipose tissue from insulinoma patients and hea,PAAD
+GSE338428,SKIP,PAAD,6,2.5 MB,,sample-type flag in the file names: CELL_LINE,,Proximity of pre-mRNA 3′ end processing and transcription te,PAAD
+GSE291826,SKIP,UNKNOWN,49,3.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Proximity of pre-mRNA 3′ end processing and transcription te,PAAD
+GSE337104,SKIP,PAAD,4,5.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Ferroptosis Suppression by the m6A Reader IGF2BP1 Underlies ,PAAD
+GSE270300,SKIP,PAAD,1,475.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,N-glycans in non-malignant tumor microenvironment cells damp,PAAD
+GSE239297,SKIP,PAAD,28,3.6 MB,,sample-type flag in the file names: CELL_LINE,,Oncogenic KRAS promotes pancreatic ductal adenocarcinoma (PD,PAAD
+GSE314587,SKIP,PAAD,37,617.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Sensitivity of pancreatic adenocarcinoma cells to blockade o,PAAD
+GSE292825,SKIP,UNKNOWN,6,824.0 KB,,no file recognisable as a count matrix,,Methylated eEF1A Selectively Decodes mRNA to Shape Cancer Pr,PAAD
+GSE239310,SKIP,PAAD,126,400.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Oncogenic KRAS promotes pancreatic ductal adenocarcinoma (PD,PAAD
+GSE292751,SKIP,PAAD,6,9.9 MB,,no file recognisable as a count matrix,,Matrix Stiffness-Sensitive LDHA Drives Autophagy of Pancreat,PAAD
+GSE315148,SKIP,PAAD,16,16.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Phenotype-dependent epithelial–mesenchymal plasticity in pan,PAAD
+GSE287465,SKIP,PAAD,4,8.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting DDR2 for Treating Pancreatic Cancer,PAAD
+GSE329301,SKIP,PAAD,16,2.8 MB,,no file recognisable as a count matrix,,METTL1-Mediated m7G Modification of Valine tRNAs Drives Meta,PAAD
+GSE292334,SKIP,PAAD,15,3.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The tumor suppressor SMAD4 is a gatekeeper for genome stabil,PAAD
+GSE316195,SKIP,PAAD,22,207.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A Phase 1 clinical trial and single-cell correlates of motix,PAAD
+GSE338233,SKIP,PAAD,10,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptomic profiling of MIA PaCa-2 cells treated with hy,PAAD
+GSE319713,SKIP,UNKNOWN,6,4.5 MB,,no file recognisable as a count matrix,,Expression data from control and LRRC8A knockdown cells,PAAD
+GSE336205,SKIP,PAAD,6,619.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,DUSP5 regulates ferroptosis in pancreatic cancer by down-reg,PAAD
+GSE336192,SKIP,UNKNOWN,8,39.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Paired CRISPR screens to map gene regulation in cis and tran,PAAD
+GSE300595,SKIP,PAAD,24,284.7 MB,,no file recognisable as a count matrix,,Multiomic sequencing identifies myeloid cell associations wi,PAAD
+GSE317590,SKIP,PAAD,6,598.0 KB,,sample-type flag in the file names: CELL_LINE,,Targeting the Mesenchymal Lineage of Pancreatic Ductal Adeno,PAAD
+GSE314240,SKIP,PAAD,18,3.1 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Induced osteogenic transdifferentiation reprograms malignant,PAAD
+GSE282572,SKIP,PAAD,4,570.4 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effect of miR-4800-3p overexpression on gene expression rela,PAAD
+GSE285857,SKIP,UNKNOWN,48,18.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Mutant KRAS-Driven Selective mRNA Translation Reveals Mechan,PAAD
+GSE335452,SKIP,PAAD,15,1.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell RNA-seq and spatial transcriptomics characterize,PAAD
+GSE296820,SKIP,PAAD,31,2.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting addiction to HMGB2-driven transcriptional programs,PAAD
+GSE296813,SKIP,PAAD,9,472.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting addiction to HMGB2-driven transcriptional programs,PAAD
+GSE296811,SKIP,PAAD,1,404.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting addiction to HMGB2-driven transcriptional programs,PAAD
+GSE296808,SKIP,PAAD,4,17.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Targeting addiction to HMGB2-driven transcriptional programs,PAAD
+GSE315634,SKIP,PAAD,9,2.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-Seq analysis SIRT6 or KDM5C knockdown effect on pancreat,PAAD
+GSE324204,SKIP,PAAD,6,3.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Mitochondrial Iron Sensitizes Senescent Cancer Cells to Ferr,PAAD
+GSE305278,SKIP,PAAD,6,308.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Dynamic remodeling of the pancreas immune landscape in obesi,PAAD
+GSE295678,SKIP,PAAD,6,3.2 MB,,no file recognisable as a count matrix,,Sensory neurons drive pancreatic cancer progression through ,PAAD
+GSE315793,SKIP,PAAD,6,9.9 MB,,no file recognisable as a count matrix,,Schisandrin B exhibits anti-proliferative effects by inducin,PAAD
+GSE315716,SKIP,PAAD,4,842.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mitophagy Competent Cancer Associated Fibroblasts fuel Chemo,PAAD
+GSE291816,SKIP,PAAD,6,312.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Aberrant brain-type neuronal programs in large-cell pancreat,PAAD
+GSE329420,SKIP,LIHC,26,6.4 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Endothelial exosomes remodel chromatin accessibility and sup,PAAD
+GSE328838,SKIP,PAAD,3,36.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic profiling reveals complement activation in ch,PAAD
+GSE272460,SKIP,PAAD,40,100.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome analysis of pancreatic progenitor organoids  (,PAAD
+GSE316631,SKIP,PAAD,3,270.0 KB,,no file recognisable as a count matrix,,Spatially resolved subtype progression reveals metabolic vul,PAAD
+GSE309739,SKIP,PAAD,16,865.0 KB,,no file recognisable as a count matrix,,Spatially resolved subtype progression reveals metabolic vul,PAAD
+GSE309669,SKIP,PAAD,8,252.0 KB,,no file recognisable as a count matrix,,Spatially resolved subtype progression reveals metabolic vul,PAAD
+GSE305461,SKIP,PAAD,6,870.5 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"miR-4711-5p suppresses the cancer stemness, proliferation an",PAAD
+GSE273073,SKIP,PAAD,93,16.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A hPSC-Derived Progressive Pancreatic Ductal Adenocarcinoma ,PAAD
+GSE319951,SKIP,PAAD,54,16.2 MB,,no file recognisable as a count matrix,,Effect of pancreatic tumor interstitial fluid media on trans,PAAD
+GSE310252,SKIP,PAAD,118,19.0 MB,,no file recognisable as a count matrix,,Transcriptome-based classification of resected pancreatic du,PAAD
+GSE296832,SKIP,PAAD,30,5.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Epigenetic Context Defines the Transcriptional Activity of C,PAAD
+GSE297148,SKIP,UNKNOWN,16,1.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A Compendium of Cancer Organoid Models for Diverse Cancer Ty,PAAD
+GSE293303,SKIP,PAAD,33,58.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cell Cycle Reprogramming Mediates Acquired Oxaliplatin Resis,PAAD
+GSE318413,SKIP,PAAD,19,305.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Patient-derived orthotopic xenograft models recapitulate the,PAAD
+GSE318411,SKIP,PAAD,11,4.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Patient-derived orthotopic xenograft models recapitulate the,PAAD
+GSE303323,SKIP,PAAD,6,30.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated E,PAAD
+GSE303051,SKIP,PAAD,30,163.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated E,PAAD
+GSE302981,SKIP,PAAD,8,41.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated E,PAAD
+GSE294216,SKIP,PAAD,36,7.5 MB,,sample-type flag in the file names: CELL_LINE,,Resistance to the KRASG12D Inhibitor MRTX1133 is Associated ,PAAD
+GSE300154,SKIP,PAAD,1,15.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expresson profile at single cell level of  myeloid cell,PAAD
+GSE323322,SKIP,PAAD,18,2.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mitochondrial-Localized Keratin 17 Promotes Chemoresistance ,PAAD
+GSE310857,SKIP,PAAD,6,6.8 MB,,no file recognisable as a count matrix,,Transcriptome sequencing of pancreatic cancer cells transfec,PAAD
+GSE316429,SKIP,PAAD,37,384.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,MondoA mediates transcriptional coordination between the MYC,PAAD
+GSE316426,SKIP,PAAD,15,2.3 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,MondoA mediates transcriptional coordination between the MYC,PAAD
+GSE301075,SKIP,PAAD,21,2.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Immunosuppressive myeloid signaling and distinct malignant c,PAAD
+GSE282463,SKIP,COAD,12,29.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Splicing Factor 3a Subunit 1 Promotes Colorectal Cancer Grow,PAAD
+GSE263002,SKIP,PAAD,6,2.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Gene expression profiles in pancreatic cancer cells with hig,PAAD
+GSE263001,SKIP,PAAD,6,2.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Effects of Integrin-alpha3 (ITGA3) knockdown on gene express,PAAD
+GSE263000,SKIP,PAAD,5,2.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effects of constitutive YAP1 activation on gene expression i,PAAD
+GSE262999,SKIP,PAAD,6,2.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effects of NF2 deletion on gene expression in pancreatic can,PAAD
+GSE312209,SKIP,PAAD,15,626.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,An oncogenic KRAS-driven secretome involving TNFα promotes n,PAAD
+GSE284392,SKIP,PAAD,5,340.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,An oncogenic KRAS-driven secretome involving TNFα promotes n,PAAD
+GSE319148,SKIP,PAAD,6,970.0 KB,,sample-type flag in the file names: CELL_LINE,,Targeting IGF2BP1 reverses immune evasion in CTL-enriched pa,PAAD
+GSE290274,SKIP,PAAD,16,868.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,KLF5 modulates epigenetic modifications driving human pancre,PAAD
+GSE290273,SKIP,PAAD,8,54.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,KLF5 modulates epigenetic modifications driving human pancre,PAAD
+GSE281781,SKIP,UNKNOWN,186,12.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,MYC binding to nascent RNA suppresses innate immune signalin,PAAD
+GSE315130,SKIP,PAAD,67,19.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Differential mRNA expression analysis of multiple human and ,PAAD
+GSE285958,SKIP,PAAD,2,2.1 MB,,no file recognisable as a count matrix,,Identification of a dihydroartemisinin-related prognostic si,PAAD
+GSE317494,SKIP,PAAD,24,1.8 MB,,sample-type flag in the file names: CELL_LINE,,Dual Therapy Targeting Cellular Bioenergetics as Treatment f,PAAD
+GSE289242,SKIP,PAAD,6,8.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,ClpX inhibition promotes ferroptosis through mitochondrial d,PAAD
+GSE291732,SKIP,PAAD,32,44.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of β-catenin dependent and independent genes ,PAAD
+GSE312315,SKIP,PAAD,2,2.6 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Multi-ome profiles of KP4 cells, a Pancreatic Ductal adenoca",PAAD
+GSE161369,SKIP,PAAD,237,33.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pancreatic Cancer Datasets,PAAD
+GSE160977,SKIP,PAAD,1,9.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell data from patient-derived xenograft model of PDA,PAAD
+GSE282985,SKIP,PAAD,14,2.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Schlafen 5 (SLFN5) is an Intracellular Immune Checkpoint and,PAAD
+GSE314456,SKIP,PAAD,20,4.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Adipose stromal cell-derived cancer-associated fibroblasts p,PAAD
+GSE297082,SKIP,PAAD,6,860.5 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effect of circ72309 overexpression on gene expression relate,PAAD
+GSE295597,SKIP,PAAD,12,2.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptome analysis of PDAC cells induced primary cilia a,PAAD
+GSE286384,SKIP,PAAD,40,6.6 MB,,"no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE, NON_HUMAN",,METTL3-dependent m6A RNA Modifications Orchestrate the HNF1B,PAAD
+GSE270206,SKIP,PAAD,11,2.5 MB,,sample-type flag in the file names: XENOGRAFT,,Therapeutic efficacy of CDK7 inhibition in pancreatic cancer,PAAD
+GSE315038,SKIP,PAAD,6,6.3 MB,,no file recognisable as a count matrix,,Eukaryotic translation initiation factor 3B regulates pancre,PAAD
+GSE279749,SKIP,PAAD,30,3.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE, XENOGRAFT",,Combination of PARP and KRAS G12D Inhibitors Enhances Effica,PAAD
+GSE311789,SKIP,UNKNOWN,142,682.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,DeCAF redefines fibroblast states uncovering multidimensiona,PAAD
+GSE311788,SKIP,PAAD,6,333.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,DeCAF redefines fibroblast states uncovering multidimensiona,PAAD
+GSE300200,SKIP,PAAD,26,51.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The Lysine Demethylase Kdm4C is an Oncogenic Driver and Regu,PAAD
+GSE300083,SKIP,PAAD,12,1000.0 KB,,sample-type flag in the file names: CELL_LINE,,The Lysine Demethylase Kdm4C is an Oncogenic Driver and Regu,PAAD
+GSE168574,SKIP,PAAD,12,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The mechano-biological microenvironment of pancreatic ductal,PAAD
+GSE313117,SKIP,PAAD,158,17.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Cross-platform comparison of gene expression-based cancer mo,PAAD
+GSE277285,SKIP,UNKNOWN,12,64.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pa01c cells treated with ERK and MK2 inhibitors,PAAD
+GSE312155,SKIP,PAAD,12,1.3 MB,,no file recognisable as a count matrix | sample-type flag in the file names: NON_HUMAN,,Evaluation of the efficacy of radiodynamic therapy using tal,PAAD
+GSE292095,SKIP,PAAD,12,5.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,NFAT Mediates Pro-Tumorigenic Inflammation in Cancer-Associa,PAAD
+GSE311574,SKIP,PAAD,1,968.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Therapeutic Targeting of Epithelial Mesenchymal Cellular Pla,PAAD
+GSE292740,SKIP,UNKNOWN,9,5.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The effect of CPXM2-aligned collagen on gene expresssion and,PAAD
+GSE292738,SKIP,PAAD,6,5.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The different genes expression in clinical para-tumor and pa,PAAD
+GSE310388,SKIP,PAAD,171,17.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,In situ multi-modal characterization of pancreatic cancer re,PAAD
+GSE310353,SKIP,PAAD,116,11.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,In situ multi-modal characterization of pancreatic cancer re,PAAD
+GSE311267,SKIP,PAAD,4,235.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Syndecan-1-targeted therapeutic antibody inhibits macropinoc,PAAD
+GSE310675,SKIP,PAAD,12,3.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,CRISPR-Cas9 Screening Identifies Resistance Mechanisms to KR,PAAD
+GSE291124,SKIP,PAAD,17,2.4 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,snRNA-seq dataset of 17 treatment-naive human PDAC patient-d,PAAD
+GSE297252,SKIP,PAAD,6,2.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effect of circ72039 overexpression on gene expression relate,PAAD
+GSE301148,SKIP,PAAD,12,1.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Simultaneous Targeting of KRAS and CDK4 Synergistically Indu,PAAD
+GSE301146,SKIP,PAAD,23,2.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Simultaneous Targeting of KRAS and CDK4 Synergistically Indu,PAAD
+GSE303964,SKIP,UNKNOWN,48,5.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Serine tRNAs Compete to Regulate the mRNA Translation Of Ser,PAAD
+GSE301398,SKIP,PAAD,16,4.4 GB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Single-cell RNA-seq of patient-derived cancer-associated fib,PAAD
+GSE298580,SKIP,PAAD,64,10.5 MB,,"sample-type flag in the file names: CELL_LINE, NON_HUMAN",,Dual inhibition of FACT and RRM2 suppresses the progression ,PAAD
+GSE285972,SKIP,PAAD,4,3.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A deep-learning tool for species-agnostic integration of can,PAAD
+GSE295349,SKIP,PAAD,183,17.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,KLF5 interacts with RUVBL1/2 to activate classical and basal,PAAD
+GSE295347,SKIP,PAAD,62,3.8 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,KLF5 interacts with RUVBL1/2 to activate classical and basal,PAAD
+GSE292513,SKIP,PAAD,8,788.1 MB,,sample-type flag in the file names: SINGLE_CELL,,Loss of NF2 drives malignant transformation of human pancrea,PAAD
+GSE292512,SKIP,PAAD,18,727.0 KB,,sample-type flag in the file names: ORGANOID,,Loss of NF2 drives malignant transformation of human pancrea,PAAD
+GSE309499,SKIP,PAAD,12,740.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HDAC5 Deficiency Induces Intrinsic Resistance to KRASG12D In,PAAD
+GSE309643,SKIP,PAAD,12,12.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Investigating the Molecular Impact of GGMSC on Redox and Met,PAAD
+GSE309447,SKIP,PAAD,12,12.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Investigating the Molecular Impact of GGMSC on Redox and Met,PAAD
+GSE308145,SKIP,UNKNOWN,1,269.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Systematic benchmarking of imaging spatial transcriptomics p,PAAD
+GSE266680,SKIP,UNKNOWN,119,7.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Architecture of the neutrophil compartment in mice,PAAD
+GSE308205,SKIP,PAAD,6,870.5 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,OTUD4 regulates pancreatic cancer progression via Hippo/YAP ,PAAD
+GSE308254,SKIP,PAAD,30,84.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Self-assembly of hybrid 3D cultures by integrating living an,PAAD
+GSE303261,SKIP,PAAD,6,100.6 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting Siglec-10/α3β1 Integrin Interactions Enhances Macr,PAAD
+GSE245734,SKIP,PAAD,225,19.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HNF4G and FOXA1 are context-specific drivers of pancreatic c,PAAD
+GSE245733,SKIP,PAAD,29,7.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,HNF4G and FOXA1 are context-specific drivers of pancreatic c,PAAD
+GSE307914,SKIP,PAAD,24,2.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Autologous multiantigen-targeted T cell therapy for pancreat,PAAD
+GSE306853,SKIP,PAAD,70,2.6 GB,,no file recognisable as a count matrix,,Perturb-seq experiment on patient-derived cancer-associated ,PAAD
+GSE300304,SKIP,PAAD,30,378.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A platform for multisite immune profiling of premetastatic p,PAAD
+GSE212435,SKIP,UNKNOWN,31,1.4 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting STAT3-FoxO1 axis reverses de novo and acquired PAR,PAAD
+GSE275607,SKIP,PAAD,6,1.3 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,"RNA sequencing analysis of ESRP1, 2 overepxressing PANC-1 an",PAAD
+GSE289399,SKIP,PAAD,6,26.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Disruption of Fibroblast MYD88 Signaling Promotes Antitumor ,PAAD
+GSE303767,SKIP,PAAD,44,1.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Tumor-Associated Schwann Cell Remodeling under Metabolic Str,PAAD
+GSE303131,SKIP,PAAD,14,85.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pancreatic cancer-intrinsic HuR regulates the pro-tumorigeni,PAAD
+GSE296243,SKIP,PAAD,24,5.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Genomic and Immune Landscape of Pancreatic Ductal Adenocarci,PAAD
+GSE304108,SKIP,UNKNOWN,29,4.3 MB,,no file recognisable as a count matrix,,Drug Screening in 3D Microtumors Reveals DDR1/2-MAPK12-GLI1 ,PAAD
+GSE272638,SKIP,PAAD,10,425.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Alcohol-induced C/EBP β-driven VIRMA decreases oxidative str,PAAD
+GSE295441,SKIP,PAAD,29,2.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Macrovascular infiltration and spikes in circulating tumor c,PAAD
+GSE293744,SKIP,PAAD,48,5.1 MB,,no file recognisable as a count matrix,,Differential Gene Expression Profiles of Pancreatic Ductal A,PAAD
+GSE293661,SKIP,PAAD,20,904.0 MB,,"only circRNA/isoform/miRNA counts, not gene level",,A nanopore long-read transcriptome in pancreatic cancer cell,PAAD
+GSE283407,SKIP,PAAD,9,1.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Paracrine regulation of pancreatic cancer cell response to c,PAAD
+GSE292666,SKIP,PAAD,12,41.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,MYB and HIF1α crosstalk drives hypoxia-induced transcription,PAAD
+GSE285947,SKIP,PAAD,18,5.7 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Protein Kinase R regulates pancreatic ductal adenocarcinoma ,PAAD
+GSE275766,SKIP,PAAD,13,6.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Bulk RNA Sequencing of Human PDAC: TLS-Positive vs. TLS-Nega,PAAD
+GSE253429,SKIP,PAAD,21,23.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cellular states associated with metastatic organotropism and,PAAD
+GSE298057,SKIP,PAAD,6,44.0 KB,,no file recognisable as a count matrix,,RNA sequence analysis of STYK1 knockdown in pancreatic cance,PAAD
+GSE278477,SKIP,PAAD,6,172.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell analysis of an engineered organoid based model o,PAAD
+GSE276061,SKIP,PAAD,5,396.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Enhancing CAR T Cell Therapy in Patients with Pancreatic Can,PAAD
+GSE301285,SKIP,PAAD,12,1.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,KLF5 controls subtype-independent highly interactive enhance,PAAD
+GSE301283,SKIP,PAAD,36,6.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,KLF5 controls subtype-independent highly interactive enhance,PAAD
+GSE248948,SKIP,PAAD,170,11.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Spatiotemporal control of SMARCA5 by a MAPK-RUNX1 axis disti,PAAD
+GSE248947,SKIP,PAAD,28,25.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Spatiotemporal control of SMARCA5 by a MAPK-RUNX1 axis disti,PAAD
+GSE300379,SKIP,PAAD,8,33.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cell Cycle Reprogramming Mediates Acquired Oxaliplatin Resis,PAAD
+GSE281497,SKIP,PAAD,12,30.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,PAD2-Mediated Histone Citrullination Drives Tumor Progressio,PAAD
+GSE278112,SKIP,PAAD,36,6.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Regulation of pancreatic cancer migration by signal converge,PAAD
+GSE283206,SKIP,PAAD,8,1.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Combined Flt3L and CD40 agonism restores dendritic cell driv,PAAD
+GSE297770,SKIP,PAAD,5,730.5 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Establishing 3D Organoid Models from Patient-Derived Conditi,PAAD
+GSE299599,SKIP,PAAD,4,53.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Lactylation-driven NSUN2-mediated RNA m5C modification promo,PAAD
+GSE299209,SKIP,PAAD,6,1.0 MB,,no file recognisable as a count matrix,,Cancer-Associated Fibroblast-Derived circKLHL24 Drives Perin,PAAD
+GSE282746,SKIP,PAAD,18,2.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effect of knockdown OFD1 on gene expression in pancreatic ca,PAAD
+GSE284573,SKIP,PAAD,6,808.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell transcriptome conservation in a multispecies com,PAAD
+GSE267541,SKIP,PAAD,10,745.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The effects of Lycorine on PANC-1 cells.,PAAD
+GSE249183,SKIP,PAAD,2,6.3 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,RNA sequencing facilitates quantitative analysis of PDAC CFP,PAAD
+GSE278694,SKIP,PAAD,88,1.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Integrated Single-Cell and Spatial Transcriptomics Uncover D,PAAD
+GSE278689,SKIP,PAAD,8,101.5 MB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Integrated Single-Cell and Spatial Transcriptomics Uncover D,PAAD
+GSE278688,SKIP,PAAD,29,1.0 GB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Integrated Single-Cell and Spatial Transcriptomics Uncover D,PAAD
+GSE279400,SKIP,PAAD,9,2.3 MB,,no file recognisable as a count matrix,,ACSS2-mediated acetylation promotes BCAT1 aggradation to ele,PAAD
+GSE277278,SKIP,PAAD,8,6.3 MB,,no file recognisable as a count matrix,,BARD1 is an exploitable therapeutic target for homologous re,PAAD
+GSE293666,SKIP,LIHC,43,1.8 MB,,sample-type flag in the file names: CELL_LINE,,Identification of a Selective Pharmacologic IRE1/XBP1s Activ,PAAD
+GSE285130,SKIP,PAAD,15,1.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,"B4GALT5 and B3GNT3 downregulate MHC-I levels on tumor cells,",PAAD
+GSE288088,SKIP,PAAD,4,900.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Dynamic interaction of MYC enhancer RNA with YEATS2 protein ,PAAD
+GSE185960,SKIP,PAAD,18,1.9 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNA-seq and acRIP-seq in NAT10-knockdown PDAC cells,PAAD
+GSE281039,SKIP,PAAD,40,450.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Molecular characterization of pancreatic neuroendocrine tumo,PAAD
+GSE288533,SKIP,PAAD,14,4.5 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Neoadjuvant BMS-813160, nivolumab, gemcitabine and nab-pacli",PAAD
+GSE291036,SKIP,PAAD,16,3.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TP53 missense-specific transcriptional plasticity drives res,PAAD
+GSE291033,SKIP,PAAD,12,2.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TP53 missense-specific transcriptional plasticity drives res,PAAD
+GSE290845,SKIP,PAAD,6,11.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Cancer-Associated Fibroblasts Shape a High-Lactate Microenvi,PAAD
+GSE278383,SKIP,PAAD,4,20.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Agrimoniin synergistically works with erlotinib to inhibit t,PAAD
+GSE254997,SKIP,PAAD,18,13.0 MB,,no file recognisable as a count matrix,,Unraveling the mechanism of JPI-547 in human pancreatic canc,PAAD
+GSE283259,SKIP,PAAD,12,8.1 MB,,no file recognisable as a count matrix,,Effect of IL-8 and VEGFA on polarization of tumor-associated,PAAD
+GSE283101,SKIP,PAAD,6,3.8 MB,,no file recognisable as a count matrix,,Transcriptome sequencing of pancreatic cancer cells transfec,PAAD
+GSE282763,SKIP,PAAD,6,5.0 MB,,no file recognisable as a count matrix,,REG3A promotes the development of pancreatic cancer by activ,PAAD
+GSE276223,SKIP,UNKNOWN,48,7.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Restoration of the Tumor Suppressor Function of Y220C-Mutant,PAAD
+GSE287932,SKIP,PAAD,64,3.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Learning and actioning general principles of cancer cell dru,PAAD
+GSE281288,SKIP,PAAD,8,627.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,NFE2-driven neutrophil polarization promotes pancreatic canc,PAAD
+GSE248800,SKIP,UNKNOWN,17,392.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,scRNAseq Data Analysis Code Muscle Inflammation is Regulated,PAAD
+GSE269521,SKIP,PAAD,8,1.6 GB,,no file recognisable as a count matrix,,Tumor microenvironment acidosis favors pancreatic cancer ste,PAAD
+GSE272796,SKIP,PAAD,2,102.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Glucocorticoid Receptor Suppresses GATA6-Mediated RNA Polyme,PAAD
+GSE271737,SKIP,PAAD,110,12.2 MB,,sample-type flag in the file names: CELL_LINE,,Glucocorticoid Receptor Suppresses GATA6-Mediated RNA Polyme,PAAD
+GSE252286,SKIP,PAAD,12,6.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,First-in-class humanized antibody against alternatively spli,PAAD
+GSE285264,SKIP,PAAD,3,179.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: SINGLE_CELL",,Single-cell RNA sequencing combined with multiplex immunoflu,PAAD
+GSE281326,SKIP,PAAD,47,0.0 B,,no supplementary files: the data may only be in SRA,,MYC ecDNA promotes intratumour heterogeneity and plasticity ,PAAD
+GSE283335,SKIP,UNKNOWN,52,6.4 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Multiplexed mosaic tumor models reveal natural phenotypic va,PAAD
+GSE283141,SKIP,UNKNOWN,2,2.6 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Multiplexed mosaic tumor models reveal natural phenotypic va,PAAD
+GSE282350,SKIP,UNKNOWN,2,729.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Multiplexed mosaic tumor models reveal natural phenotypic va,PAAD
+GSE284709,SKIP,PAAD,65,21.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Differential control of growth and identity by HNF4α isoform,PAAD
+GSE284347,SKIP,PAAD,6,256.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,VCPIP1 facilitates pancreatic cancer progression via Hippo/Y,PAAD
+GSE279781,SKIP,PAAD,30,375.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: SINGLE_CELL",,CD137 agonism enhances anti-PD1 induced activation of clonal,PAAD
+GSE233173,SKIP,PAAD,48,16.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The essential clathrin adaptor protein complex-2 is tumor su,PAAD
+GSE246459,SKIP,PAAD,45,416.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Differential Activity of MAPK signalling Defines Fibroblast ,PAAD
+GSE246457,SKIP,PAAD,37,2.5 MB,,sample-type flag in the file names: NON_HUMAN,,Differential Activity of MAPK signalling Defines Fibroblast ,PAAD
+GSE249673,SKIP,PAAD,34,91.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A novel pancreatic ductal adenocarcinoma organoid recapitula,PAAD
+GSE249672,SKIP,PAAD,33,2.2 MB,,no file recognisable as a count matrix,,A novel pancreatic ductal adenocarcinoma organoid recapitula,PAAD
+GSE249670,SKIP,PAAD,1,91.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A novel pancreatic ductal adenocarcinoma organoid recapitula,PAAD
+GSE255702,SKIP,PAAD,18,1.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Functional screen for mediators of onco-mRNA translation spe,PAAD
+GSE275488,SKIP,PAAD,1,2.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A decision-point between programmed cell death and transdiff,PAAD
+GSE255701,SKIP,UNKNOWN,77,11.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Paired CRISPR screens to map gene regulation in cis and tran,PAAD
+GSE267820,SKIP,PAAD,24,3.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Exploring the mechanism of AGR2 regulating the progression o,PAAD
+GSE249179,SKIP,UNKNOWN,34,1.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The Role of Mediator Subunit MED30 in Licensing the c-Myc On,PAAD
+GSE249178,SKIP,UNKNOWN,20,7.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,The Role of Mediator Subunit MED30 in Licensing the c-Myc On,PAAD
+GSE207852,SKIP,UNKNOWN,6,3.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pa01c cells stable expressing a scramble or shRNA against TR,PAAD
+GSE247635,SKIP,PAAD,7,207.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell RNA-sequencing of human spleens reveals an IDO-1,PAAD
+GSE281129,SKIP,PAAD,794,4.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Ongoing replication stress tolerance and clonal T cell respo,PAAD
+GSE278757,SKIP,PAAD,243,39.0 MB,,no file recognisable as a count matrix,,Tumor-intrinsic kinome landscape of pancreatic cancer reveal,PAAD
+GSE273660,SKIP,UNKNOWN,6,27.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pa01c cells stable expressing a scramble or shRNA against MA,PAAD
+GSE186716,SKIP,UNKNOWN,12,57.0 MB,,no file recognisable as a count matrix,,Injury response of human lens epithelial cells ex-vivo,PAAD
+GSE276007,SKIP,PAAD,6,455.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Cell polarity proteins promote macropinocytosis in response ,PAAD
+GSE246813,SKIP,PAAD,7,31.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transfer learning associates CAFs with EMT and inflammation ,PAAD
+GSE246812,SKIP,PAAD,1,31.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transfer learning associates CAFs with EMT and inflammation ,PAAD
+GSE278328,SKIP,PAAD,6,7.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Acidic microenvironment and transcriptomic genes in pancreat,PAAD
+GSE250445,SKIP,PAAD,24,11.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The tumor immune microenvironment in long-term survival rese,PAAD
+GSE247165,SKIP,PAAD,4,437.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Exploring Transcriptional alterations in the Development of ,PAAD
+GSE247163,SKIP,PAAD,6,211.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Exploring Transcriptional alterations in the Development of ,PAAD
+GSE184668,SKIP,PAAD,6,7.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,D(+)-Raffinose pentahydrate targeting PI3K/AKT pathway induc,PAAD
+GSE276324,SKIP,PAAD,23,13.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Spatial tumor immune heterogeneity facilitates subtype co-ex,PAAD
+GSE274713,SKIP,PAAD,30,4.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Adipose-Tumor Crosstalk contributes to CXCL5 Mediated Immune,PAAD
+GSE274380,SKIP,PAAD,8,2.4 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Effects of Roseoflavin and/or Trametinib Treatment on 3D-Cul,PAAD
+GSE273376,SKIP,PAAD,24,1.7 MB,,sample-type flag in the file names: CELL_LINE,,Effect of PRMT5 inhibitor on gene expression in MTAP null pa,PAAD
+GSE241182,SKIP,PAAD,18,3.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Epithelial and mesenchymal pancreatic cancer cells exhibit d,PAAD
+GSE273398,SKIP,PAAD,6,12.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,A CLIC1 network coordinates matrix stiffness and the Warburg,PAAD
+GSE227567,SKIP,PAAD,8,259.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,CA19-9-positive extracellular vesicles are the risk for canc,PAAD
+GSE273116,SKIP,UNKNOWN,12,3.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A pan-KRAS inhibitor and its derived degrader elicit multifa,PAAD
+GSE229230,SKIP,PAAD,31,213.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting novel m6A reader KHSRP impairs pancreatic ductal a,PAAD
+GSE248014,SKIP,PAAD,45,1.4 MB,,no file recognisable as a count matrix,,RNA sequensing data of a phase 2 clinical trial of pancreati,PAAD
+GSE184871,SKIP,PAAD,2,45.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell RNA sequencing of human PDAC-derived PDX,PAAD
+GSE242516,SKIP,UNKNOWN,180,11.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,MARK2/MARK3 kinases are catalytic co-dependencies of YAP/TAZ,PAAD
+GSE267702,SKIP,PAAD,6,813.0 KB,,no file recognisable as a count matrix,,LINC01133 promotes pancreatic ductal adenocarcinoma epitheli,PAAD
+GSE271300,SKIP,PAAD,16,2.3 GB,,"no file recognisable as a count matrix | sample-type flag in the file names: XENOGRAFT, NON_HUMAN",,A classical epithelial state drives acute resistance to KRAS,PAAD
+GSE241331,SKIP,PAAD,16,1.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pancreatic cancer,PAAD
+GSE241330,SKIP,PAAD,6,424.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Difference of expression profile between tumor tissue and ad,PAAD
+GSE241328,SKIP,PAAD,6,3.1 MB,,no file recognisable as a count matrix,,The influence of DDX18 high expression in PDAC cells Hs766T ,PAAD
+GSE267814,SKIP,PAAD,13,606.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Blockade of IL-1b and PD-1 with combination chemotherapy red,PAAD
+GSE267209,SKIP,PAAD,8,181.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Multiparametric atlas of the pre-metastatic liver for predic,PAAD
+GSE245535,SKIP,PAAD,43,4.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Multi-parametric atlas of the pre-metastatic liver for predi,PAAD
+GSE239418,SKIP,PAAD,12,1.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SAMD1 suppresses epithelial-mesenchymal transition pathways ,PAAD
+GSE239414,SKIP,PAAD,6,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,SAMD1 suppresses epithelial-mesenchymal transition pathways ,PAAD
+GSE255978,SKIP,PAAD,30,711.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Senescence defines a distinct subset of myofibroblasts that ,PAAD
+GSE269985,SKIP,PAAD,30,13.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mechanisms of resistance to oncogenic KRAS inhibition in pan,PAAD
+GSE253929,SKIP,PAAD,12,2.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,ROR2 regulates cellular plasticity in pancreatic neoplasia a,PAAD
+GSE253600,SKIP,PAAD,48,21.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ROR2 regulates cellular plasticity in pancreatic neoplasia a,PAAD
+GSE253599,SKIP,PAAD,12,2.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,ROR2 regulates cellular plasticity in pancreatic neoplasia a,PAAD
+GSE198444,SKIP,PAAD,24,2.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Inhibition of histone acetyltransferase attenuates 3D chroma,PAAD
+GSE235246,SKIP,PAAD,38,0.0 B,,no supplementary files: the data may only be in SRA,,Senescent cancer-associated fibroblasts in pancreatic adenoc,PAAD
+GSE235233,SKIP,PAAD,16,786.0 KB,,sample-type flag in the file names: NON_HUMAN,,Senescent cancer-associated fibroblasts in pancreatic adenoc,PAAD
+GSE268817,SKIP,PAAD,6,1.3 MB,,no file recognisable as a count matrix,,Genes associated with mitogen-activated protein kinase activ,PAAD
+GSE192647,SKIP,PAAD,28,11.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome analysis of pancreatic cancer patients with lo,PAAD
+GSE235337,SKIP,PAAD,20,0.0 B,,no supplementary files: the data may only be in SRA,,Uncovering novel ferroptosis regulators in pancreatic ductal,PAAD
+GSE235333,SKIP,PAAD,10,398.0 KB,,no file recognisable as a count matrix,,Uncovering novel ferroptosis regulators in pancreatic ductal,PAAD
+GSE248677,SKIP,PAAD,2,812.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,RNA SEQUENCING DATA OF NOVEL GOLD NANOPARTICLE TREATED PANCR,PAAD
+GSE237177,SKIP,PAAD,42,10.0 MB,,no file recognisable as a count matrix,,Mediator Kinase Inhibition Impedes Transcriptional Plasticit,PAAD
+GSE267243,SKIP,PAAD,54,235.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Scalable, compressed phenotypic screening using pooled pertu",PAAD
+GSE229007,SKIP,PAAD,34,133.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,New strategies for the identification of intronic variants r,PAAD
+GSE229006,SKIP,PAAD,10,127.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,New strategies for the identification of intronic variants r,PAAD
+GSE228844,SKIP,PAAD,24,6.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,New strategies for the identification of intronic variants r,PAAD
+GSE262562,SKIP,PAAD,6,224.0 KB,,no file recognisable as a count matrix,,Necroptosis enhances 'Don’t eat me' signal and induces macro,PAAD
+GSE260802,SKIP,PAAD,4,277.0 KB,,no file recognisable as a count matrix,,FBXO32 drives pancreatic cancer progression,PAAD
+GSE248494,SKIP,PAAD,6,2.2 MB,,no file recognisable as a count matrix,,Necroptosis enhances “Don’t eat me” signal and induces macro,PAAD
+GSE263733,SKIP,PAAD,218,201.4 MB,,sample-type flag in the file names: SINGLE_CELL,,Single-cell transcriptome analysis reveals subtype-specific ,PAAD
+GSE235516,SKIP,PAAD,6,640.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,ZDHHC20-Mediated S-Palmitoylation of YTHDF3 Stabilizes MYC m,PAAD
+GSE201177,SKIP,PAAD,23,0.0 B,,no supplementary files: the data may only be in SRA,,Transcriptomic profiling of highly- and lowly- metastasizing,PAAD
+GSE201176,SKIP,PAAD,11,1.1 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Transcriptomic profiling of highly- and lowly- metastasizing,PAAD
+GSE201175,SKIP,PAAD,12,2.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Transcriptomic profiling of highly- and lowly- metastasizing,PAAD
+GSE147549,SKIP,PAAD,8,98.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic profiling of human pancreatic cancer-derived ,PAAD
+GSE149000,SKIP,UNKNOWN,12,1.2 MB,,no file recognisable as a count matrix,,Sequencing of AsPC-1 cells with CYP3A5 expression modulation,PAAD
+GSE255378,SKIP,PAAD,9,8.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting lipid metabolism in pancreatic cancer,PAAD
+GSE262627,SKIP,PAAD,68,1.7 MB,,"sample-type flag in the file names: CELL_LINE, ORGANOID",,Circadian transcriptome of pancreatic adenocarcinoma unravel,PAAD
+GSE209952,SKIP,PAAD,200,0.0 B,,no supplementary files: the data may only be in SRA,,Mapping functional to morphological variation reveals the ba,PAAD
+GSE240597,SKIP,PAAD,24,2.7 MB,,no file recognisable as a count matrix,,Connectivity Mapping-based Identification and Pre-clinical E,PAAD
+GSE223154,SKIP,PAAD,13,303.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,PRMT1 promotes pancreatic cancer development and resistance ,PAAD
+GSE223152,SKIP,PAAD,4,24.0 KB,,no file recognisable as a count matrix,,PRMT1 promotes pancreatic cancer development and resistance ,PAAD
+GSE261159,SKIP,PAAD,181,3.8 MB,,sample-type flag in the file names: NON_HUMAN,,Gene expression dynamics of branching morphogenesis in pancr,PAAD
+GSE168918,SKIP,PAAD,6,193.0 KB,,no file recognisable as a count matrix,,TMPRSS4 promotes cell proliferation and inhibits apoptosis i,PAAD
+GSE256455,SKIP,PAAD,8,618.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The effects of Eupalinolide B on PANC-1 cells.,PAAD
+GSE253561,SKIP,PAAD,18,234.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Bidirectional crosstalk between cancer cells and cancer-asso,PAAD
+GSE253559,SKIP,PAAD,3,230.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Bidirectional crosstalk between cancer cells and cancer-asso,PAAD
+GSE253558,SKIP,PAAD,15,4.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Bidirectional crosstalk between cancer cells and cancer-asso,PAAD
+GSE249914,SKIP,UNKNOWN,29,5.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Differential mRNA expression analysis of H358 and AsPC-1 cel,PAAD
+GSE238200,SKIP,PAAD,123,30.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Activation of endogenous retroviruses and induction of viral,PAAD
+GSE238198,SKIP,PAAD,72,1.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Activation of endogenous retroviruses and induction of viral,PAAD
+GSE244327,SKIP,PAAD,12,11.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Comparison of gene expression in CSCs (tumorspheres) vs non-,PAAD
+GSE241896,SKIP,PAAD,12,241.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Analysis of Single Nuclear Chromatin Accessibility Demonstra,PAAD
+GSE241895,SKIP,PAAD,4,99.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Analysis of Single Nuclear Chromatin Accessibility Demonstra,PAAD
+GSE229877,SKIP,UNKNOWN,4,12.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of spatially-resolved markers of malignant tr,PAAD
+GSE234737,SKIP,PAAD,12,3.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,The RNA binding protein QKI guides a pro-mesenchymal splicin,PAAD
+GSE235027,SKIP,PAAD,21,1.0 MB,,no file recognisable as a count matrix,,Altered histone acetylation patterns in pancreatic cancer ce,PAAD
+GSE254250,SKIP,PAAD,15,315.7 MB,,no file recognisable as a count matrix,,Transcriptome-based identification of tumor-reactive and bys,PAAD
+GSE240649,SKIP,PAAD,12,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Patient derived organoid established under hypoxic is prefer,PAAD
+GSE253837,SKIP,PAAD,4,12.0 MB,,no file recognisable as a count matrix,,Cytidine deaminase resolves replicative stress and protects ,PAAD
+GSE249541,SKIP,PAAD,47,71.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Extracellular niche and tumor microenvironment enhance the i,PAAD
+GSE249539,SKIP,PAAD,12,15.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Extracellular niche and tumor microenvironment enhance the i,PAAD
+GSE252909,SKIP,PAAD,28,5.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: XENOGRAFT",,Pancreatic cancer xenograft tumor RNA sequencing and patholo,PAAD
+GSE245941,SKIP,PAAD,12,4.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Spatial tumor immune heterogeneity facilitates subtype co-ex,PAAD
+GSE194191,SKIP,PAAD,12,4.5 MB,,no file recognisable as a count matrix,,mRNA profiling of monocytes derived macrophages and PDAC cel,PAAD
+GSE228805,SKIP,PAAD,48,4.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Engrailed-1 Promotes Pancreatic Cancer Metastasis,PAAD
+GSE228804,SKIP,PAAD,14,1.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Engrailed-1 Promotes Pancreatic Cancer Metastasis [RNA-Seq],PAAD
+GSE248887,SKIP,PAAD,6,11.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,DKK1-SE promotes pancreatic cancer progression by recruiting,PAAD
+GSE159334,SKIP,PAAD,6,1.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Dual-hit strategy for therapeutic targeting of pancreatic ca,PAAD
+GSE245819,SKIP,PAAD,2,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Inhibition of ADAM9 mediates KRAS-related pathways in pancre,PAAD
+GSE229062,SKIP,PAAD,276,13.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Marker-based CRISPR screening reveals a direct MED12-p63 int,PAAD
+GSE249302,SKIP,PAAD,16,6.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,RNA-seq of human PDAC cell lines PANC-1 and BxPC3 treated wi,PAAD
+GSE247513,SKIP,PAAD,72,7.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: NOT_RNASEQ",,TLR2 promotes tumour proliferation in KRAS-dependant PDAC in,PAAD
+GSE155725,SKIP,UNKNOWN,57,0.0 B,,no supplementary files: the data may only be in SRA,,Spatial coupling of microbes and immune cells in solid malig,PAAD
+GSE155724,SKIP,PAAD,20,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Spatial coupling of microbes and immune cells in solid malig,PAAD
+GSE155723,SKIP,PAAD,16,1.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Spatial coupling of microbes and immune cells in solid malig,PAAD
+GSE155722,SKIP,PAAD,9,793.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Spatial coupling of microbes and immune cells in solid malig,PAAD
+GSE242098,SKIP,PAAD,114,6.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Med12 ablation promotes anti-tumor function by enhancing tum,PAAD
+GSE242083,SKIP,PAAD,36,28.6 MB,,sample-type flag in the file names: CELL_LINE,,Med12 ablation promotes anti-tumor function by enhancing tum,PAAD
+GSE217399,SKIP,UNKNOWN,9,2.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The effect of WB436B or siRNA towards STAT3 on the whole-tra,PAAD
+GSE222990,SKIP,PAAD,28,5.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA sequencing of human pancreatic acinar and ductal cells,PAAD
+GSE241402,SKIP,PAAD,6,2.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,MST2 Methylation by PRMT5 Inhibits Hippo Signaling and Promo,PAAD
+GSE235452,SKIP,PAAD,8,441.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Integrative single-cell transcriptome analysis of human panc,PAAD
+GSE235449,SKIP,PAAD,1,51.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Integrative single-cell transcriptome analysis of human panc,PAAD
+GSE247389,SKIP,PAAD,12,2.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Epigenetic priming targets tumor heterogeneity to shift tran,PAAD
+GSE243649,SKIP,PAAD,2,118.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Incorporation of human iPS cell-derived stroma creates a pan,PAAD
+GSE243647,SKIP,PAAD,31,2.1 MB,,no file recognisable as a count matrix,,Incorporation of human iPS cell-derived stroma creates a pan,PAAD
+GSE243651,SKIP,PAAD,33,118.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Incorporation of human iPS cell-derived stroma creates a pan,PAAD
+GSE150225,SKIP,PAAD,18,0.0 B,,no supplementary files: the data may only be in SRA,,The role of MSK1 in pancreatic adenocarcinoma (PDAC) progres,PAAD
+GSE234779,SKIP,PAAD,6,12.0 MB,,no file recognisable as a count matrix,,G-quadruplex-binding molecule based on napththalene diimides,PAAD
+GSE168020,SKIP,PAAD,4,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,VU-0365114-treated AsPC-1 and PANC-1,PAAD
+GSE211471,SKIP,UNKNOWN,124,3.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Inhibition of topoisomerase 1 and BRD4-mediated pause releas,PAAD
+GSE211468,SKIP,PAAD,35,3.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Inhibition of topoisomerase 1 and BRD4-mediated pause releas,PAAD
+GSE224564,SKIP,PAAD,175,12.0 MB,,no file recognisable as a count matrix,,SERPINB3 induces the aggressive basal-like/squamous subtype ,PAAD
+GSE223909,SKIP,PAAD,231,0.0 B,,no supplementary files: the data may only be in SRA,,SERPINB3 induces the aggressive basal-like/squamous subtype ,PAAD
+GSE245126,SKIP,PAAD,70,26.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Phenotype screens of murine pancreatic cancer identify a Tgf,PAAD
+GSE215104,SKIP,PAAD,2,1.8 MB,,no file recognisable as a count matrix,,Inhibition of the SLC35B2-TPST2 axis of tyrosine sulfation a,PAAD
+GSE242917,SKIP,PAAD,166,0.0 B,,no supplementary files: the data may only be in SRA,,Pro-tumor Tfh2 cells induce detrimental IgG4 production and ,PAAD
+GSE243850,SKIP,PAAD,213,31.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,mRNA sequencing data of pancreatic cancer tumor tissues,PAAD
+GSE234927,SKIP,PAAD,6,267.0 KB,,no file recognisable as a count matrix,,Next Generation Sequencing Quantitative Analysis of altered ,PAAD
+GSE234760,SKIP,PAAD,6,199.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,Next Generation Sequencing Quantitative Analysis of altered ,PAAD
+GSE211589,SKIP,PAAD,87,370.1 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,CFL1-induced super enhancer RNA m6A modification promotes lo,PAAD
+GSE211587,SKIP,PAAD,4,1.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,CFL1-induced super enhancer RNA m6A modification promotes lo,PAAD
+GSE211585,SKIP,PAAD,24,324.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,CFL1-induced super enhancer RNA m6A modification promotes lo,PAAD
+GSE213397,SKIP,PAAD,45,0.0 B,,no supplementary files: the data may only be in SRA,,Identification of a ΔNp63-dependent Basal-like A Subtype-spe,PAAD
+GSE213387,SKIP,PAAD,26,3.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification of a ΔNp63-dependent Basal-like A Subtype-spe,PAAD
+GSE181777,SKIP,PAAD,14,246.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,LncRNA MSAR stabilizes c-Myc to promote pancreatic cancer ma,PAAD
+GSE217845,SKIP,PAAD,16,653.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,IL-1b+ tumor-associated macrophages fuel pathogenic inflamma,PAAD
+GSE217847,SKIP,PAAD,136,9.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,IL-1b+ tumor-associated macrophages fuel pathogenic inflamma,PAAD
+GSE242230,SKIP,PAAD,25,444.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,High-dimensional deconstruction of pancreatic cancer identif,PAAD
+GSE223858,SKIP,PAAD,4,106.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell RNA sequencing of pancreastic cancer associated ,PAAD
+GSE228611,SKIP,PAAD,8,284.0 KB,,no file recognisable as a count matrix,,IL6R-STAT3 oscillations produce stable heterogeneity of meta,PAAD
+GSE136651,SKIP,PAAD,34,44.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Repeat-element-aware profiling of plasma cell-free RNA,PAAD
+GSE241563,SKIP,PAAD,3,134.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cell-in-cell-mediated entosis reveals a progressive mechanis,PAAD
+GSE119224,SKIP,PAAD,12,3.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Gene expression profiling of pancreatic cancer,PAAD
+GSE241352,SKIP,PAAD,6,257.0 KB,,no file recognisable as a count matrix,,Effect of depletion of HMOX1 on gene expression of AsPC-1 ce,PAAD
+GSE241233,SKIP,PAAD,10,360.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq analysis of bulk Human and single-cell Musashi2-CreE,PAAD
+GSE241226,SKIP,PAAD,7,205.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Bulk RNA-seq analysis of Human ASCP and ACC Pancreas Tumors,PAAD
+GSE217332,SKIP,PAAD,30,1.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting an RNA polymerase II-associated PHF5A transcriptio,PAAD
+GSE217330,SKIP,PAAD,10,718.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting an RNA polymerase II-associated PHF5A transcriptio,PAAD
+GSE205767,SKIP,PAAD,9,44.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The phospholipid transporter PITPNC1 links KRAS to MYC to pr,PAAD
+GSE196597,SKIP,PAAD,6,29.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,LAMC2-regulated transcriptome,PAAD
+GSE229941,SKIP,PAAD,18,9.8 MB,,no file recognisable as a count matrix,,Effect of persistent ER stress on gene expression of pancrea,PAAD
+GSE210112,SKIP,PAAD,6,2.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Blockage of retinoic acid signaling via RARγ suppressed the ,PAAD
+GSE208568,SKIP,UNKNOWN,9,5.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effect of Trim21 knockdown on MAPK and ERBB signaling pathwa,PAAD
+GSE229091,SKIP,PAAD,6,5.2 MB,,no file recognisable as a count matrix,,Huaier Enhances the Antitumor Activities of Black Phosphorus,PAAD
+GSE207863,SKIP,PAAD,14,6.3 MB,,sample-type flag in the file names: CELL_LINE,,HDAC5 loss in pancreatic cancer induces enhanced arachidonic,PAAD
+GSE238163,SKIP,PAAD,13,415.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: SINGLE_CELL",,Plasma cells in human pancreatic ductal adenocarcinoma secre,PAAD
+GSE235548,SKIP,PAAD,30,5.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Uncovering the hidden threat: single-organoid analysis revea,PAAD
+GSE155220,SKIP,UNKNOWN,16,1.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome profile of ENDOC-BH1 cells silencing TFEB and ,PAAD
+GSE154063,SKIP,UNKNOWN,74,2.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome profile of ENDOC-BH1 cells and isolated murine,PAAD
+GSE154059,SKIP,UNKNOWN,15,1.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome profile of ENDOC-BH1 cells overexpressing TFEB,PAAD
+GSE205354,SKIP,PAAD,8,179.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Spatially resolved multi-omics single-cell analyses inform m,PAAD
+GSE205049,SKIP,PAAD,18,248.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: SINGLE_CELL",,Spatially Resolved Multi-Omics Single-Cell Analyses Inform M,PAAD
+GSE237366,SKIP,PAAD,21,1.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,EBF2 links KMT2D-mediated H3K4me1 to suppress pancreatic can,PAAD
+GSE237363,SKIP,PAAD,8,3.0 MB,,no file recognisable as a count matrix,,EBF2 links KMT2D-mediated H3K4me1 to suppress pancreatic can,PAAD
+GSE235843,SKIP,PAAD,69,2.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Spectrum of Response to Platinum and PARP Inhibitors in Germ,PAAD
+GSE207741,SKIP,PAAD,6,10.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targeting N-glycosylation of 4F2hc mediated by glycosyltrans,PAAD
+GSE224941,SKIP,UNKNOWN,59,588.7 MB,,no file recognisable as a count matrix,,Restoring Tumor Immunogenicity with Dendritic Cell Reprogram,PAAD
+GSE210541,SKIP,PAAD,34,148.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,GDF15 gene suppression by BET inhibition and gene signature ,PAAD
+GSE210540,SKIP,PAAD,54,234.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,GDF15 gene suppression by BET inhibition and gene signature ,PAAD
+GSE154492,SKIP,PAAD,12,2.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Genomic alterations drive metastases formation in pancreatic,PAAD
+GSE231535,SKIP,PAAD,2,52.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Coordinated single cell tumor microenvironment dynamics rein,PAAD
+GSE234449,SKIP,PAAD,11,845.0 KB,,no file recognisable as a count matrix,,Dual inhibition of KRASG12D and pan-ERBB is synergistic in p,PAAD
+GSE152012,SKIP,PAAD,6,3.0 MB,,no file recognisable as a count matrix,,Methylation mediated LINC00261 suppresses pancreatic cancer ,PAAD
+GSE233293,SKIP,PAAD,13,1.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Visium Spatial Transcriptomics expression profiles from IPMN,PAAD
+GSE233254,SKIP,PAAD,33,318.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Spatial Transcriptomics of Intraductal Papillary Mucinous Ne,PAAD
+GSE228010,SKIP,UNKNOWN,88,6.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pan KRAS inhibitor selectively inactivates oncogenic signali,PAAD
+GSE210562,SKIP,PAAD,12,1.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The NAMPT inhibitor FK866 increases metformin sensitivity in,PAAD
+GSE218822,SKIP,PAAD,6,790.5 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effect of ARID1A deficiency on transcriptome regulation duri,PAAD
+GSE202742,SKIP,PAAD,4,51.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Schwann Cells Shape Tumor Cells and Cancer-Associated Fibrob,PAAD
+GSE202740,SKIP,PAAD,4,1.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Schwann Cells Shape Tumor Cells and Cancer-Associated Fibrob,PAAD
+GSE201601,SKIP,PAAD,10,3.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Schwann Cells Shape Tumor Cells and Cancer-Associated Fibrob,PAAD
+GSE212779,SKIP,UNKNOWN,47,2.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,PHF8 enables immune evasion by silencing endogenous retroele,PAAD
+GSE211474,SKIP,UNKNOWN,39,4.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,PHF8 enables immune evasion by silencing endogenous retroele,PAAD
+GSE232549,SKIP,PAAD,26,104.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Molecular profiling and specific targeting of gemcitabine-re,PAAD
+GSE230039,SKIP,PAAD,14,30.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Natural compounds ursolic acid and digoxin exhibit inhibitor,PAAD
+GSE232170,SKIP,PAAD,90,7.6 MB,,sample-type flag in the file names: NON_HUMAN,,The impact of extracellular matrix on the precision medicine,PAAD
+GSE223303,SKIP,PAAD,16,5.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,"Effects of a novel HBP inhibitor, FR054, and Gemcitabine in ",PAAD
+GSE229413,SKIP,PAAD,32,3.4 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Analysis of donor pancreata defines the transcriptomic signa,PAAD
+GSE197177,SKIP,PAAD,8,657.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"A single-cell atlas of the tumor, stromal and immune microen",PAAD
+GSE224411,SKIP,UNKNOWN,4,657.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Uncovering the spatial landscape of molecular interactions w,PAAD
+GSE172303,SKIP,PAAD,18,4.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification and characterization of new pancreatic cancer,PAAD
+GSE226518,SKIP,PAAD,6,3.0 MB,,no file recognisable as a count matrix,,RNA-seq analysis after siRNA-METTL16 treatment in PANC-1 cel,PAAD
+GSE226762,SKIP,PAAD,31,9.6 MB,,sample-type flag in the file names: SINGLE_CELL,,Dysregulated miRNAs modulate tumor microenvironment associat,PAAD
+GSE202534,SKIP,PAAD,74,3.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Anoikis resistance drives transcriptional plasticity in panc,PAAD
+GSE202532,SKIP,PAAD,50,2.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE, ORGANOID",,Acquired anoikis resistance mediates enhancer-driven subtype,PAAD
+GSE228837,SKIP,UNKNOWN,12,1.5 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,T cell-mediated development of stromal fibroblasts with an i,PAAD
+GSE212883,SKIP,PAAD,12,1.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,KRT13 is upregulated in pancreatic cancer stem-like cells an,PAAD
+GSE225161,SKIP,PAAD,10,6.6 MB,,sample-type flag in the file names: NON_HUMAN,,Pancreatic stellate and cancer cell transcriptomes from hete,PAAD
+GSE181604,SKIP,UNKNOWN,18,1.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SIRT6 is required for the integrated stress response and res,PAAD
+GSE216569,SKIP,PAAD,18,0.0 B,,no supplementary files: the data may only be in SRA,,LINC01133 can induce acquired resistance to ferroptosis in p,PAAD
+GSE216567,SKIP,PAAD,6,12.0 MB,,no file recognisable as a count matrix,,LINC01133 can induce acquired resistance to ferroptosis in p,PAAD
+GSE216566,SKIP,PAAD,6,527.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,LINC01133 can induce acquired resistance to ferroptosis in p,PAAD
+GSE220446,SKIP,LIHC,13,1.6 MB,,no file recognisable as a count matrix,,Tumor-derived extracellular vesicles and particles systemica,PAAD
+GSE220536,SKIP,PAAD,1,450.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A single-cell proteomic and transcriptomic assay identifies ,PAAD
+GSE207274,SKIP,PAAD,2,1.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Prognostic significance of integrin subunit alpha 2 (ITGA2) ,PAAD
+GSE225683,SKIP,PAAD,12,11.0 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Rapamycin-Induced Feedback Activation of mRNA Translation in,PAAD
+GSE213797,SKIP,UNKNOWN,14,72.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Phase 1 Study of Ulixertinib (BVD 523) in Patients with Adva,PAAD
+GSE224882,SKIP,PAAD,6,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Reduced phosphorylated ATM expression is associated with poo,PAAD
+GSE197465,SKIP,PAAD,6,356.0 KB,,no file recognisable as a count matrix,,Mitochondrial fitness and risk of pancreatic ductal adenocar,PAAD
+GSE222011,SKIP,PAAD,24,257.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Individualized mRNA Neoantigen Vaccines provoke substantial ,PAAD
+GSE179705,SKIP,UNKNOWN,6,199.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cancer-associated fibroblasts recapitulate phenotypes and fu,PAAD
+GSE217537,SKIP,UNKNOWN,120,19.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,PLK1 Inhibitors and Abiraterone Synergistically Disrupt Mito,PAAD
+GSE211398,SKIP,PAAD,28,13.0 MB,,no file recognisable as a count matrix,,Transcriptomic analysis of pancreatic adenocarcinoma specime,PAAD
+GSE205013,SKIP,PAAD,27,2.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effects of Chemotherapy on Human Pancreatic Adenocarcinoma a,PAAD
+GSE221250,SKIP,PAAD,27,10.8 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,CRISPR deletion of ELAVL1 (HuR) in MIA PaCa-2 in vitro cells,PAAD
+GSE216708,SKIP,PAAD,3,5.1 MB,,no file recognisable as a count matrix,,Long non-coding RNA associated with mitogen-activated protei,PAAD
+GSE196590,SKIP,PAAD,6,3.0 MB,,no file recognisable as a count matrix,,Transcriptome Sequencing of GLYR1-positive human pancreatic ,PAAD
+GSE212201,SKIP,PAAD,4,12.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,MIF promotes cell invasion by LRP1-uPAR interaction in pancr,PAAD
+GSE202023,SKIP,PAAD,15,13.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HNF1B induced three-dimensional genome analysis of patient-d,PAAD
+GSE202022,SKIP,PAAD,4,574.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,HNF1B induced three-dimensional genome analysis of patient-d,PAAD
+GSE220614,SKIP,PAAD,18,2.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Systematic interrogation of tumor cell resistance to chimeri,PAAD
+GSE206261,SKIP,PAAD,9,373.0 KB,,no file recognisable as a count matrix,,Selective inhibitors of autophagy reveal new link between th,PAAD
+GSE218268,SKIP,PAAD,12,4.4 MB,,"only circRNA/isoform/miRNA counts, not gene level",,TAp63 in pancreas cancer predicts the squamous subtype and p,PAAD
+GSE217873,SKIP,PAAD,9,14.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,NUSAP1-LDHA-Glycolysis-Lactate feedforward loop promotes War,PAAD
+GSE213706,SKIP,PAAD,10,0.0 B,,no supplementary files: the data may only be in SRA,,The combination of RMC4550 (SHP2 inhibitor) and LY3214996 (E,PAAD
+GSE213697,SKIP,PAAD,6,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,MiaPaCa-2 xenografts SHP2i + ERKi,PAAD
+GSE206999,SKIP,PAAD,2,22.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ESE1/AGR2 axis antagonizes TGF-β-induced epithelial-mesenchy,PAAD
+GSE211895,SKIP,PAAD,29,102.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Assessment of Spatial Genomics for Oncology Discovery,PAAD
+GSE213096,SKIP,PAAD,12,1.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Systemic Alterations in Type-2 Conventional Dendritic Cells ,PAAD
+GSE212482,SKIP,UNKNOWN,26,2.5 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Multiomic analysis reveals conservation of cancer associated,PAAD
+GSE212461,SKIP,UNKNOWN,5,109.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Multiomic analysis reveals conservation of cancer associated,PAAD
+GSE189418,SKIP,UNKNOWN,62,1.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ETV6 dependency in Ewing sarcoma by antagonism of EWS-FLI1-m,PAAD
+GSE215344,SKIP,PAAD,6,8.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Characterization of a NEK7-related pyroptosis gene signature,PAAD
+GSE185837,SKIP,PAAD,6,1.3 MB,,no file recognisable as a count matrix,,HDAC5 regulates arachidonic acid metabolism via cPLA2,PAAD
+GSE207536,SKIP,PAAD,12,349.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Stromal reprogramming by FAK inhibition overcomes radiation ,PAAD
+GSE214295,SKIP,PAAD,6,405.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell transcriptome profiling of primary tumors and pa,PAAD
+GSE214325,SKIP,PAAD,12,927.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,High-dose glutamine modulates amino acid transport and media,PAAD
+GSE179250,SKIP,LIHC,192,104.8 MB,,"only circRNA/isoform/miRNA counts, not gene level",,A resource for integrated genomic analysis of the human live,PAAD
+GSE206256,SKIP,UNKNOWN,7,213.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Organotypic stromal cells impact endothelial cell transcript,PAAD
+GSE212966,SKIP,PAAD,12,440.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell RNA-seq reveals immune landscape of pancreatic c,PAAD
+GSE212854,SKIP,UNKNOWN,25,5.8 MB,,sample-type flag in the file names: XENOGRAFT,,An RNA-based precision oncology platform for patient-therapy,PAAD
+GSE211644,SKIP,PAAD,50,273.1 MB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Single cell transcriptomic and T cell repertoire analysis re,PAAD
+GSE199515,SKIP,PAAD,13,293.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Comparative single-cell genomics uncovers evolutionarily con,PAAD
+GSE183607,SKIP,LIHC,6,296.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,Genome-wide profiling of the expression of exosomal circRNAs,PAAD
+GSE189171,SKIP,PAAD,8,1.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-sequencing of control (GFP) or NDRG3-depleted pancreatic,PAAD
+GSE212173,SKIP,PAAD,6,6.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Combating pancreatic cancer with ovarian cancer cells,PAAD
+GSE189764,SKIP,PAAD,12,68.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Regulation of chemosensitivity in pancreatic cancer cells,PAAD
+GSE207612,SKIP,UNKNOWN,32,0.0 B,,no supplementary files: the data may only be in SRA,,Perturbation-informed signatures from crosswise integration ,PAAD
+GSE179064,SKIP,UNKNOWN,60,0.0 B,,no supplementary files: the data may only be in SRA,,Perturbation-informed signatures from crosswise integration ,PAAD
+GSE198002,SKIP,PAAD,12,6.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Pancreatic cancer cells upregulation of LPA receptor 4 in re,PAAD
+GSE135783,SKIP,PAAD,11,5.7 MB,,no file recognisable as a count matrix,,The lncRNA RUNX1-IT1 promotes pancreatic cancer progression ,PAAD
+GSE203612,SKIP,UNKNOWN,31,675.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cancer cell states recur across tumor types and form specifi,PAAD
+GSE209938,SKIP,PAAD,6,12.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Inhibition of PC reverse metformin resistance pancreatic can,PAAD
+GSE208536,SKIP,PAAD,48,1.2 MB,,no file recognisable as a count matrix,,Digital spatial profiling of pancreatic ductal adenocarcinom,PAAD
+GSE206269,SKIP,PAAD,24,2.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Coordinated transcriptional and catabolic programs support i,PAAD
+GSE206267,SKIP,PAAD,12,611.0 KB,,sample-type flag in the file names: CELL_LINE,,Coordinated transcriptional and catabolic programs support i,PAAD
+GSE202438,SKIP,UNKNOWN,62,2.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,PARP1-SNAI2 Transcription Axis Drives Resistance to PARP Inh,PAAD
+GSE197499,SKIP,PAAD,6,497.0 KB,,sample-type flag in the file names: CELL_LINE,,Retinoic Acid Receptor Gamma is Required for Proliferation o,PAAD
+GSE178398,SKIP,PAAD,22,3.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq analysis of Metastatic and Localized human Pancreati,PAAD
+GSE181625,SKIP,PAAD,24,37.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A multi-omics approach identifies pancreatic cancer cell ext,PAAD
+GSE201462,SKIP,UNKNOWN,36,2.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SF3B1 promotes glycolysis and tumor malignancy through splic,PAAD
+GSE201427,SKIP,PAAD,8,1.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,SF3B1 promotes glycolysis and tumor malignancy through splic,PAAD
+GSE183893,SKIP,PAAD,17,23.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptional response to PORCN inhibition using an in viv,PAAD
+GSE196812,SKIP,PAAD,21,0.0 B,,no supplementary files: the data may only be in SRA,,Hypoxia-reprogrammed regulatory group 2 innate lymphoid cell,PAAD
+GSE196810,SKIP,PAAD,9,5.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Hypoxia-reprogrammed regulatory group 2 innate lymphoid cell,PAAD
+GSE202051,SKIP,PAAD,74,2.4 GB,,no file recognisable as a count matrix,,Refined molecular taxonomy and treatment remodeling of pancr,PAAD
+GSE130688,SKIP,PAAD,30,143.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Annotation and functional characterization of long noncoding,PAAD
+GSE197532,SKIP,PAAD,6,851.0 KB,,no file recognisable as a count matrix,,SRSF3-mediated regulation of N6-methyladenosine modification,PAAD
+GSE178358,SKIP,PAAD,6,7.4 MB,,"only circRNA/isoform/miRNA counts, not gene level | sample-type flag in the file names: CELL_LINE",,Next Generation Sequencing Facilitates Quantitative Analysis,PAAD
+GSE197533,SKIP,PAAD,12,0.0 B,,no supplementary files: the data may only be in SRA,,SRSF3-mediated regulation of N6-methyladenosine modification,PAAD
+GSE202305,SKIP,UNKNOWN,28,7.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq and ATAC-seq of tumor resistance to immune cell atta,PAAD
+GSE165950,SKIP,PAAD,62,21.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Interferon regulatory factor 1 (IRF1) controls the metabolic,PAAD
+GSE165949,SKIP,PAAD,24,1.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Interferon regulatory factor 1 (IRF1) controls the metabolic,PAAD
+GSE201876,SKIP,PAAD,4,4.6 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Direct cell-to-cell transfer in stressed tumor microenvironm,PAAD
+GSE150043,SKIP,PAAD,19,1.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Deeper insight into Pancreatic Ductal Adenocarcinoma (PDAC) ,PAAD
+GSE194247,SKIP,PAAD,5,402.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Deep single-cell transcriptome analysis reveals transitional,PAAD
+GSE185069,SKIP,PAAD,21,1.6 GB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Dynamic interplay between structural variation and 3D chromo,PAAD
+GSE169705,SKIP,UNKNOWN,6,238.0 KB,,no file recognisable as a count matrix,,RNA Sequencing Facilitates Quantitative Analysis of LINC0090,PAAD
+GSE169660,SKIP,UNKNOWN,6,237.0 KB,,no file recognisable as a count matrix,,RNA Sequencing Facilitates Quantitative Analysis of LINC0090,PAAD
+GSE173339,SKIP,PAAD,13,2.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Occult polyclonality of preclinical pancreatic cancer models,PAAD
+GSE201358,SKIP,PAAD,20,36.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Whole transcriptome expression profiling of pancreatic cance,PAAD
+GSE180615,SKIP,PAAD,21,8.8 MB,,sample-type flag in the file names: CELL_LINE,,RNA-Seq identification of LGK974 early and late gene targets,PAAD
+GSE200281,SKIP,UNKNOWN,8,2.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of Panc10.05 cells treated with indi,PAAD
+GSE180901,SKIP,PAAD,8,56.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,In vivo CRISPR screening identifies ISL2 as a tumor suppress,PAAD
+GSE173489,SKIP,PAAD,16,1.0 MB,,no file recognisable as a count matrix,,Longitudinal analysis of pancreatic adenocarcinoma developme,PAAD
+GSE173286,SKIP,PAAD,12,1.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Longitudinal analysis of pancreatic adenocarcinoma developme,PAAD
+GSE196284,SKIP,PAAD,4,7.1 MB,,"only circRNA/isoform/miRNA counts, not gene level | sample-type flag in the file names: CELL_LINE",,Transcriptome sequence of hTERT-HPNE and PANC-1 cells upon h,PAAD
+GSE199692,SKIP,PAAD,6,340.0 KB,,no file recognisable as a count matrix,,Mitochondrial calcium uniporter in pancreatic cancer metasta,PAAD
+GSE186935,SKIP,PAAD,4,1.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Increased expression of SPRR1A is associated with a poor pro,PAAD
+GSE199299,SKIP,PAAD,6,39.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Nanoparticles-mediated TRPV1 channel blockade amplifies canc,PAAD
+GSE186960,SKIP,PAAD,6,1.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Profiling the Panc1 pancreatic cancer cell line following Ge,PAAD
+GSE128663,SKIP,PAAD,12,18.5 MB,,no file recognisable as a count matrix,,Mapping global miR-29a targets in pancreatic cancer adenocar,PAAD
+GSE198192,SKIP,PAAD,12,2.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-seq analysis of 2D- and 3D-cultured pancreatic cancer ce,PAAD
+GSE197763,SKIP,UNKNOWN,126,7.0 MB,,sample-type flag in the file names: XENOGRAFT,,Pre-clinical validation of an RNA-based precision oncology p,PAAD
+GSE193389,SKIP,PAAD,4,1.0 MB,,no file recognisable as a count matrix,,Gene expression of matched treatment-naive versus FOLFIRINOX,PAAD
+GSE197531,SKIP,PAAD,6,11.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptome profile in SULF2 knockdown pancreatic tumor ce,PAAD
+GSE194249,SKIP,PAAD,87,4.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Integrated profiling of human pancreatic cancer organoids re,PAAD
+GSE196462,SKIP,UNKNOWN,6,7.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Differentially expressed genes in CMR-treated PANC-1 cells,PAAD
+GSE196009,SKIP,PAAD,19,1.7 MB,,no file recognisable as a count matrix,,Gene expression between  normal and cancer tissue  for pancr,PAAD
+GSE193737,SKIP,PAAD,12,13.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,CDK7 inhibition by LDC4297 in Mia-Paca2 and Panc89 cells,PAAD
+GSE192907,SKIP,PAAD,6,1.2 MB,,no file recognisable as a count matrix,,Next Generation Sequencing Facilitates Quantitative Analysis,PAAD
+GSE192903,SKIP,PAAD,12,5.8 MB,,no file recognisable as a count matrix,,RNA-seq for dual BET/p300 inhibitors in pancreactic cancer c,PAAD
+GSE175436,SKIP,PAAD,10,23.1 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Expression profile of exosomal LncRNA in plasma of pancreati,PAAD
+GSE143827,SKIP,PAAD,11,2.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome changes after knocking out MYEOV in two human ,PAAD
+GSE151195,SKIP,PAAD,6,1.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq data of nasopharyngeal carcinoma (NPC) cell and GO-P,PAAD
+GSE192362,SKIP,PAAD,13,17.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Differentially expressed genes in pancreatic cancer cell wit,PAAD
+GSE189281,SKIP,UNKNOWN,12,1.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Next Generation Sequencing Facilitates Quantitative Analysis,PAAD
+GSE189924,SKIP,PAAD,5,653.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Induction of T cell dysfunction and NK-like T cell different,PAAD
+GSE160160,SKIP,PAAD,6,625.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Induction of T cell dysfunction and NK-like T cell different,PAAD
+GSE168842,SKIP,PAAD,9,6.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Apoptosis-associated speck-like protein containing a CARD re,PAAD
+GSE187619,SKIP,PAAD,9,508.0 KB,,sample-type flag in the file names: ORGANOID,,Organoid sensitivity correlates with therapeutic resonsein p,PAAD
+GSE122502,SKIP,PAAD,6,19.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pancreatic cancer cells render metabolic reprogramming of tu,PAAD
+GSE161073,SKIP,PAAD,6,765.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Cancer cells are sensitive to wild-type IDH1 inhibition unde,PAAD
+GSE186341,SKIP,UNKNOWN,1728,25.4 MB,,sample-type flag in the file names: CELL_LINE,,32 Kinase-Inhibitor Perturbed RNA sequencing of 11 cancer ce,PAAD
+GSE186091,SKIP,PAAD,12,20.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Aberrant ClpP activation disturbs mitochondrial proteome hom,PAAD
+GSE159702,SKIP,UNKNOWN,70,13.0 MB,,sample-type flag in the file names: NON_HUMAN,,Systematic analysis of the cancer-stroma interactome of a di,PAAD
+GSE185311,SKIP,PAAD,22,7.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Modulation of the human pancreatic ductal adenocarcinoma imm,PAAD
+GSE150554,SKIP,PAAD,26,15.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,A selective WDR5 degrader inhibits acute myeloid leukemia in,PAAD
+GSE182407,SKIP,UNKNOWN,24,17.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Reciprocal YAP1 loss and INSM1 expression in neuroendocrine ,PAAD
+GSE183519,SKIP,PAAD,6,7.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptome and proteome analysis of the antitumor activit,PAAD
+GSE183779,SKIP,PAAD,6,5.3 MB,,no file recognisable as a count matrix,,whole-gene transcriptome profiling of Panc-1 which were trea,PAAD
+GSE172356,SKIP,PAAD,62,17.0 MB,,no file recognisable as a count matrix,,Tumor microbiome contributes to an aggressive phenotype in t,PAAD
+GSE156405,SKIP,PAAD,17,338.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Elucidation of tumor-stromal heterogeneity and the ligand-re,PAAD
+GSE176076,SKIP,PAAD,36,0.0 B,,no supplementary files: the data may only be in SRA,,Transcriptional profiling of pancreatic tumor cells under nu,PAAD
+GSE176074,SKIP,PAAD,9,857.0 KB,,no file recognisable as a count matrix,,Transcriptional profiling of human pancreatic tumor cells un,PAAD
+GSE176073,SKIP,PAAD,18,1.6 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Transcriptional profiling of human pancreatic tumor cells un,PAAD
+GSE166571,SKIP,PAAD,1,252.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Spatially confined sub-tumor microenvironments orchestrate p,PAAD
+GSE156833,SKIP,PAAD,6,3.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,mRNA expression profiling A549 lung cancer cells following P,PAAD
+GSE149103,SKIP,PAAD,66,12.6 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Integrative Hi-C maps of pancreatic cancer,PAAD
+GSE181273,SKIP,PAAD,61,14.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The whole transcriptome RNA sequencing of tumor tissue sampl,PAAD
+GSE165399,SKIP,PAAD,3,18.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Single-cell transcriptomics of normal pancreas, intraductal ",PAAD
+GSE148248,SKIP,PAAD,70,42.0 MB,,no file recognisable as a count matrix,,SMAD4 represses FOSL1 expression and pancreatic cancer metas,PAAD
+GSE180640,SKIP,UNKNOWN,12,14.6 MB,,no file recognisable as a count matrix,,The alternative activity of nuclear PHGDH contributes to tum,PAAD
+GSE174023,SKIP,PAAD,4,416.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptome analysis of a drug combination in two patient-,PAAD
+GSE134195,SKIP,PAAD,14,2.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Next Generation Sequencing Facilitates Quantitative Analysis,PAAD
+GSE139184,SKIP,PAAD,29,192.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of patient-derived ex vivo models of,PAAD
+GSE173159,SKIP,PAAD,31,29.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TNFα-producing Macrophages Determine Subtype Identity and Pr,PAAD
+GSE173121,SKIP,PAAD,6,1.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TNFα-producing Macrophages Determine Subtype Identity and Pr,PAAD
+GSE169451,SKIP,PAAD,23,2.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The CTCF/LncRNA-PACERR/EP300 complex in TAMs promotes the ma,PAAD
+GSE130242,SKIP,PAAD,62,10.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,PRMT1-dependent regulation of RNA metabolism and DNA damage ,PAAD
+GSE139070,SKIP,PAAD,6,21.0 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNA-seq analysis of human pancreas cell line SU8686 treated ,PAAD
+GSE178479,SKIP,UNKNOWN,4,820.4 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The expression profiles of AMG510-resistant cancer cells,PAAD
+GSE171118,SKIP,PAAD,4,1.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-Seq analysis SIRT1 knockdown effect on pancreatic cancer,PAAD
+GSE163101,SKIP,PAAD,6,1.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-Seq analysis SIRT1 overexpression effect on pancreatic t,PAAD
+GSE159237,SKIP,UNKNOWN,25,4.4 MB,,no file recognisable as a count matrix,,Immunotherapy Study of Evofosfamide in Combination With Ipil,PAAD
+GSE176309,SKIP,PAAD,9,117.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Objective to explore the mechanism of STAT3 regulating PD-L1,PAAD
+GSE175837,SKIP,PAAD,4,26.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Circulating pancreatic stellate cells: a new window into pan,PAAD
+GSE155909,SKIP,PAAD,9,2.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptomic alterations in stably overexpressing (OE) clo,PAAD
+GSE166165,SKIP,PAAD,37,60.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,NOX4 links metabolic regulation in pancreatic cancer to endo,PAAD
+GSE169539,SKIP,PAAD,24,16.9 MB,,sample-type flag in the file names: NOT_TISSUE,,3D heterospecies spheroids of pancreatic stroma and cancer c,PAAD
+GSE158541,SKIP,PAAD,39,0.0 B,,no supplementary files: the data may only be in SRA,,Pooled CRISPR screening in pancreatic cancer cells implicate,PAAD
+GSE155010,SKIP,PAAD,10,2.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,shRNA mediated PAR1 downregulation in PANC-1 cell line,PAAD
+GSE173433,SKIP,PAAD,87,4.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Single-cell RNA-seq following APE1/Ref-1 knockdown in Pancre,PAAD
+GSE150216,SKIP,PAAD,4,3.8 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Next generation sequencing analysis of knockdown-Control and,PAAD
+GSE172272,SKIP,UNKNOWN,6,700.5 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Overexpression of circCUL2 in normal fibroblasts,PAAD
+GSE172216,SKIP,PAAD,6,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-seq analyses of PDAC cells,PAAD
+GSE169008,SKIP,PAAD,4,16.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Human stem cell-derived pancreatic acini-like and duct-like ,PAAD
+GSE172050,SKIP,PAAD,10,831.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Interplay between H2A.Z and epigenome in PANC-1,PAAD
+GSE171486,SKIP,PAAD,30,7.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,"Identification and Functional Analysis of MYEOV, KCNN4, S100",PAAD
+GSE171485,SKIP,PAAD,12,1.5 MB,,no file recognisable as a count matrix,,Identification and Functional Analysis of Novel Oncogenes in,PAAD
+GSE166786,SKIP,PAAD,6,3.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Sulfopin, a covalent inhibitor of Pin1, blocks Myc-driven tu",PAAD
+GSE124232,SKIP,PAAD,225,51.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pancreatic cancer prognosis is predicted by chromatin access,PAAD
+GSE158356,SKIP,PAAD,15,1.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pancreatic cancer is marked by complement-high blood monocyt,PAAD
+GSE161101,SKIP,UNKNOWN,47,0.0 B,,no supplementary files: the data may only be in SRA,,"IGF2BP1, a conserved regulator of RNA turnover in cancer",PAAD
+GSE161087,SKIP,UNKNOWN,24,9.4 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,"IGF2BP1, a conserved regulator of RNA turnover in cancer [to",PAAD
+GSE120159,SKIP,PAAD,12,959.0 KB,,no file recognisable as a count matrix,,Targeting the eIF4A dependent translation of KRAS and other ,PAAD
+GSE167590,SKIP,PAAD,6,4.4 MB,,"only circRNA/isoform/miRNA counts, not gene level | sample-type flag in the file names: CELL_LINE",,SOX9 modulates cancer biomarker and cilia genes in pancreati,PAAD
+GSE161019,SKIP,UNKNOWN,50,0.0 B,,no supplementary files: the data may only be in SRA,,A Machine-learning approach to define and predict the therap,PAAD
+GSE154909,SKIP,PAAD,2,215.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: XENOGRAFT",,STIM1 Mediates Calcium-dependent Epigenetic Reprogramming in,PAAD
+GSE152124,SKIP,PAAD,44,0.0 B,,no supplementary files: the data may only be in SRA,,STIM1 Mediates Calcium-dependent Epigenetic Reprogramming in,PAAD
+GSE152123,SKIP,PAAD,18,6.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,STIM1 Mediates Calcium-dependent Epigenetic Reprogramming in,PAAD
+GSE152121,SKIP,PAAD,6,1.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,STIM1 Mediates Calcium-dependent Epigenetic Reprogramming in,PAAD
+GSE157927,SKIP,PAAD,81,27.0 MB,,"sample-type flag in the file names: CELL_LINE, NON_HUMAN",,Triptolide Targets Super-Enhancer Networks in Pancreatic Can,PAAD
+GSE163517,SKIP,PAAD,9,310.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,The origins and consequences of UPF1 variants in pancreatic ,PAAD
+GSE138963,SKIP,PAAD,10,2.1 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Comprehensive transcriptome analysis in Babao Dan treated pa,PAAD
+GSE148673,SKIP,PAAD,13,124.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Delineating copy number and clonal substructure in human tum,PAAD
+GSE139910,SKIP,PAAD,18,2.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Neurons Release Serine to Support mRNA Translation in Pancre,PAAD
+GSE160434,SKIP,PAAD,9,20.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Basal expression of nine pancreatic cancer cell lines,PAAD
+GSE160322,SKIP,PAAD,8,18.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Retrotransposons and the global shutdown of homeostatic inna,PAAD
+GSE147159,SKIP,PAAD,4,4.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The role of NTS/NTSR1 signal in pancreatic cancer progressio,PAAD
+GSE159812,SKIP,UNKNOWN,30,944.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Dysregulation of brain and choroid plexus cell types in seve,PAAD
+GSE104962,SKIP,PAAD,6,1.3 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNA-Sequencing for pancreatic cancer cells with scramble-shR,PAAD
+GSE158847,SKIP,PAAD,9,12.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"A first-in-class, humanized antibody targeting alternatively",PAAD
+GSE155698,SKIP,PAAD,41,877.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Multimodal Mapping of the Tumor and Peripheral Blood Immune ,PAAD
+GSE154778,SKIP,PAAD,16,143.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell transcriptomics analysis of pancreatic primary t,PAAD
+GSE104112,SKIP,UNKNOWN,12,3.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Validation of AS1 as novel regulator of tumor resistance to ,PAAD
+GSE158221,SKIP,PAAD,38,9.2 MB,,sample-type flag in the file names: XENOGRAFT,,Oncogenic KRAS recruits an  expansive transcriptional networ,PAAD
+GSE145629,SKIP,PAAD,23,11.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pancreatic cancer cells require the transcription factor MYR,PAAD
+GSE145628,SKIP,PAAD,12,7.1 MB,,sample-type flag in the file names: CELL_LINE,,Pancreatic cancer cells require the transcription factor MYR,PAAD
+GSE137172,SKIP,PAAD,6,2.9 MB,,no file recognisable as a count matrix,,RNA-seq analysis CFPAC-1-siNC and CFPAC-1-siUBE2C,PAAD
+GSE156964,SKIP,UNKNOWN,12,36.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,To determine the differentially expressed genes in cancer as,PAAD
+GSE144504,SKIP,PAAD,2,231.0 KB,,no file recognisable as a count matrix,,B cell-derived IL35 drives STAT3-Dependent CD8+ T-cell Exclu,PAAD
+GSE141017,SKIP,PAAD,12,96.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell transcriptomes of pancreatic pre-invasive lesion,PAAD
+GSE144767,SKIP,PAAD,6,7.6 MB,,no file recognisable as a count matrix,,Identification of miR-29a-mediated target transcriptome in h,PAAD
+GSE134236,SKIP,PAAD,166,5.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mutant Kras co-opts a progenitor-derived enhancer network to,PAAD
+GSE153779,SKIP,UNKNOWN,22,2.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Characterization of novel zinc finger protein ZNF414 DNA bin,PAAD
+GSE153772,SKIP,UNKNOWN,16,15.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Characterization of novel zinc finger protein ZNF414 DNA bin,PAAD
+GSE146788,SKIP,PAAD,12,1.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Functional determinants of sensitivity to CDK4/6 inhibition ,PAAD
+GSE146806,SKIP,UNKNOWN,6,2.5 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,"IGF2BP1 is a druggable, post-transcriptional super-enhancer ",PAAD
+GSE146805,SKIP,UNKNOWN,6,2.4 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,"IGF2BP1 is a druggable, post-transcriptional super-enhancer ",PAAD
+GSE146804,SKIP,UNKNOWN,6,2.3 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,"IGF2BP1 is a druggable, post-transcriptional super-enhancer ",PAAD
+GSE138984,SKIP,PAAD,4,1.8 MB,,no file recognisable as a count matrix,,Quantitative analysis of transcriptomes in irradiated/unirra,PAAD
+GSE151741,SKIP,PAAD,12,1.4 MB,,no file recognisable as a count matrix,,Asymmetrically-substituted quadruplex-binding napththalene d,PAAD
+GSE114455,SKIP,PAAD,42,196.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Organoids derived from pancreatic adenocarcinoma patients sh,PAAD
+GSE114454,SKIP,PAAD,17,10.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Organoids derived from pancreatic adenocarcinoma patients sh,PAAD
+GSE150875,SKIP,PAAD,35,0.0 B,,no supplementary files: the data may only be in SRA,,Glutamine depletion regulates Slug to promote EMT and metast,PAAD
+GSE150873,SKIP,PAAD,10,3.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Glutamine depletion regulates Slug to promote EMT and metast,PAAD
+GSE147368,SKIP,PAAD,4,430.3 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Functional characterization of the novel GWAS-identified GP2,PAAD
+GSE141607,SKIP,PAAD,74,5.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ZBED2 is an antagonist of Interferon Regulatory Factor 1 and,PAAD
+GSE141605,SKIP,PAAD,66,30.1 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,ZBED2 is an antagonist of Interferon Regulatory Factor 1 and,PAAD
+GSE142046,SKIP,PAAD,12,1.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SETD5-coordinated chromatin reprogramming regulates adaptive,PAAD
+GSE149566,SKIP,PAAD,42,4.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Statins affect gene expression in pancreatic cancer,PAAD
+GSE149359,SKIP,UNKNOWN,12,1.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Next generation sequencing facilities quantitative analysis ,PAAD
+GSE140484,SKIP,PAAD,66,0.0 B,,no supplementary files: the data may only be in SRA,,Squamous trans-differentiation of pancreatic cancer cells pr,PAAD
+GSE140482,SKIP,PAAD,62,11.3 MB,,"no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE, NON_HUMAN",,Squamous trans-differentiation of pancreatic cancer cells pr,PAAD
+GSE148200,SKIP,PAAD,18,4.4 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Effects of a quadruplex-binding compound on gemcitabine resi,PAAD
+GSE140490,SKIP,PAAD,18,2.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Discovery of a selective inhibitor of Doublecortin Like Kina,PAAD
+GSE135731,SKIP,PAAD,3,590.3 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genome-wide identification of circular RNAs with critical ro,PAAD
+GSE128796,SKIP,UNKNOWN,720,0.0 B,,no supplementary files: the data may only be in SRA,,"Bulk DNA seq, GTO-seq, and RNA-seq with murin and human cell",PAAD
+GSE128791,SKIP,PAAD,12,700.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,"Bulk RNA sequencing of A375, BT549, SKBR3 and 315A cell line",PAAD
+GSE128790,SKIP,PAAD,112,3.7 MB,,sample-type flag in the file names: CELL_LINE,,GTO sequencing of Human Cell Lines [cell line GTO-seq],PAAD
+GSE146807,SKIP,UNKNOWN,58,120.4 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"IGF2BP1 is a druggable, post-transcriptional super-enhancer ",PAAD
+GSE114502,SKIP,PAAD,36,2.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Altered mRNA splicing by mutant p53 activates oncogenic RAS ,PAAD
+GSE138437,SKIP,PAAD,27,2.8 MB,,no file recognisable as a count matrix,,Sequencing of commercially-available pancreatic cancer cell ,PAAD
+GSE131049,SKIP,PAAD,249,0.0 B,,no supplementary files: the data may only be in SRA,,"Purity Independent Subtyping of Tumors (PurIST), a clinicall",PAAD
+GSE140077,SKIP,PAAD,12,2.7 MB,,no file recognisable as a count matrix,,Transcriptome analysis of human pancreatic cancer cell lines,PAAD
+GSE135215,SKIP,PAAD,66,8.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNAseq analysis of taxol and palbociclib combination in panc,PAAD
+GSE144737,SKIP,PAAD,16,2.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: XENOGRAFT",,Modelling of pancreatic cancer biology: transcriptomic signa,PAAD
+GSE144371,SKIP,PAAD,11,0.0 B,,no supplementary files: the data may only be in SRA,,PAF1 Drives Pancreatic Cancer Oncogenesis by Promoting Stemn,PAAD
+GSE144370,SKIP,PAAD,8,9.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,PAF1 Drives Pancreatic Cancer Oncogenesis by Promoting Stemn,PAAD
+GSE111672,SKIP,PAAD,23,721.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Integrating microarray-based spatial transcriptomics and sin,PAAD
+GSE131126,SKIP,PAAD,6,843.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-seq in pancreatic cancer PANC1 cells,PAAD
+GSE142210,SKIP,UNKNOWN,36,543.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of transcripts induced after treatment with p,PAAD
+GSE124408,SKIP,PAAD,16,7.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,BACH1 alters the expression of EMT-related genes to promote ,PAAD
+GSE124407,SKIP,PAAD,12,1.1 MB,,sample-type flag in the file names: CELL_LINE,,BACH1 alters the expression of EMT-related genes to promote ,PAAD
+GSE131050,SKIP,PAAD,191,13.9 MB,,no file recognisable as a count matrix,,"Purity Independent Subtyping of Tumors (PurIST), a clinicall",PAAD
+GSE112940,SKIP,PAAD,43,438.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,ID1 mediates escape from TGFβ Tumor Suppression in Pancreati,PAAD
+GSE121596,SKIP,PAAD,6,925.0 KB,,no file recognisable as a count matrix,,Circular RNA expression signature of low-glucose-treated MIA,PAAD
+GSE134122,SKIP,UNKNOWN,6,16.6 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Transcriptional responses of human insulinoma cells to acute,PAAD
+GSE133684,SKIP,PAAD,401,37.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Blood extracellular vesicle long RNA sequencing of human blo,PAAD
+GSE135352,SKIP,PAAD,23,105.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Napabucasin-mediated transcriptomic changes in human pancrea,PAAD
+GSE120017,SKIP,PAAD,54,50.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cell differentiation grade determines distinct FOXA2 contrib,PAAD
+GSE119931,SKIP,PAAD,18,10.1 MB,,sample-type flag in the file names: CELL_LINE,,Cell differentiation grade determines distinct FOXA2 contrib,PAAD
+GSE136569,SKIP,PAAD,10,3.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,circNFIB suppresses lymphatic metastasis of pancreatic cance,PAAD
+GSE126651,SKIP,UNKNOWN,32,59.9 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Tumor intrinsic PRMT5 inhibition through MTAP loss predicts ,PAAD
+GSE133523,SKIP,PAAD,10,831.0 KB,,no file recognisable as a count matrix,,Modeling Human Cancer-induced Cachexia (Human),PAAD
+GSE120102,SKIP,UNKNOWN,124,30.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TCR repertoire and transcriptomic analyses of advanced solid,PAAD
+GSE110580,SKIP,PAAD,6,947.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,High-throughput RNA sequencing on circular RNA profiles of h,PAAD
+GSE118441,SKIP,PAAD,12,2.0 MB,,sample-type flag in the file names: CELL_LINE,,Gene expression from AsPC-1 cells treated with PTC596 and DM,PAAD
+GSE114472,SKIP,PAAD,24,937.0 KB,,no file recognisable as a count matrix,,OGT knockout S2VP10 cells,PAAD
+GSE131222,SKIP,PAAD,6,855.0 KB,,no file recognisable as a count matrix,,Transcriptional control of subtype switching ensures adaptat,PAAD
+GSE113922,SKIP,PAAD,90,11.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Cell cycle plasticity driven by MTOR signaling: integral mec,PAAD
+GSE130616,SKIP,PAAD,8,840.7 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,KRASG12C inhibition produces a driver-limited state revealin,PAAD
+GSE113616,SKIP,PAAD,189,3.1 MB,,no file recognisable as a count matrix,,Stromal Fibroblasts Drive Single Cell Heterogeneity in Pancr,PAAD
+GSE129432,SKIP,PAAD,2,3.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genome-wide analysis of PDAC Pa03c cells upon lipoprotein de,PAAD
+GSE129182,SKIP,PAAD,4,5.4 MB,,no file recognisable as a count matrix,,H2A.Z overexpression suppresses senescence and chemosensitiv,PAAD
+GSE118197,SKIP,PAAD,24,5.8 MB,,sample-type flag in the file names: NON_HUMAN,,Tumor and stromal reaction under drug treatment in EUS-deriv,PAAD
+GSE116425,SKIP,UNKNOWN,2,9.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Nuclear miCLIP and Nuclear NKAP iCLIP,PAAD
+GSE126984,SKIP,UNKNOWN,21,4.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,PTENα/β paradoxically promote carcinogenesis through WDR5-H3,PAAD
+GSE126983,SKIP,UNKNOWN,10,2.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,PTENα/β paradoxically promote carcinogenesis through WDR5-H3,PAAD
+GSE115849,SKIP,PAAD,6,1.1 MB,,no file recognisable as a count matrix,,RNA seq comparison between scrambled and shGRP78 cells,PAAD
+GSE117189,SKIP,PAAD,6,1.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Fisetin induces autophagy in pancreatic cancer cells via end,PAAD
+GSE126537,SKIP,PAAD,6,2.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Rorc disruption in human FG pancreatic cancer cells,PAAD
+GSE85610,SKIP,PAAD,14,2.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Gene expression profiles in response to proanthocyanidins in,PAAD
+GSE121273,SKIP,PAAD,18,1.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,"Gene expression profiles of BxPC-3, MiaPaCa-2 and PANC-1 cel",PAAD
+GSE119423,SKIP,PAAD,6,649.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The SUMO Pathway as a Therapeutic Option in Pancreatic Cance,PAAD
+GSE102880,SKIP,PAAD,8,1.3 MB,,sample-type flag in the file names: CELL_LINE,,Differential expression of pancreatic cancer  PANC1 cells tr,PAAD
+GSE118231,SKIP,UNKNOWN,24,33.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptional response to PORCN inhibition using an HPAF-I,PAAD
+GSE118190,SKIP,PAAD,12,124.0 MB,,sample-type flag in the file names: NOT_RNASEQ,,Transcriptional response to PORCN inhibition using an in vit,PAAD
+GSE118179,SKIP,PAAD,10,14.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptional response to PORCN inhibition using a subcuta,PAAD
+GSE118041,SKIP,PAAD,43,59.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptional response to PORCN inhibition using an orthot,PAAD
+GSE110397,SKIP,UNKNOWN,57,12.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,NK cell-mediated cytotoxicity contributes to tumor control b,PAAD
+GSE122818,SKIP,PAAD,10,3.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Expression profiling of pancreatic adenocarcinoma and ductal,PAAD
+GSE115463,SKIP,PAAD,92,49.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TP63-mediated enhancer reprogramming drives the squamous sub,PAAD
+GSE115462,SKIP,PAAD,42,9.9 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,TP63-mediated enhancer reprogramming drives the squamous sub,PAAD
+GSE106290,SKIP,PAAD,24,7.2 MB,,no file recognisable as a count matrix,,Induced MIST1 and PTF1a Expression in Pancreatic Ductal Aden,PAAD
+GSE104607,SKIP,PAAD,2,5.1 MB,,no file recognisable as a count matrix,,Truncated O-glycan connection to Cancer: Depletion of O-glyc,PAAD
+GSE119794,SKIP,PAAD,40,2.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Network-based integration of mRNA and miRNA profiles reveals,PAAD
+GSE108151,SKIP,PAAD,20,3.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HNF1A is a Novel Oncogene and Central Regulator of Pancreati,PAAD
+GSE108149,SKIP,PAAD,12,7.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HNF1A is a Novel Oncogene and Central Regulator of Pancreati,PAAD
+GSE112845,SKIP,UNKNOWN,9,202.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,PBMC Fixation and Processing for Chromium Single-Cell RNA Se,PAAD
+GSE101726,SKIP,PAAD,4,2.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Cigarette smoke and pancreatic cancer: Evidence for increase,PAAD
+GSE117012,SKIP,PAAD,6,1.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,CD73 knockdown effect in pancreatic cancer cell lines,PAAD
+GSE115831,SKIP,PAAD,6,1.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Pancreatic cancer-derived exosomes induce apoptosis of T lym,PAAD
+GSE88738,SKIP,UNKNOWN,20,1.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cooptation of tandem DNA repeats for the control of epitheli,PAAD
+GSE113259,SKIP,UNKNOWN,6,1.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-sequencing (RNA-seq) in BxPC-3 and S2-007 cell lines,PAAD
+GSE109427,SKIP,PAAD,14,4.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Angiogenin/ribonuclease 5 is an EGFR ligand and a serum biom,PAAD
+GSE88759,SKIP,PAAD,39,1.6 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TGF-β regulation of miRNA expression in pancreatic cancer,PAAD
+GSE88757,SKIP,UNKNOWN,18,2.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of miR-100 and miR-125b targets by AGO2 RIP-s,PAAD
+GSE112335,SKIP,PAAD,6,52.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Choline Kinase Alpha (CHKα) as a Therapeutic Target in Pancr,PAAD
+GSE107960,SKIP,PAAD,12,3.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Pancreatic tumor microenvironment confers highly malignant p,PAAD
+GSE98894,SKIP,PAAD,212,19.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Expression profile of Gastro-Entero-Pancreatic Neuroendocrin,PAAD
+GSE101665,SKIP,PAAD,4,1.1 MB,,no file recognisable as a count matrix,,RNA seq of pancreatic cancer-associated fibroblasts,PAAD
+GSE106336,SKIP,PAAD,6,9.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptional changes in pancreatic cancer cells associate,PAAD
+GSE70810,SKIP,PAAD,6,1.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A network-based strategy for prioritizing hits from chemical,PAAD
+GSE81547,SKIP,PAAD,2544,168.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell transcriptome analysis of human pancreas reveals,PAAD
+GSE97018,SKIP,PAAD,15,14.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Altered Hydroxymethylation is seen at regulatory regions in ,PAAD
+GSE97003,SKIP,PAAD,11,2.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Altered Hydroxymethylation is seen at regulatory regions in ,PAAD
+GSE60321,SKIP,PAAD,6,8.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Choline kinase alpha (CHKA) as a therapeutic target in pancr,PAAD
+GSE99311,SKIP,PAAD,136,16.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Enhancer reprogramming promotes pancreatic cancer progressio,PAAD
+GSE99310,SKIP,PAAD,36,2.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Enhancer reprogramming promotes pancreatic cancer progressio,PAAD
+GSE90926,SKIP,PAAD,12,6.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,TCF7L1 knockdown in pancreatic cancer,PAAD
+GSE78519,SKIP,PAAD,48,53.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Capicua-dependent transcriptional changes in human cancer ce,PAAD
+GSE79953,SKIP,PAAD,6,1.7 MB,,no file recognisable as a count matrix,,Next-generation sequencing analysis of transcriptom in gemci,PAAD
+GSE82299,SKIP,PAAD,38,36.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Acriflavine inhibits the epithelial-to-mesenchymal transitio,PAAD
+GSE79725,SKIP,UNKNOWN,18,1.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,NKX2.2,PAAD
+GSE63126,SKIP,PAAD,60,2.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Large-scale epigenetic reprogramming is punctuated late duri,PAAD
+GSE82297,SKIP,UNKNOWN,80,0.0 B,,no supplementary files: the data may only be in SRA,,BRD4 localization to lineage-specific enhancers is associate,PAAD
+GSE85183,SKIP,PAAD,120,2.0 MB,,no file recognisable as a count matrix,,Selective single cell isolation for genomics using microraft,PAAD
+GSE85050,SKIP,UNKNOWN,2,1.0 MB,,no file recognisable as a count matrix,,Genome-wide mRNA sequencing of Panc-1 cells with or without ,PAAD
+GSE84023,SKIP,PAAD,73,7.5 MB,,no file recognisable as a count matrix,,RNA sequencing of patient derived cell lines in pancreatic c,PAAD
+GSE75327,SKIP,PAAD,18,3.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Aberrant downstream mechanisms following loss of KMT2C and K,PAAD
+GSE79670,SKIP,PAAD,65,0.0 B,,no supplementary files: the data may only be in SRA,,RNA sequencing of pancreatic adenocarcinoma tumors yields no,PAAD
+GSE79669,SKIP,PAAD,14,1.3 MB,,sample-type flag in the file names: CELL_LINE,,RNA sequencing of human pancreatic cancer cell lines,PAAD
+GSE61290,SKIP,PAAD,2,36.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Myb-regulated transcriptome in pancreatic cancer,PAAD
+GSE79147,SKIP,UNKNOWN,26,579.9 KB,,"only circRNA/isoform/miRNA counts, not gene level | sample-type flag in the file names: CELL_LINE",,IGF2BP3 controls cancer cell invasiveness by modulation RISC,PAAD
+GSE64560,SKIP,PAAD,79,44.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Dissection of transcriptional and cis-regulatory control of ,PAAD
+GSE64558,SKIP,PAAD,29,14.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Dissection of transcriptional and cis-regulatory control of ,PAAD
+GSE68086,SKIP,CHOL,285,3.6 MB,,no file recognisable as a count matrix,,RNA-seq of tumor-educated platelets enables blood-based pan-,PAAD
+GSE63782,SKIP,UNKNOWN,103,19.2 MB,,"sample-type flag in the file names: CELL_LINE, NON_HUMAN",,Transcriptional plasticity promotes primary and acquired res,PAAD
+GSE68919,SKIP,LIHC,8,2.9 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Tumor exosome integrins determine organotropic metastasis,PAAD
+GSE62077,SKIP,PAAD,6,4.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-Seq Samples of siTFE3 in 8988T PDA Cell Line to Investig,PAAD
+GSE66876,SKIP,PAAD,4,3.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Pancreatic cancer exosomes induce pre-metastatic niche forma,PAAD
+GSE47537,SKIP,UNKNOWN,10,31.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gata6,PAAD
+GSE64039,SKIP,UNKNOWN,18,40.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Altering cancer transcriptomes using epigenomic inhibitors,PAAD
+GSE63776,SKIP,PAAD,6,266.0 KB,,sample-type flag in the file names: CELL_LINE,,Altering cancer transcriptomes using epigenomic inhibitors [,PAAD
+GSE59022,SKIP,UNKNOWN,17,240.6 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ETS1 is a genome-wide effector of RAS/ERK signaling in epith,PAAD
+GSE43770,SKIP,PAAD,17,1.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Vitamin d receptor-mediated stromal reprogramming suppresses,PAAD
+GSE53350,SKIP,PAAD,6,1.6 MB,,no file recognisable as a count matrix,,A GNAS mutation found in pancreatic intraductal papillary mu,PAAD
+GSE45137,SKIP,UNKNOWN,23,47.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Breakpoint analysis of transcriptional and genomic profiles ,PAAD
+GSE45133,SKIP,PAAD,7,691.0 B,,no file recognisable as a count matrix,,Breakpoint analysis of transcriptional and genomic profiles ,PAAD
+GSE40176,SKIP,PAAD,44,0.0 B,,no supplementary files: the data may only be in SRA,,RNA sequencing of circulating tumour cells implicates WNT si,PAAD
+GSE40174,SKIP,PAAD,32,1.8 MB,,no file recognisable as a count matrix,,RNA sequencing of circulating tumour cells implicates WNT si,PAAD

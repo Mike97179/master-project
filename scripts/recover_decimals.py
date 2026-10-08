@@ -14,7 +14,7 @@ tximport does. The rule could not tell the two apart.
 
 A manual review of the 54 series rejected for that reason alone found 36 with
 declared human tissue and recoverable counts: 2,527 samples. This downloads
-exactly those, listed in dataset/GEO/decimal_rejections.csv.
+exactly those, listed in curation/GEO/decimal_rejections.csv.
 
 It does not touch the pipeline, its cache, or any existing decision. Each
 series lands in its own cancer folder beside the rest, with a summary.md that
@@ -34,10 +34,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pandas as pd
 
 import download_geo as dg
-from download_geo import GEO_ROOT
+from download_geo import GEO_ROOT, GEO_REC
 from run_logger import start_logging
 
-LIST = os.path.join(GEO_ROOT, "decimal_rejections.csv")
+LIST = os.path.join(GEO_REC, "decimal_rejections.csv")
 
 # Files whose columns are counts and FPKM side by side. The decimals the
 # detector found were in the FPKM columns; the count columns are whole. These
@@ -61,7 +61,7 @@ STRUCTURED = {
 
 def load_plan(cancers):
     if not os.path.exists(LIST):
-        sys.exit(f"  Missing {LIST} — see dataset/GEO/REVISION_DECIMALES.md")
+        sys.exit(f"  Missing {LIST} — see curation/GEO/REVISION_DECIMALES.md")
     d = pd.read_csv(LIST)
     d = d[(d["veredicto"] == "RECUPERABLE") & (d["declara"] == "tissue")]
     if cancers:
@@ -113,8 +113,8 @@ def rewrite_summary(out_dir, acc, n, cancer):
         f"{int(n)} samples. **Treat this as confirmed**, not ambiguous.\n\n"
         f"### Before you use the counts\n\n{notes}\n\n"
         f"Full reasoning and the measurements behind it: "
-        f"`dataset/GEO/REVISION_DECIMALES.md`\n"
-        f"Row for this series: `dataset/GEO/decimal_rejections.csv`\n\n"
+        f"`curation/GEO/REVISION_DECIMALES.md`\n"
+        f"Row for this series: `curation/GEO/decimal_rejections.csv`\n\n"
     ) + t[fin:]
     open(path, "w", encoding="utf-8").write(t)
 
@@ -148,7 +148,7 @@ def main():
               .to_string(index=False, max_colwidth=50))
         return
 
-    insp = pd.read_csv(os.path.join(GEO_ROOT, "inspected.csv")).set_index("accession")
+    insp = pd.read_csv(os.path.join(GEO_REC, "inspected.csv")).set_index("accession")
     done, failed = [], []
 
     for i, (_, r) in enumerate(plan.iterrows(), start=1):

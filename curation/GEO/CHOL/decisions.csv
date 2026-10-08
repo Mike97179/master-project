@@ -1,0 +1,205 @@
+accession,decision,cancer,n_samples,size,declares,reason,ambiguity,title,search_cancer
+GSE244331,DOWNLOAD,CHOL,7,539.0 KB,tissue,tissue confirmed,,The increased expression of PLK1 (polo-like kinase 1) and it,CHOL
+GSE320081,SKIP,CHOL,36,1.1 MB,culture,the samples declare culture (CELL_LINE): cca10,"the abstract mentions CELL_LINE, NOT_TISSUE, which the sample records did not confirm",Molecular and cellular consequences of tumor-autonomous IL-6,CHOL
+GSE341409,SKIP,CHOL,30,1.1 MB,culture,the samples declare culture (CELL_LINE): h69,"the abstract mentions CELL_LINE, which the sample records did not confirm",RNAseq analysis of H69 cholangiocyte cell line stimulated wi,CHOL
+GSE314257,SKIP,CHOL,6,3.0 MB,culture,the samples declare culture (CELL_LINE): hucct-1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Transcriptomic profiling of epigenetic regulators and metabo,CHOL
+GSE318264,SKIP,CHOL,6,801.0 KB,culture,the samples declare culture (CELL_LINE): hccc9810,"the abstract mentions CELL_LINE, XENOGRAFT, NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Isolinderalactone Suppresses the Progression of Cholangiocar,CHOL
+GSE312713,SKIP,CHOL,6,2.3 MB,culture,"sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE, ORGANOID): patient-derived organoids from cholangiocarcinoma tumors","the abstract mentions CELL_LINE, ORGANOID, XENOGRAFT, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Assessment of the effect of CLDN1 knockdown in cholangiocarc,CHOL
+GSE312711,SKIP,CHOL,12,2.6 MB,culture,"the samples declare culture (CELL_LINE, XENOGRAFT): hucc-a1","the abstract mentions CELL_LINE, ORGANOID, XENOGRAFT, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm",Assessment of the effect of CLDN1 knockout in cholangiocarci,CHOL
+GSE312708,SKIP,CHOL,6,2.3 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): hucc-a1,"the abstract mentions CELL_LINE, ORGANOID, XENOGRAFT, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Assessment of the effect of CLDN1 knockout in cholangiocarci,CHOL
+GSE298420,SKIP,CHOL,12,680.0 KB,culture,"the samples declare culture (CELL_LINE, XENOGRAFT): hucc-a1","the abstract mentions ORGANOID, XENOGRAFT, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm",Treatment of cholangiocarcinoma using humanized monoclonal a,CHOL
+GSE298419,SKIP,CHOL,15,864.0 KB,culture,"the samples declare culture (CELL_LINE, XENOGRAFT): hucc-a1","the abstract mentions CELL_LINE, ORGANOID, XENOGRAFT, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm",Characterization of cholangiocarcinoma cell line-derived xen,CHOL
+GSE261999,SKIP,CHOL,8,11.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",the matrix has 2015 numeric columns but GEO declares 8 samples,Treatment of cholangiocarcinoma using humanized monoclonal a,CHOL
+GSE261998,AMBIGUOUS,CHOL,10,1.7 MB,unstated,"the abstract mentions ORGANOID, XENOGRAFT, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm; the samples declare neither tissue nor cell line, so the type could not be confirmed","the abstract mentions ORGANOID, XENOGRAFT, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm; the samples declare neither tissue nor cell line, so the type could not be confirmed",Treatment of cholangiocarcinoma using humanized monoclonal a,CHOL
+GSE261997,SKIP,CHOL,6,743.0 KB,culture,the samples declare culture (CELL_LINE): hcm-cshl-0433-c24 pdm217,"the abstract mentions ORGANOID, XENOGRAFT, NON_HUMAN, SINGLE_CELL, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Treatment of cholangiocarcinoma using humanized monoclonal a,CHOL
+GSE300795,SKIP,CHOL,6,426.0 KB,culture,the samples declare culture (CELL_LINE): rbe,"the abstract mentions XENOGRAFT, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",NAT10-mediated N4-acetylcytidine modification promotes intra,CHOL
+GSE298713,SKIP,CHOL,6,2.7 MB,culture,the samples declare culture (CELL_LINE): noz,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Effect of co-culture with ETBF in NOZ cell line on gene expr,CHOL
+GSE296606,SKIP,CHOL,4,77.0 KB,culture,the samples declare culture (CELL_LINE): rbe,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Targeting leucyl-tRNA synthetase 1 with leucine restores N-g,CHOL
+GSE321657,SKIP,CHOL,6,1.9 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): noz,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Differential expression profiles of gemcitabine resistant ga,CHOL
+GSE308455,SKIP,CHOL,6,685.0 KB,culture,"the samples declare culture (CELL_LINE, ORGANOID): ccaobap1 edit-nc","the abstract mentions ORGANOID, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Functional characterization of BAP1 mutations in genome edit,CHOL
+GSE312961,SKIP,CHOL,4,7.7 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture: cell culture,only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines,Alkaloids from Evodia rutaecarpa Inhibit the Occurrence and ,CHOL
+GSE244424,SKIP,CHOL,6,2.2 MB,culture,the samples declare culture (CELL_LINE): human biliary tissues,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Identification of potential targets of PPDPF in cholangiacar,CHOL
+GSE308395,DOWNLOAD,CHOL,10,349.0 KB,tissue,tissue confirmed,,Identification of Differentially Expressed Genes and Associa,CHOL
+GSE255001,SKIP,CHOL,6,315.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): huccct1,"the abstract mentions CELL_LINE, XENOGRAFT, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Loss of aquaporin-1 triggers epithelial-mesenchymal transiti,CHOL
+GSE308768,SKIP,CHOL,6,2.2 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): hucct1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",C1QBP forms a positive feedback loop with the PAICS/FAK/c-My,CHOL
+GSE306865,DOWNLOAD,CHOL,4,2.2 MB,tissue,tissue confirmed,,Regulation of glucose and glutamine metabolism to overcome c,CHOL
+GSE280249,SKIP,CHOL,12,1.2 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): nhc-ift88,"the abstract mentions CELL_LINE, which the sample records did not confirm",Cholangiocytes’ Primary Cilia Regulate DNA Damage Response a,CHOL
+GSE274024,SKIP,CHOL,45,2.6 MB,culture,the samples declare culture (CELL_LINE): hucct1,,NOX4/NOX1 dual inhibition in cholangiocarcinoma as an effect,CHOL
+GSE275134,SKIP,CHOL,12,894.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): hucct1,"the abstract mentions CELL_LINE, XENOGRAFT, NOT_RNASEQ, which the sample records did not confirm",PARP inhibitor augments anti-tumor efficacy of DNMT inhibito,CHOL
+GSE287868,SKIP,UNKNOWN,54,2.6 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): a431,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly",Transcriptomic footprinting following restoration of p53 seq,CHOL
+GSE298455,SKIP,CHOL,6,547.0 KB,culture,the samples declare culture: cholangiocarcinoma cells,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,ZDHHC5-Mediated BRAF Palmitoylation Drives KRASG12C-Inhibito,CHOL
+GSE252095,SKIP,CHOL,6,1.4 MB,culture,the samples declare culture (CELL_LINE): hucct1,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers,Identification of the IFN-stimulated genes in IFN-α2b-treate,CHOL
+GSE252094,SKIP,CHOL,6,1.3 MB,culture,the samples declare culture (CELL_LINE): hucct1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers",Transcriptome analysis for the effect of Trichostatin A on i,CHOL
+GSE284506,SKIP,LIHC,6,13.0 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): huh7","the abstract mentions CELL_LINE, which the sample records did not confirm; the text points at LIHC, not CHOL; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 14 numeric columns but GEO declares 6 samples",RNA sequencing of wild-type and FBXO32-knockout hepatocellul,CHOL
+GSE275477,SKIP,CHOL,2,10.8 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): tfk1,"the abstract mentions CELL_LINE, XENOGRAFT, NON_HUMAN, NOT_RNASEQ, which the sample records did not confirm; only 2 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 8 numeric columns but GEO declares 2 samples",MBD2 regulates the progression and chemoresistance of cholan,CHOL
+GSE276560,SKIP,CHOL,8,481.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): nhc,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",Cholangiocyte Ciliary Defects Induce Sustained Epidermal Gro,CHOL
+GSE241466,SKIP,LIHC,25,4.5 MB,tissue,"the 'raw' counts contain decimals, so they are not counts","the text points at LIHC, not CHOL",Transcriptomic profiling of the intermediate cell carcinoma ,CHOL
+GSE241735,SKIP,CHOL,30,4.0 MB,culture,the samples declare culture (CELL_LINE): icc13-7,"the abstract mentions CELL_LINE, XENOGRAFT, which the sample records did not confirm; the matrix has 6 numeric columns but GEO declares 30 samples",FGFR inhibition blocks NF-ĸB-dependent glucose metabolism an,CHOL
+GSE249353,SKIP,CHOL,6,306.0 KB,culture,the samples declare culture (CELL_LINE): gbc-sd,"the abstract mentions CELL_LINE, which the sample records did not confirm; the title is about non-coding RNA, so gene-level counts may be a by-product; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of over-expression of lncRNA HEGBC on gene expression,CHOL
+GSE221589,AMBIGUOUS,CHOL,27,804.0 KB,unstated,"the abstract mentions NON_HUMAN, which the sample records did not confirm; the samples declare neither tissue nor cell line, so the type could not be confirmed","the abstract mentions NON_HUMAN, which the sample records did not confirm; the samples declare neither tissue nor cell line, so the type could not be confirmed",Human hepatocytes can give rise to intrahepatic cholangiocar,CHOL
+GSE192577,SKIP,CHOL,6,5.4 MB,culture,the samples declare culture (CELL_LINE): noz,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Glutaminase (GLS) was a target gene downstream of lithocholi,CHOL
+GSE244807,DOWNLOAD,CHOL,246,41.0 MB,tissue,tissue confirmed,,Self-supervised learning for predicting transcriptomic group,CHOL
+GSE239351,SKIP,CHOL,6,5.0 MB,culture,the samples declare culture (CELL_LINE): sgc-996,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of overexpression of FOXA2 on biological behavior of ,CHOL
+GSE220911,SKIP,CHOL,12,365.0 KB,culture,the samples declare culture (CELL_LINE): rbe,"the abstract mentions CELL_LINE, which the sample records did not confirm",Solute carrier family 12 member 5 promotes tumor development,CHOL
+GSE212014,SKIP,CHOL,31,1.6 MB,culture,"the samples declare culture (CELL_LINE, XENOGRAFT): patient-derived xenograft","the abstract mentions ORGANOID, which the sample records did not confirm",Culture media composition influences patient-derived organoi,CHOL
+GSE183635,SKIP,UNKNOWN,2351,41.0 MB,culture,the samples declare culture (NOT_TISSUE): blood_platelets_vumc-hd-101,"the abstract mentions NOT_TISSUE, which the sample records did not confirm; the abstract names no cancer type clearly; the counts are in .gz, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Detection and localization of early- and late-stage cancers ,CHOL
+GSE179443,SKIP,CHOL,137,31.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Molecular and radiopathologic spectrum between HCC and intra,CHOL
+GSE179599,SKIP,CHOL,9,937.2 KB,culture,the samples declare culture (ORGANOID): cca tumor tissue,"the abstract mentions ORGANOID, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",Human branching cholangiocyte organoids recapitulate embryog,CHOL
+GSE184539,SKIP,LIHC,2,152.0 KB,culture,the samples declare culture (NON_HUMAN): umbilical vein,"the abstract mentions NON_HUMAN, which the sample records did not confirm; the text points at LIHC, not CHOL; only 2 samples (< 10): small studies are usually mechanistic experiments on cell lines",Transcriptome analysis of liver tumors derived from human in,CHOL
+GSE168997,SKIP,LIHC,9,435.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture: human umbilical vein endothelial cells,"the abstract mentions CELL_LINE, which the sample records did not confirm; the text points at LIHC, not CHOL; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",Transcriptome analysis of human induced liver cancer-forming,CHOL
+GSE194088,SKIP,UNKNOWN,6,3.5 MB,culture,the samples declare culture (CELL_LINE): hucct1 cells,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",RNA sequencing identifies gene expression profile changes as,CHOL
+GSE149901,SKIP,CHOL,12,12.0 MB,culture,the samples declare culture (CELL_LINE): hccc9810 cell line,"the abstract mentions CELL_LINE, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Next-generation sequencing quantitative analysis of the tran,CHOL
+GSE160306,AMBIGUOUS,UNKNOWN,79,12.2 MB,tissue,the abstract names no cancer type clearly,the abstract names no cancer type clearly,In-depth transcriptomic analyses investigating molecular mec,CHOL
+GSE148355,AMBIGUOUS,LIHC,128,33.8 MB,tissue,"the text points at LIHC, not CHOL","the text points at LIHC, not CHOL",Preoperative immune landscape predisposes adverse outcomes i,CHOL
+GSE149536,SKIP,CHOL,6,4.0 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): human cholangiocarcinoma cell,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",WDR5 facilitates cholangiocarcinoma metastasis and EMT by pr,CHOL
+GSE162396,DOWNLOAD,CHOL,12,352.0 KB,tissue,tissue confirmed,,Gene expression profiles of bulk tumor tissues of intrahepat,CHOL
+GSE138772,SKIP,CHOL,20,640.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): egi-1,"the abstract mentions CELL_LINE, which the sample records did not confirm",Genomic profiling of biliary tract cancer cell lines reveals,CHOL
+GSE107943,DOWNLOAD,CHOL,57,15.0 MB,tissue,tissue confirmed,,Integrative molecular and clinical analysis of intrahepatic ,CHOL
+GSE66729,SKIP,UNKNOWN,376,45.0 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): lung_a427_cell_line_lung_adenocarcinoma",the abstract names no cancer type clearly,The Landscape of Antisense Gene Expression in Human Cancer,CHOL
+GSE292343,SKIP,CHOL,4,3.6 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,An analysis of gemcitabine-resistant intrahepatic cholangioc,CHOL
+GSE337630,SKIP,CHOL,6,11.7 MB,,sample-type flag in the file names: CELL_LINE,,Transcriptomic profiling of KLC1 knockdown in KKU-213A chola,CHOL
+GSE343131,SKIP,CHOL,24,1.7 MB,,sample-type flag in the file names: CELL_LINE,,Differential bioenergetic reprogramming driven by sorafenib ,CHOL
+GSE331276,SKIP,CHOL,6,1.7 MB,,no file recognisable as a count matrix,,Pan-cancer analysis reveals oncogenic roles of KCNQ3 in tumo,CHOL
+GSE316441,SKIP,CHOL,18,0.0 B,,no supplementary files: the data may only be in SRA,,Transcriptomic profiling of epigenetic regulators and metabo,CHOL
+GSE262166,SKIP,CHOL,77,1.5 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Treatment of cholangiocarcinoma using humanized monoclonal a,CHOL
+GSE269158,SKIP,CHOL,12,14.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The functional impact of CCL17 on cholangiocarcinoma cells.,CHOL
+GSE269055,SKIP,CHOL,9,13.0 MB,,no file recognisable as a count matrix,,Function of primary human mast cells (huMCs) in cholangiocar,CHOL
+GSE315906,SKIP,CHOL,30,7.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Lenvatinib enhances the response of biliary tract cancer to ,CHOL
+GSE276342,SKIP,CHOL,16,1.1 MB,,sample-type flag in the file names: CELL_LINE,,Hyperploidy is the intermediate state of hepatocyte transfor,CHOL
+GSE317889,SKIP,CHOL,62,190.0 KB,,no file recognisable as a count matrix,,Combined DNA and RNA profiling refines prognostic stratifica,CHOL
+GSE231854,SKIP,CHOL,81,19.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The heterogeneity analysis of hepatocellular carcinoma and c,CHOL
+GSE319518,SKIP,CHOL,2,1.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Gene expression profiling of HepG2 cells with or without SAM,CHOL
+GSE311232,SKIP,LIHC,12,6.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression analysis using RNAseq upon SBNO1 knockdown i,CHOL
+GSE291554,SKIP,CHOL,6,3.4 MB,,no file recognisable as a count matrix,,N6-Methyladenosine-Modified circPICALM Encodes a Protein Tha,CHOL
+GSE277271,SKIP,CHOL,9,5.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SBNO1 knockdown in the iCCA cell lines SNU1079,CHOL
+GSE318391,SKIP,CHOL,39,187.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Anticancer activity of RAS-GTP inhibition in cholangiocarcin,CHOL
+GSE318388,SKIP,CHOL,12,61.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Anticancer activity of RAS-GTP inhibition in cholangiocarcin,CHOL
+GSE317606,SKIP,CHOL,180,718.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A Phase II Trial of Pembrolizumab plus Granulocyte Macrophag,CHOL
+GSE317605,SKIP,CHOL,168,629.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A Phase II Trial of Pembrolizumab plus Granulocyte Macrophag,CHOL
+GSE319935,SKIP,CHOL,6,14.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Defining molecular signatures of the solid/pseudopapillary a,CHOL
+GSE316921,SKIP,CHOL,12,464.0 KB,,no file recognisable as a count matrix,,Effects of SLC2A1 knockdown in intrahepatic cholangiocarcino,CHOL
+GSE284669,SKIP,CHOL,6,166.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Therapeutic Perturbation of Liver and Bile Duct Cancer throu,CHOL
+GSE308451,SKIP,UNKNOWN,90,13.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,CDK4/6 and SHP2 mediate BRAF/MEK inhibitor resistance in Cla,CHOL
+GSE249843,SKIP,LIHC,17,1.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,S100A6 drives lymphatic metastasis of liver cancer via activ,CHOL
+GSE236894,SKIP,CHOL,8,16.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,SMAD4 regulates the progression of cholangiocarcinoma (CCA) ,CHOL
+GSE214159,SKIP,CHOL,3,5.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Gene expression profile of cholangiocarcinoma（CCA）cells by o,CHOL
+GSE308636,SKIP,CHOL,36,8.2 MB,,no file recognisable as a count matrix,,Transcriptional changes mediated by the HDACi belinostat  in,CHOL
+GSE213452,SKIP,CHOL,11,1.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression profile at single cell level of cells from c,CHOL
+GSE306923,SKIP,CHOL,2,4.3 MB,,no file recognisable as a count matrix,,FGF1-FGFR2 axis regulated by nuclear receptor RORγ represent,CHOL
+GSE278175,SKIP,UNKNOWN,6,7.7 MB,,no file recognisable as a count matrix,,Transcriptomic analysis of trastuzumab-resistant HER2-positi,CHOL
+GSE305958,SKIP,CHOL,14,978.0 KB,,sample-type flag in the file names: CELL_LINE,,CRISPR Screens Identify the ATPase VCP as a Druggable Therap,CHOL
+GSE291010,SKIP,CHOL,4,2.7 MB,,no file recognisable as a count matrix,,KIF11 and its inhibitor SB-743921 inhibit acute myeloid leuk,CHOL
+GSE293591,SKIP,UNKNOWN,365,57.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Integrative Assessment of RNA-seq and IHC: Linking Tumor Bio,CHOL
+GSE301188,SKIP,CHOL,6,177.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Envafolimab and Chidamide in combination with GEMOX as first,CHOL
+GSE294148,SKIP,LIHC,6,418.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Inhibiting TGFβ-1 pathway reduces the aggressiveness of intr,CHOL
+GSE270182,SKIP,CHOL,15,34.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of PRMT5 as a therapeutic target in cholangio,CHOL
+GSE270017,SKIP,CHOL,6,513.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Identification of PRMT5 as a therapeutic target in cholangio,CHOL
+GSE276931,SKIP,CHOL,12,5.1 MB,,no file recognisable as a count matrix,,RNA-Sequencing results of the human Gallbladder cancer (GBC),CHOL
+GSE295371,SKIP,CHOL,12,527.0 KB,,sample-type flag in the file names: CELL_LINE,,Generation of a biliary tract cancer cell line atlas identif,CHOL
+GSE279597,SKIP,CHOL,12,1.4 MB,,sample-type flag in the file names: CELL_LINE,,Mutant IDH disables p53 tumor suppression [RNA-seq],CHOL
+GSE231839,SKIP,CHOL,9,9.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Mutant IDH1 activates JOSD2-YAP/TAZ in a non-classical manne,CHOL
+GSE295725,SKIP,UNKNOWN,98,10.0 MB,,no file recognisable as a count matrix,,Multimodal delineation of a layer of effector function among,CHOL
+GSE198858,SKIP,CHOL,18,514.0 KB,,no file recognisable as a count matrix,,"Exposure of human cholangiocytes to 1,2-dichloropropane in t",CHOL
+GSE284205,SKIP,CHOL,7,28.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Anti-VEGF treatment potentiates ICB responses through a BAFF,CHOL
+GSE249974,SKIP,CHOL,14,170.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Anti-VEGF treatment enhances antitumor responses by targetin,CHOL
+GSE290614,SKIP,CHOL,18,2.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Comprehensive Molecular Profiling of Combined Hepatocellular,CHOL
+GSE284649,SKIP,LIHC,6,3.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Active repression of cell fate plasticity by PROX1 safeguard,CHOL
+GSE138109,SKIP,CHOL,40,11.0 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Comprehensive transcriptome analysis in human gallbladder,CHOL
+GSE273905,SKIP,CHOL,9,558.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Targeting Cancer Associated Fibroblasts/Tumor Cells Cross-Ta,CHOL
+GSE280797,SKIP,CHOL,8,5.7 MB,,no file recognisable as a count matrix,,Screening and molecular mechanism research on bile microRNAs,CHOL
+GSE243306,SKIP,CHOL,20,13.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,CEACAM6 orchestrates gallbladder cancer aggressiveness throu,CHOL
+GSE243305,SKIP,CHOL,8,4.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,CEACAM6 orchestrates gallbladder cancer aggressiveness throu,CHOL
+GSE243304,SKIP,CHOL,12,7.9 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,CEACAM6 orchestrates gallbladder cancer aggressiveness throu,CHOL
+GSE278074,SKIP,LIHC,12,4.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HKDC1 promotes liver cancer stemness under hypoxia via stabi,CHOL
+GSE214631,SKIP,UNKNOWN,14,2.1 MB,,no file recognisable as a count matrix,,Targeting tumor-intrinsic N7-methylguanosine tRNA modificati,CHOL
+GSE275480,SKIP,CHOL,6,741.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,STUB1-mediated K63-linked ubiquitination of UHRF1 promotes t,CHOL
+GSE235891,SKIP,CHOL,18,20.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of RNF213 as a potential suppressor of local ,CHOL
+GSE269494,SKIP,CHOL,12,6.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Surufatinib increases cholangiocarcinoma cells radiosensitiv,CHOL
+GSE262746,SKIP,CHOL,12,3.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Nab-paclitaxel induces DNA damage and inhibits M2 polarizati,CHOL
+GSE265804,SKIP,UNKNOWN,36,3.8 MB,,sample-type flag in the file names: CELL_LINE,,Mutant IDH1 inhibition induces dsDNA sensing to activate tum,CHOL
+GSE264730,SKIP,UNKNOWN,203,7.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mutant IDH1 inhibition induces dsDNA sensing to activate tum,CHOL
+GSE264632,SKIP,UNKNOWN,12,63.7 MB,,sample-type flag in the file names: CELL_LINE,,Mutant IDH1 inhibition induces dsDNA sensing to activate tum,CHOL
+GSE225900,SKIP,CHOL,6,4.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Knockdown of HSDL2 promotes the progression of cholangiocarc,CHOL
+GSE255058,SKIP,CHOL,18,7.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Clinical and biomarker analyses of hepatic arterial infusion,CHOL
+GSE248632,SKIP,CHOL,8,1.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,CRISPR screening identifies synergy between BET and mTOR inh,CHOL
+GSE229772,SKIP,LIHC,31,764.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: SINGLE_CELL",,Lineage and ecology define liver tumor evolution in response,CHOL
+GSE202090,SKIP,CHOL,39,82.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mixed hepatocellular – cholangiocarcinoma derives from liver,CHOL
+GSE201995,SKIP,CHOL,36,47.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Mixed hepatocellular – cholangiocarcinoma derives from liver,CHOL
+GSE240138,SKIP,CHOL,222,70.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Bexmarilimab-induced macrophage activation leads to treatmen,CHOL
+GSE233818,SKIP,CHOL,12,11.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Development of potent antibody drug conjugates against ICAM1,CHOL
+GSE241923,SKIP,CHOL,6,3.3 MB,,no file recognisable as a count matrix,,RNA seq of intrahepatic cholangiocarcinoma cell lines and no,CHOL
+GSE240746,SKIP,UNKNOWN,10,316.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,"Inhibition of SQLE or FDFT1 in RBE cells by shRNA, or RBE ce",CHOL
+GSE154548,SKIP,COAD,40,4.6 MB,,no file recognisable as a count matrix,,Transcriptomic profiles of advanced colorectal adenomas from,CHOL
+GSE154957,SKIP,CHOL,11,1.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of FOSL1 targets in cholangiocarcinoma,CHOL
+GSE154954,SKIP,CHOL,9,41.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,FOSL1 transcriptome in cholangiocarcinoma (CCA) cells,CHOL
+GSE224942,SKIP,UNKNOWN,356,0.0 B,,no supplementary files: the data may only be in SRA,,Restoring Tumor Immunogenicity with Dendritic Cell Reprogram,CHOL
+GSE200146,SKIP,UNKNOWN,249,7.0 MB,,sample-type flag in the file names: CELL_LINE,,Restoring Tumor Immunogenicity with Dendritic Cell Reprogram,CHOL
+GSE154801,SKIP,CHOL,8,2.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,FGF19-FGFR4 promotes the progression of gallbladder carcinom,CHOL
+GSE168791,SKIP,LIHC,24,3.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Liver lineage confers sensitivity of cancer cells to sulfona,CHOL
+GSE188527,SKIP,CHOL,18,1.2 MB,,no file recognisable as a count matrix,,Epithelial cholangiocarcinoma cells can contribute to desmop,CHOL
+GSE182319,SKIP,CHOL,6,500.5 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The influence of Burkholderia fungorum on the gene expressio,CHOL
+GSE181878,SKIP,CHOL,3,16.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell transcriptome of human intrahepatic cholangiocar,CHOL
+GSE215997,SKIP,CHOL,13,403.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Integrative analysis of multiple genomic data from intrahepa,CHOL
+GSE189903,SKIP,LIHC,34,1.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: SINGLE_CELL",,Multiregional single-cell transcriptomic analysis of liver c,CHOL
+GSE215085,SKIP,CHOL,12,575.0 KB,,no file recognisable as a count matrix,,Cholangiocarcinoma cell line (CCA cell line KKU-213A) treate,CHOL
+GSE125035,SKIP,CHOL,24,21.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic profiling of immortalized cholangiocyte and c,CHOL
+GSE124623,SKIP,CHOL,15,12.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Basal transcriptomic profiling of cholangiocarcinoma cell li,CHOL
+GSE212232,SKIP,CHOL,6,16.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The therapeutic effect of KSP inhibitors in preclinical mode,CHOL
+GSE205787,SKIP,COAD,53,63.0 MB,,no file recognisable as a count matrix,,Gene expression profile of RAS/RAF–wild-type colorectal canc,CHOL
+GSE201425,SKIP,CHOL,32,474.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell atlas of diverse immune populations in the advan,CHOL
+GSE210067,SKIP,CHOL,27,1.5 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Circulating monocytes associated with anti-PD-1 resistance i,CHOL
+GSE210066,SKIP,CHOL,4,219.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Circulating monocytes associated with anti-PD-1 resistance i,CHOL
+GSE210065,SKIP,CHOL,6,1.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Circulating monocytes associated with anti-PD-1 resistance i,CHOL
+GSE166915,SKIP,CHOL,10,7.5 MB,,"only circRNA/isoform/miRNA counts, not gene level",,"Exploration of differentially-expressed exosomal mRNAs, lncR",CHOL
+GSE171900,SKIP,CHOL,18,3.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Hyperactivated Tregs abundantly infiltrate human intrahepati,CHOL
+GSE171899,SKIP,CHOL,12,110.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,High-dimensional single cell analysis of T cells infiltratin,CHOL
+GSE171895,SKIP,CHOL,6,3.5 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,High-dimensional single cell analysis of T cells infiltratin,CHOL
+GSE162845,SKIP,CHOL,26,116.2 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Next generation sequencing  of  human cholangiocarcinoma cel,CHOL
+GSE202479,SKIP,CHOL,20,32.0 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNA sequencing revealed the multi-stage transcriptome transf,CHOL
+GSE132279,SKIP,UNKNOWN,6,8.5 MB,,no file recognisable as a count matrix,,Annexin 10 promotes invasion in QBC-939 cell,CHOL
+GSE179601,SKIP,CHOL,18,0.0 B,,no supplementary files: the data may only be in SRA,,Human branching cholangiocyte organoids recapitulate embryog,CHOL
+GSE179597,SKIP,CHOL,9,7.6 MB,,sample-type flag in the file names: SINGLE_CELL,,Human branching cholangiocyte organoids recapitulate embryog,CHOL
+GSE184276,SKIP,LIHC,4,500.3 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA sequence data from liver-specific Pten/Traf3 knockout mi,CHOL
+GSE171974,SKIP,CHOL,4,600.4 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,JMJD6 is a possible epigenetic regulator of PD-L1 expression,CHOL
+GSE158755,SKIP,CHOL,18,65.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA sequencing data of differentially treated  cancer associ,CHOL
+GSE184398,SKIP,UNKNOWN,1072,357.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-sequencing of tumor infiltrating cells across 12 differe,CHOL
+GSE189212,SKIP,COAD,31,40.0 MB,,no file recognisable as a count matrix,,Gene expression profile of RAS/RAF–wild-type colorectal canc,CHOL
+GSE163759,SKIP,CHOL,6,5.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA sequencing (RNA-SEQ) of HMGA1 knockdown by shRNA in chol,CHOL
+GSE147017,SKIP,CHOL,6,3.2 MB,,no file recognisable as a count matrix,,Expression of tRF & tiRNA in cholangiocarcinoma by RNA seque,CHOL
+GSE157086,SKIP,UNKNOWN,184,273.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Large-scale genomic alterations identified in cancer patient,CHOL
+GSE161319,SKIP,CHOL,20,1.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,N7-methylguanosine tRNA modification enhances oncogenic mRNA,CHOL
+GSE179787,SKIP,CHOL,6,112.0 KB,,no file recognisable as a count matrix,,Next Generation Sequencing Facilitates Quantitative Analysis,CHOL
+GSE173171,SKIP,CHOL,15,10.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Nopp140-chaperoned 2’-O-methylation of small nuclear RNAs in,CHOL
+GSE162739,SKIP,CHOL,192,16.3 MB,,sample-type flag in the file names: CELL_LINE,,BAP1 activity regulates Polycomb occupancy and global chroma,CHOL
+GSE178265,SKIP,UNKNOWN,101,4.7 GB,,"no file recognisable as a count matrix | sample-type flag in the file names: NON_HUMAN, SINGLE_CELL",,A molecular census of midbrain dopaminergic neurons in Parki,CHOL
+GSE171148,SKIP,CHOL,3,440.3 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A novel multidrug-resistant cell line from an Italian intrah,CHOL
+GSE154170,SKIP,CHOL,24,259.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Promotion of Cholangiocarcinoma Growth by Diverse Cancer-ass,CHOL
+GSE160310,SKIP,UNKNOWN,158,0.0 B,,no supplementary files: the data may only be in SRA,,In-depth transcriptomic analyses investigating molecular mec,CHOL
+GSE168885,SKIP,LIHC,4,7.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effect of FENDRR  on genetic expressions of primary liver ca,CHOL
+GSE151530,SKIP,LIHC,46,291.7 MB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Understanding tumor evolution and its clonality by single-ce,CHOL
+GSE143781,SKIP,CHOL,6,1.8 MB,,no file recognisable as a count matrix,,KDM5C represses FASN-mediated lipid metabolism to exert tumo,CHOL
+GSE163175,SKIP,UNKNOWN,6,798.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The mRNA profile after knockdown of Bmi1 in QBC939 cells,CHOL
+GSE162836,SKIP,CHOL,4,7.8 MB,,sample-type flag in the file names: CELL_LINE,,RNA sequencing analysis of EBF1 overexpression in cholangioc,CHOL
+GSE146409,SKIP,LIHC,151,15.1 MB,,sample-type flag in the file names: SINGLE_CELL,,A single cell atlas of the human liver tumor microenvironmen,CHOL
+GSE142784,SKIP,CHOL,2,25.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Dissecting the transcriptomic landscape of the human intrahe,CHOL
+GSE138709,SKIP,CHOL,8,77.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Dissecting the transcriptomic landscape of the human intrahe,CHOL
+GSE139682,SKIP,CHOL,20,3.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The gene expression profiles of gallbladder cancer,CHOL
+GSE100363,SKIP,CHOL,8,398.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification of differentially expressed circRNA in gallbl,CHOL
+GSE125449,SKIP,LIHC,19,43.4 MB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Tumor cell biodiversity drives microenvironmental reprogramm,CHOL
+GSE137803,SKIP,CHOL,3,81.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effect of high glucose on transcriptomic expression of chola,CHOL
+GSE124395,SKIP,LIHC,319,157.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A Human Liver Cell Atlas reveals Heterogeneity and Epithelia,CHOL
+GSE132223,SKIP,CHOL,9,11.0 MB,,no file recognisable as a count matrix,,The expression profiles of GBC liver metastasis,CHOL
+GSE115853,SKIP,LIHC,13,2.0 MB,,sample-type flag in the file names: ORGANOID,,Organoids derived from directly reprogrammed human hepatocyt,CHOL
+GSE127903,SKIP,CHOL,4,434.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Protein Tyrosine Phosphatase Non-receptor 3 Acts as a Tumor ,CHOL
+GSE124429,SKIP,CHOL,16,5.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,A runaway PRH/HHEX-Notch3 feedback loop drives cholangiocarc,CHOL
+GSE119337,SKIP,CHOL,60,836.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA over-editing leads to aggressiveness of intrahepatic cho,CHOL
+GSE119336,SKIP,CHOL,30,2.1 MB,,no file recognisable as a count matrix,,RNA over-editing leads to aggressiveness of intrahepatic cho,CHOL
+GSE111320,SKIP,UNKNOWN,54,83.0 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Development and Verification of an RNA-Seq Assay for the Det,CHOL
+GSE84073,SKIP,LIHC,59,135.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Patient-derived organoid cultures model human primary liver ,CHOL
+GSE104876,SKIP,UNKNOWN,22,0.0 B,,no supplementary files: the data may only be in SRA,,Alagille_Nodder,CHOL
+GSE104873,SKIP,LIHC,10,1.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA Seq of Alagille liver biopsies,CHOL
+GSE92651,SKIP,CHOL,4,4.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Akt Activation Mediates Acquired Resistance to Fibroblast Gr,CHOL
+GSE80126,SKIP,UNKNOWN,29,42.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Impact of RNA degradation on fusion detection by RNA-seq,CHOL
+GSE66728,SKIP,UNKNOWN,353,0.0 B,,no supplementary files: the data may only be in SRA,,The Landscape of Antisense Gene Expression in Human Cancers ,CHOL
+GSE63420,SKIP,CHOL,30,0.0 B,,no supplementary files: the data may only be in SRA,,Massive parallel sequencing uncovers actionable FGFR2-PPHLN1,CHOL
+GSE59855,SKIP,CHOL,12,1.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Gene expression profiling associated with knockdown of LKB1 ,CHOL

@@ -11,6 +11,11 @@ import os
 PROJECT_ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
 DATASET_DIR = os.path.join(PROJECT_ROOT, "dataset")
 
+# The curation record lives outside dataset/, which is gitignored wholesale.
+# dataset/ holds data that the scripts can download again; curation/ holds the
+# decisions and the reasoning behind them, which they cannot.
+CURATION_DIR = os.path.join(PROJECT_ROOT, "curation")
+
 # ── GI cancer types ───────────────────────────────────────────────────────
 # Keys = TCGA project IDs; values = search terms for GEO/PubMed
 CANCER_TYPES = {

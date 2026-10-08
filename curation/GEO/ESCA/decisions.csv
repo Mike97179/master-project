@@ -1,0 +1,318 @@
+accession,decision,cancer,n_samples,size,declares,reason,ambiguity,title,search_cancer
+GSE183635,SKIP,UNKNOWN,2351,41.0 MB,culture,the samples declare culture (NOT_TISSUE): blood_platelets_vumc-hd-101,"the abstract mentions NOT_TISSUE, which the sample records did not confirm; the abstract names no cancer type clearly; the counts are in .gz, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Detection and localization of early- and late-stage cancers ,ESCA
+GSE66729,SKIP,UNKNOWN,376,45.0 MB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare culture (CELL_LINE): lung_a427_cell_line_lung_adenocarcinoma",the abstract names no cancer type clearly,The Landscape of Antisense Gene Expression in Human Cancer,ESCA
+GSE254660,SKIP,ESCA,68,13.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,Tumor-intrinsic signatures of esophageal adenocarcinoma asso,ESCA
+GSE342970,SKIP,ESCA,12,693.0 KB,culture,the samples declare culture (CELL_LINE): oe33,"the abstract mentions CELL_LINE, which the sample records did not confirm",Chronic Reflux Stress Reshapes the EAC Transcriptional Lands,ESCA
+GSE342322,SKIP,ESCA,36,1.6 MB,culture,the samples declare culture (CELL_LINE): flo1,,APE1-Mediated Transcriptional Reprogramming in Esophageal Ad,ESCA
+GSE342254,SKIP,ESCA,6,2.2 MB,culture,the samples declare culture (CELL_LINE): oe33,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,Transcriptional Remodeling of Esophageal Adenocarcinoma Cell,ESCA
+GSE305720,DOWNLOAD,ESCA,20,2.9 MB,tissue,tissue confirmed,,Multi-omics unveils GTSE1 promotes esophageal squamous cell ,ESCA
+GSE326216,SKIP,ESCA,6,9.3 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): kyse410,only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines,Dual mechanisms of ADAR1 in regulating radiosensitivity in E,ESCA
+GSE312063,SKIP,ESCA,88,24.0 MB,culture,the samples declare culture (CELL_LINE): kyse-180,"the abstract mentions CELL_LINE, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Characterization of esophageal squamous cell carcinoma cell ,ESCA
+GSE316127,SKIP,ESCA,30,3.1 MB,culture,the samples declare culture (CELL_LINE): cp-a (kr-42421),"the abstract mentions SINGLE_CELL, which the sample records did not confirm",Chromosomal instability shapes the tumor microenvironment of,ESCA
+GSE315942,SKIP,ESCA,24,2.8 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): oe33,"the abstract mentions SINGLE_CELL, which the sample records did not confirm",Chromosomal instability shapes the tumor microenvironment of,ESCA
+GSE272221,SKIP,ESCA,4,1.2 MB,culture,the samples declare culture (CELL_LINE): flo-1,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 4 samples (< 10): small studies are usually mechanistic experiments on cell lines; the first column does not look like gene identifiers",RNA-seq analysis of EpCAM-GFP and GFP overexpression in FLO-,ESCA
+GSE315097,SKIP,ESCA,8,710.0 KB,culture,the samples declare culture (CELL_LINE): kyse150,"the abstract mentions NON_HUMAN, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",Lactylation of HIF-1α at K172 drives HIF1 complex assemble t,ESCA
+GSE293553,SKIP,ESCA,12,575.0 KB,culture,the samples declare culture (CELL_LINE): kyse150,"the abstract mentions CELL_LINE, which the sample records did not confirm",RNA-seq of ESCC Cells  Overexpressed TFAP2β or its LLPS-defi,ESCA
+GSE213241,SKIP,ESCA,24,935.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; the samples declare another organ: lung","the abstract mentions CELL_LINE, which the sample records did not confirm",Genetic vulnerabilitis study in VHL mutant cells,ESCA
+GSE275269,SKIP,UNKNOWN,6,532.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): kyse510,"the abstract mentions CELL_LINE, which the sample records did not confirm; the abstract names no cancer type clearly; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",Effect of depletion of RNH1 on gene expression in KYSE510 ce,ESCA
+GSE256474,SKIP,ESCA,6,4.6 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): kyse450,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 172 numeric columns but GEO declares 6 samples",SOX2 Drives Esophageal Squamous Carcinoma by Reprogramming L,ESCA
+GSE273463,SKIP,UNKNOWN,40,708.0 KB,culture,"sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE, NOT_TISSUE, ORGANOID): kyse30","the abstract mentions XENOGRAFT, which the sample records did not confirm; the abstract names no cancer type clearly",Mapping EGFR-mediated local invasion and response to Cetuxim,ESCA
+GSE291098,AMBIGUOUS,UNKNOWN,10,2.4 MB,tissue,the abstract names no cancer type clearly,the abstract names no cancer type clearly,RNA Transcripts Serve as a Template for Double-Strand Break ,ESCA
+GSE275730,SKIP,ESCA,12,16.0 MB,culture,the samples declare culture (CELL_LINE): cell line_te-5,"the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Gene expression analysis of human esophageal cancer cells co,ESCA
+GSE288541,SKIP,ESCA,18,2.1 MB,culture,the samples declare culture (CELL_LINE): het-1a,"the abstract mentions CELL_LINE, which the sample records did not confirm",Amprenavir Mitigates Pepsin-Induced Transcriptomic Changes i,ESCA
+GSE248518,SKIP,ESCA,8,559.0 KB,tissue,"the identifier column is 'lncRNA_id', so the rows are not genes",the first column does not look like gene identifiers,RNA-seq analysis of chemotherapy resistance in esophageal sq,ESCA
+GSE256360,SKIP,ESCA,6,802.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): kyse150","the abstract mentions CELL_LINE, XENOGRAFT, NON_HUMAN, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",SPP1 represents a therapeutic target that promotes the progr,ESCA
+GSE273848,AMBIGUOUS,ESCA,40,1.0 MB,unstated,"the abstract mentions SINGLE_CELL, which the sample records did not confirm; the samples declare neither tissue nor cell line, so the type could not be confirmed","the abstract mentions SINGLE_CELL, which the sample records did not confirm; the samples declare neither tissue nor cell line, so the type could not be confirmed",Definition of a multi-omics signature for Esophageal Adenoca,ESCA
+GSE242463,SKIP,ESCA,24,1.5 MB,culture,the samples declare culture (CELL_LINE): tyuc-1,"the abstract mentions NON_HUMAN, which the sample records did not confirm",Epigenetic regulation of p63 blocks squamous-to-neuroendocri,ESCA
+GSE242439,SKIP,ESCA,9,412.0 KB,culture,the samples declare culture (CELL_LINE): tyuc-1,"the abstract mentions NON_HUMAN, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",Epigenetic regulation of p63 blocks squamous-to-neuroendocri,ESCA
+GSE253064,SKIP,UNKNOWN,32,2.5 MB,unstated,the samples declare another organ: bladder,the abstract names no cancer type clearly,Nucleocytoplasmic β‐Catenin expression contributes to neuroe,ESCA
+GSE254942,SKIP,ESCA,106,19.5 MB,culture,the samples declare culture (CELL_LINE): 007b,,The pluripotency factor NANOG contributes to mesenchymal pla,ESCA
+GSE264079,SKIP,ESCA,9,465.7 KB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; sample-type flag inside filelist.txt: CELL_LINE; the samples declare culture (CELL_LINE): kyse180 cell","the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",The effect of EZH2 knockdown on gene expression in KDM6A-def,ESCA
+GSE234304,DOWNLOAD,ESCA,44,2.7 MB,tissue,tissue confirmed,,Co-enrichment of cancer-associated bacterial taxa is correla,ESCA
+GSE254232,SKIP,ESCA,10,2.4 MB,culture,the samples declare culture (CELL_LINE): ec109,"the abstract mentions CELL_LINE, which the sample records did not confirm",The impact of knocking down METTL3 and METTL14 on the gene e,ESCA
+GSE235537,DOWNLOAD,ESCA,22,7.8 MB,tissue,tissue confirmed,,The aberrant inclusion of BOLA3 exon 3 promoted by HNRNPC ac,ESCA
+GSE235536,SKIP,ESCA,8,2.3 MB,culture,the samples declare culture (CELL_LINE): kyse150,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 8 samples (< 10): small studies are usually mechanistic experiments on cell lines",The aberrant inclusion of BOLA3 exon 3 promoted by HNRNPC ac,ESCA
+GSE230383,SKIP,ESCA,12,686.0 KB,culture,"the samples declare culture (CELL_LINE, ORGANOID): eac000 pdo","the abstract mentions ORGANOID, which the sample records did not confirm",Engineered hydrogel reveals contribution of matrix mechanics,ESCA
+GSE160222,SKIP,ESCA,3,4.6 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): kyse30,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 3 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 26 numeric columns but GEO declares 3 samples",Next-Generation Sequencing Facilitates Quantitative Analysis,ESCA
+GSE157373,AMBIGUOUS,ESCA,6,442.0 KB,tissue,"the title is about non-coding RNA, so gene-level counts may be a by-product","the title is about non-coding RNA, so gene-level counts may be a by-product",Integrative analysis of differential circular RNA and long n,ESCA
+GSE212890,SKIP,UNKNOWN,47,66.4 MB,culture,the samples declare culture: brca,"the abstract mentions SINGLE_CELL, which the sample records did not confirm; the abstract names no cancer type clearly; the first column does not look like gene identifiers; the matrix has 2 numeric columns but GEO declares 47 samples",A Pan-Cancer Single Cell Panorama of Natural Killer Cells,ESCA
+GSE215307,SKIP,UNKNOWN,375,31.0 MB,culture,"the samples declare culture (CELL_LINE, XENOGRAFT): subcutaneous tumor","the abstract mentions XENOGRAFT, which the sample records did not confirm; the abstract names no cancer type clearly",Cancer-Associated Fibroblasts are the Main Source of Epithel,ESCA
+GSE222078,SKIP,ESCA,10,662.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",the first column does not look like gene identifiers; the matrix has 52387 numeric columns but GEO declares 10 samples,The single cell transcriptional landscape of esophageal aden,ESCA
+GSE146195,SKIP,ESCA,2,9.8 MB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): human","the abstract mentions CELL_LINE, which the sample records did not confirm; only 2 samples (< 10): small studies are usually mechanistic experiments on cell lines; the matrix has 6 numeric columns but GEO declares 2 samples",SNORA42 Promote Oesophageal Squamous Cell Carcinoma Developm,ESCA
+GSE199630,SKIP,ESCA,28,5.0 MB,tissue,"the 'raw' counts contain decimals, so they are not counts",,A novel gene expression signatures associated with the respo,ESCA
+GSE211439,SKIP,UNKNOWN,24,676.0 KB,unstated,the samples declare another organ: brain,the abstract names no cancer type clearly,Plasmodium falciparum and TNF-a Differentially Regulate Infl,ESCA
+GSE197514,SKIP,ESCA,96,19.6 MB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (NOT_TISSUE): platelet,"the abstract mentions NOT_TISSUE, which the sample records did not confirm",RNA sequencing of tumor educated platelets reveals a three-g,ESCA
+GSE153096,SKIP,ESCA,9,653.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): oe19 (rrid: cvcl_1622),"the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",RNAseq of Oesophageal Adenocarcinoma Cell Lines,ESCA
+GSE197624,SKIP,ESCA,6,592.0 KB,culture,"the 'raw' counts contain decimals, so they are not counts; sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): eca-109","the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",FSCN1 promotes esophageal carcinoma progression through down,ESCA
+GSE169590,SKIP,ESCA,34,3.5 MB,culture,sample-type flag inside GSE169590_codon-occupancy_for_ribo-seq.txt.gz: CELL_LINE; the samples declare culture (CELL_LINE): kyse-30,"the abstract mentions CELL_LINE, NON_HUMAN, which the sample records did not confirm; the matrix has 4 numeric columns but GEO declares 34 samples",N7-methylguanosine tRNA modification promotes esophageal squ,ESCA
+GSE194116,DOWNLOAD,ESCA,12,844.0 KB,tissue,tissue confirmed,,Prognostic value of SPODD1 in esophageal squamous cell carci,ESCA
+GSE167345,SKIP,ESCA,6,540.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): kyse150,"the abstract mentions CELL_LINE, which the sample records did not confirm; the title is about non-coding RNA, so gene-level counts may be a by-product; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",lncRNA profiles enable prognosis prediction and subtyping fo,ESCA
+GSE134376,SKIP,ESCA,3,196.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): kyse510,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 3 samples (< 10): small studies are usually mechanistic experiments on cell lines",Next-Generation Sequencing Facilitates Quantitative Analysis,ESCA
+GSE128914,SKIP,ESCA,6,401.0 KB,culture,the samples declare culture (CELL_LINE): esophageal squamous carcinoma cells,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",RNA-Seq of LEF1 overexpression ECA109 cells,ESCA
+GSE119436,DOWNLOAD,ESCA,8,489.0 KB,tissue,tissue confirmed,,Interaction between oncogenic FREM2 with IL-1β signaling con,ESCA
+GSE133567,SKIP,ESCA,12,676.0 KB,culture,the samples declare another organ: melanoma,"the abstract mentions CELL_LINE, which the sample records did not confirm",Gene expression alterations associated with acquired-resista,ESCA
+GSE128913,SKIP,ESCA,6,390.0 KB,culture,the samples declare culture (CELL_LINE): eca109,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 6 samples (< 10): small studies are usually mechanistic experiments on cell lines",RNA-Seq of PRMT1 overexpression ECA109 cells,ESCA
+GSE121976,SKIP,ESCA,12,509.0 KB,culture,sample-type flag in the matrix header: CELL_LINE; the samples declare culture (CELL_LINE): eca109,,HOXC6 affects the malignant phenotype of esophageal squamous,ESCA
+GSE112886,SKIP,ESCA,18,6.4 MB,culture,"the samples declare culture (CELL_LINE, ORGANOID): human esophageal organoids","the abstract mentions CELL_LINE, ORGANOID, NON_HUMAN, which the sample records did not confirm; the counts are in .xlsx, which cannot be read from a byte range: check by hand that the values are whole and the columns are tissue",Generation of esophageal organoids from human pluripotent st,ESCA
+GSE61515,SKIP,ESCA,9,535.0 KB,culture,the samples declare culture (CELL_LINE): cal33,"the abstract mentions CELL_LINE, which the sample records did not confirm; only 9 samples (< 10): small studies are usually mechanistic experiments on cell lines",AXL mediates resistance to PI3Kα inhibition by activating th,ESCA
+GSE293591,SKIP,UNKNOWN,365,57.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Integrative Assessment of RNA-seq and IHC: Linking Tumor Bio,ESCA
+GSE178265,SKIP,UNKNOWN,101,4.7 GB,,"no file recognisable as a count matrix | sample-type flag in the file names: NON_HUMAN, SINGLE_CELL",,A molecular census of midbrain dopaminergic neurons in Parki,ESCA
+GSE66728,SKIP,UNKNOWN,353,0.0 B,,no supplementary files: the data may only be in SRA,,The Landscape of Antisense Gene Expression in Human Cancers ,ESCA
+GSE306948,SKIP,ESCA,6,3.6 MB,,no file recognisable as a count matrix,,Transcriptomic Profiling of Esophageal Squamous Cell Carcino,ESCA
+GSE346799,SKIP,ESCA,4,45.0 MB,,no file recognisable as a count matrix,,Tumor-intrinsic signatures of esophageal adenocarcinoma asso,ESCA
+GSE306983,SKIP,ESCA,6,1.3 MB,,no file recognisable as a count matrix,,Histone H3K79 glutarylation as a novel epigenetic modificati,ESCA
+GSE305768,SKIP,UNKNOWN,9,1.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,SMARCA5 links histone lactylation to metabolic reprogramming,ESCA
+GSE283632,SKIP,ESCA,12,5.6 MB,,no file recognisable as a count matrix,,Linc01446 contributes to ferroptosis defence and progression,ESCA
+GSE305345,SKIP,UNKNOWN,15,6.2 MB,,no file recognisable as a count matrix,,LINE-1 ORF1p is a Shared and Immunogenic Antigen in Cancer,ESCA
+GSE314906,SKIP,ESCA,81,25.0 GB,,no file recognisable as a count matrix,,CX3CR1⁺ CD8⁺ Cytotoxic T Cells Drive Tumor Killing in Esopha,ESCA
+GSE304294,SKIP,ESCA,11,4.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,A TROP2-targeting ADC synergizes with oxidative phosphorylat,ESCA
+GSE342315,SKIP,ESCA,6,458.0 KB,,sample-type flag in the file names: CELL_LINE,,Transcriptional regulation of APE1-redox Axis in Esophageal ,ESCA
+GSE336341,SKIP,ESCA,6,1.1 MB,,sample-type flag in the file names: CELL_LINE,,IGF2BP2 promotes esophageal squamous cell carcinoma progress,ESCA
+GSE329207,SKIP,ESCA,12,1.5 MB,,sample-type flag in the file names: CELL_LINE,,Targeting phosphatidylserine for tumor cell suppression [RNA,ESCA
+GSE324866,SKIP,ESCA,27,3.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,1.Effects of L013 treatment on gene expression in KYSE150 an,ESCA
+GSE341700,SKIP,ESCA,15,4.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Development and Preclinical Evaluation of Tetraspecific Anti,ESCA
+GSE299160,SKIP,ESCA,6,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,To investigate NRF2 activation modulates cellular behaviors ,ESCA
+GSE299159,SKIP,ESCA,6,1.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,To investigate NRF2 activation modulates cellular behaviors ,ESCA
+GSE330864,SKIP,ESCA,67,3.1 MB,,no file recognisable as a count matrix,,Transcriptional profiling in esophageal adenocarcinoma,ESCA
+GSE301253,SKIP,ESCA,6,11.0 MB,,no file recognisable as a count matrix,,Gene transcriptomics reveals that HOXC9 regulates the progre,ESCA
+GSE234654,SKIP,UNKNOWN,57,36.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,DDX6 reshapes the cancer RNA editome to suppress RNA-induced,ESCA
+GSE234652,SKIP,UNKNOWN,21,3.2 MB,,sample-type flag in the file names: CELL_LINE,,DDX6 reshapes the cancer RNA editome to suppress RNA-induced,ESCA
+GSE290744,SKIP,ESCA,2,815.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,KLF4 promotes a KRT13+ hillock-like state in squamous lung c,ESCA
+GSE300573,SKIP,UNKNOWN,4,2.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,ETS1 Orchestrates a Hybrid EMT Program Driving in vivo Metas,ESCA
+GSE303217,SKIP,ESCA,6,411.0 KB,,sample-type flag in the file names: CELL_LINE,,Mutant TP53 hijacks RNA-splicing factor RBM28 to suppress do,ESCA
+GSE326337,SKIP,ESCA,9,16.0 MB,,no file recognisable as a count matrix,,Fusobacterium nucleatum FadA promotes the progression of eso,ESCA
+GSE293873,SKIP,ESCA,12,10.0 MB,,no file recognisable as a count matrix,,Amphiregulin and Epiregulin confer radioresistance in esopha,ESCA
+GSE289185,SKIP,ESCA,29,20.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Safety and efficacy of neoadjuvant radiotherapy and immunoth,ESCA
+GSE293844,SKIP,ESCA,24,1.9 MB,,sample-type flag in the file names: NON_HUMAN,,Obesity-associated TRIM15 promotes the proliferation of esop,ESCA
+GSE316062,SKIP,ESCA,9,1.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Chromosomal instability shapes the tumor microenvironment of,ESCA
+GSE308019,SKIP,ESCA,9,6.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-seq of control and  PARylator knockdown TE13 human esoph,ESCA
+GSE299804,SKIP,ESCA,2,61.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,ECRG4 as a novel diagnostic plasma marker detected in the ea,ESCA
+GSE271390,SKIP,ESCA,47,27.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Cell-free transcriptome of Barrett’s Esophagus and Esophagea,ESCA
+GSE271389,SKIP,ESCA,47,28.0 MB,,no file recognisable as a count matrix,,Cell-free transcriptome of Barrett’s Esophagus and Esophagea,ESCA
+GSE308736,SKIP,ESCA,3,390.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single-cell transcriptomic analysis reveals epithelial and m,ESCA
+GSE311074,SKIP,ESCA,6,6.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,COPG1 Is a Selectively Essential Regulator  of Cancer Progre,ESCA
+GSE311675,SKIP,ESCA,30,0.0 B,,no supplementary files: the data may only be in SRA,,SHIP2-PLK1 crosstalk promotes sensitivity to dual inhibition,ESCA
+GSE311623,SKIP,ESCA,10,4.1 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,RNAseq profiling of eSCC human cell lines (KYSE-410 and KYSE,ESCA
+GSE311620,SKIP,ESCA,10,4.2 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,RNAseq profiling of eSCC human cell line (KYSE-410) treated ,ESCA
+GSE309935,SKIP,UNKNOWN,8,875.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Multi-omic integration identifies mechanisms of Broad Drug R,ESCA
+GSE216198,SKIP,ESCA,8,2.9 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Gene expression profile of human gastroesophageal junction (,ESCA
+GSE309714,SKIP,ESCA,4,80.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Acetate Triggers Epigenetic Activation of Cell Cycle Arrest ,ESCA
+GSE301311,SKIP,ESCA,6,3.1 MB,,no file recognisable as a count matrix,,ZNF514 promotes esophageal cancer progression by enhancing c,ESCA
+GSE309393,SKIP,ESCA,9,539.0 KB,,no file recognisable as a count matrix,,Cancer-associated fibroblasts promote esophageal carcinogene,ESCA
+GSE309392,SKIP,ESCA,23,1.0 GB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Cancer-associated fibroblasts promote esophageal carcinogene,ESCA
+GSE273127,SKIP,ESCA,11,301.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Comparative single-cell analysis of esophageal cancer subtyp,ESCA
+GSE268689,SKIP,ESCA,2,12.0 MB,,no file recognisable as a count matrix,,Fusobacterium nucleatum-driven mitophagy facilitates endosym,ESCA
+GSE299511,SKIP,ESCA,6,10.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effect of downregulated P4HA2 on gene expression during brac,ESCA
+GSE273481,SKIP,ESCA,6,5.5 MB,,no file recognisable as a count matrix,,FAM134B deficiency in HK-2 cells,ESCA
+GSE256475,SKIP,ESCA,16,1.3 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SOX2 Drives Esophageal Squamous Carcinoma by Reprogramming L,ESCA
+GSE254244,SKIP,ESCA,112,759.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cancer cell type-specific derepression of transposable eleme,ESCA
+GSE254242,SKIP,ESCA,99,3.6 MB,,sample-type flag in the file names: CELL_LINE,,Cancer cell type-specific derepression of transposable eleme,ESCA
+GSE298632,SKIP,ESCA,4,1.1 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SOX2 regulates foregut squamous epithelial homeostasis and i,ESCA
+GSE266330,SKIP,UNKNOWN,63,1.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Single cell profiling of bone metastasis ecosystems from mul,ESCA
+GSE297369,SKIP,LIHC,12,7.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,The effect of knockdown FAM111B on mRNA expression in human ,ESCA
+GSE284372,SKIP,ESCA,4,1.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,NUDT21 lactylation reprograms alternative polyadenylation to,ESCA
+GSE203067,SKIP,ESCA,21,470.8 MB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Single-Cell Transcriptomic Analysis of Primary and Metastati,ESCA
+GSE292675,SKIP,ESCA,6,458.0 KB,,no file recognisable as a count matrix,,Targeting LTBP2 Derived from Cancer-Associated Fibroblasts S,ESCA
+GSE220108,SKIP,ESCA,5,353.5 MB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,FAO-fueled OXPHOS and NRF2-mediated stress resilience in MIC,ESCA
+GSE292971,SKIP,ESCA,107,3.8 GB,,no file recognisable as a count matrix,,Concerted epithelial and stromal changes during progression ,ESCA
+GSE291375,SKIP,ESCA,6,901.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Expression data of circTMEM45A knockdown in KYSE-150 cell li,ESCA
+GSE291080,SKIP,ESCA,45,2.4 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Clonal cell states link gastroesophageal junction tissues, m",ESCA
+GSE263439,SKIP,ESCA,6,7.8 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,High mobility group A1 (HMGA1) promotes esophageal squamous ,ESCA
+GSE290554,SKIP,UNKNOWN,94,178.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mapping the Molecular Signature of Progressive Multiple Scle,ESCA
+GSE290552,SKIP,UNKNOWN,16,30.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mapping the Molecular Signature of Progressive Multiple Scle,ESCA
+GSE290450,SKIP,UNKNOWN,78,147.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mapping the Molecular Signature of Progressive Multiple Scle,ESCA
+GSE269447,SKIP,ESCA,20,15.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression analysis of organoid model of human esophage,ESCA
+GSE290209,SKIP,UNKNOWN,6,1.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq analysis of differentially expressed genes between W,ESCA
+GSE287855,SKIP,ESCA,40,20.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Clonal cell states link gastroesophageal junction tissues, m",ESCA
+GSE285916,SKIP,ESCA,12,10.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Nuclear ANLN regulates transcription initiation related Pol ,ESCA
+GSE192338,SKIP,ESCA,3,4.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-seq analysis in esophageal squamous cell carcinoma (ESCC,ESCA
+GSE201404,SKIP,ESCA,10,1.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Ivermectin inhibits the growth of esophageal squamous cell c,ESCA
+GSE262648,SKIP,STAD,24,36.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The tumor immune microenvironment and therapeutic efficacy o,ESCA
+GSE283031,SKIP,ESCA,9,1.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Gene transcriptomics reveals that PAK5 regulates the pathoge,ESCA
+GSE225645,SKIP,ESCA,12,1.4 MB,,no file recognisable as a count matrix,,Hypoxia-induced gene expression profiling of esophageal canc,ESCA
+GSE282588,SKIP,ESCA,2,3.8 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,CHI-KAT8i5 suppresses ESCC tumor growth through inhibiting K,ESCA
+GSE252141,SKIP,ESCA,6,12.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effect of depletion of NEDD4L on gene expression in EC9706 e,ESCA
+GSE268424,SKIP,ESCA,5,18.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effect of overexpression or knockdown of trophoblast-related,ESCA
+GSE185617,SKIP,ESCA,24,7.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Long non-coding RNA LINC00680 functions as a ceRNA to promot,ESCA
+GSE261202,SKIP,ESCA,6,886.0 KB,,sample-type flag in the file names: CELL_LINE,,The molecular mechanism and clinical significance of IGF2BP3,ESCA
+GSE261201,SKIP,ESCA,4,610.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The molecular mechanism and clinical significance of IGF2BP3,ESCA
+GSE261200,SKIP,ESCA,4,98.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The molecular mechanism and clinical significance of IGF2BP3,ESCA
+GSE277147,SKIP,ESCA,8,1.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Patient-Derived Tumor Organoid and Fibroblast Assembloid Mod,ESCA
+GSE275621,SKIP,PAAD,4,2.9 MB,,no file recognisable as a count matrix,,Effects of neobractatin and trametinib on gene expression in,ESCA
+GSE249058,SKIP,ESCA,7,329.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification and characterization of metastasis-initiating,ESCA
+GSE249057,SKIP,ESCA,5,329.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification and characterization of metastasis-initiating,ESCA
+GSE249056,SKIP,ESCA,2,25.8 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Identification and characterization of metastasis-initiating,ESCA
+GSE182090,SKIP,ESCA,12,1.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-sequencing assay to Identify Genes Promoting Lung Metast,ESCA
+GSE273847,SKIP,ESCA,5,4.0 GB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Definition of a multi-omics signature for Esophageal Adenoca,ESCA
+GSE242464,SKIP,ESCA,53,744.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Epigenetic regulation of p63 blocks squamous-to-neuroendocri,ESCA
+GSE238119,SKIP,UNKNOWN,8,1.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The MLL3/GRHL2 complex regulates early malignant transformat,ESCA
+GSE238118,SKIP,UNKNOWN,6,2.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The MLL3/GRHL2 complex regulates early malignant transformat,ESCA
+GSE243988,SKIP,UNKNOWN,14,45.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"A novel, druggable casacade links methionine metabolism to e",ESCA
+GSE179757,SKIP,ESCA,8,802.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,The mechanism of circ-ARAP2 regulation of tumor EMT and stem,ESCA
+GSE249813,SKIP,ESCA,6,1.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,ALDH18A1promotes the tumor progression of esophageal cancer ,ESCA
+GSE254946,SKIP,ESCA,174,0.0 B,,no supplementary files: the data may only be in SRA,,Esophageal adenocarcinoma,ESCA
+GSE255352,SKIP,ESCA,16,451.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Hypoxia promotes histone H3K9 lactylation to enhance LAMC2 t,ESCA
+GSE264221,SKIP,ESCA,6,3.5 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Radiation-induced upregulation of FGL1 promotes esophageal s,ESCA
+GSE173164,SKIP,ESCA,8,2.4 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,To investigate the effects of NRF2 inhibitors (pyrimethamine,ESCA
+GSE263647,SKIP,ESCA,12,3.1 MB,,no file recognisable as a count matrix,,Whole transcriptome sequencing of 6 pairs of esophageal squa,ESCA
+GSE232467,SKIP,ESCA,6,396.0 KB,,sample-type flag in the file names: CELL_LINE,,Single-cell Transcriptomic Analysis Reveals Landscape of Epi,ESCA
+GSE242287,SKIP,ESCA,4,353.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,NSUN6 is a prognostic indicator and therapeutic target in es,ESCA
+GSE169337,SKIP,ESCA,8,3.3 MB,,no file recognisable as a count matrix,,Identification of differentially expressed genes in cisplati,ESCA
+GSE236847,SKIP,ESCA,6,1.1 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Epigenomic Analyses Identify FOXM1 As a Key Regulator of Ant,ESCA
+GSE256301,SKIP,ESCA,2,437.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Mutational signature-based identification of DNA repair defi,ESCA
+GSE231539,SKIP,STAD,18,10.2 GB,,no file recognisable as a count matrix,,Tumor-infiltrating Monocytic Myeloid-derived suppressor cell,ESCA
+GSE231540,SKIP,STAD,40,0.0 B,,no supplementary files: the data may only be in SRA,,Tumor-infiltrating monocytic myeloid-derived suppressor cell,ESCA
+GSE250323,SKIP,ESCA,6,1.7 MB,,"only circRNA/isoform/miRNA counts, not gene level",,A novel regulator of the PI3K/AKT pathway encoded by circ-PD,ESCA
+GSE253152,SKIP,ESCA,6,40.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The Ig superfamily ligand B7H6 subjects T cell responses to ,ESCA
+GSE241066,SKIP,ESCA,9,483.0 KB,,no file recognisable as a count matrix,,USP10-mediated MOF (KAT8) stabilization accelerates the mali,ESCA
+GSE219008,SKIP,ESCA,9,458.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Cleavage of the pseudoprotease iRhom2 by the signal peptidas,ESCA
+GSE245051,SKIP,ESCA,6,8.9 MB,,no file recognisable as a count matrix,,Oseltamivir enhances 5-FU sensitivity in esophageal squamous,ESCA
+GSE235538,SKIP,ESCA,38,0.0 B,,no supplementary files: the data may only be in SRA,,The dysregulated inclusion of BOLA3 exon 3 promoted by HNRNP,ESCA
+GSE235535,SKIP,ESCA,8,5.6 MB,,sample-type flag in the file names: CELL_LINE,,The aberrant inclusion of BOLA3 exon 3 promoted by HNRNPC ac,ESCA
+GSE222553,SKIP,ESCA,16,1.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Investigating iRhom2-associated transcriptional changes in T,ESCA
+GSE251990,SKIP,ESCA,22,784.0 MB,,no file recognisable as a count matrix,,Concerted epithelial and stromal changes during progression ,ESCA
+GSE229393,SKIP,ESCA,4,3.9 MB,,no file recognisable as a count matrix,,The mechanism of oncogenomic function of androgen receptor i,ESCA
+GSE193919,SKIP,ESCA,2,4.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,RBM4 regulates esophageal cancer progression,ESCA
+GSE240918,SKIP,ESCA,15,3.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Engineered hydrogel reveals contribution of matrix mechanics,ESCA
+GSE235587,SKIP,ESCA,12,1.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,To investigate the effects of NRF2 inhibitors (pyrimethamine,ESCA
+GSE241474,SKIP,LIHC,21,2.8 GB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,A genetically engineered mouse model (GEMM) of NUT carcinoma,ESCA
+GSE213565,SKIP,ESCA,20,1.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Transcriptional Characterization of Early Esophageal Squamou,ESCA
+GSE226192,SKIP,ESCA,8,2.9 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Development and Validation of a Comprehensive Analysis of th,ESCA
+GSE209524,SKIP,ESCA,0,5.8 GB,,no file recognisable as a count matrix,,Enhancement of anti-tumor immunity by tertiary lymphoid stru,ESCA
+GSE156585,SKIP,ESCA,2,31.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Tumor fibroblast-derived FGF2 regulates SPRY1 expression in ,ESCA
+GSE221561,SKIP,ESCA,11,918.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Comprehensive Landscape of Resistance Mechanisms for Neoadju,ESCA
+GSE205623,SKIP,ESCA,4,13.9 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Elafin as a Prognostic Marker in Esophageal Squamous Cell Ca,ESCA
+GSE203115,SKIP,ESCA,12,68.7 MB,,no file recognisable as a count matrix | sample-type flag in the file names: SINGLE_CELL,,Intra-tumoural Microbiota Remodels the Tumour Immune,ESCA
+GSE222917,SKIP,ESCA,5,800.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Effect of Fusobacterium nucleatum (Fn) infection or Fn-Dps t,ESCA
+GSE232107,SKIP,ESCA,184,392.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: SINGLE_CELL",,scRNA-seq analysis of colon and esophageal tumors uncovers a,ESCA
+GSE199619,SKIP,ESCA,7,17.1 GB,,no file recognisable as a count matrix,,Single-cell transcriptome analysis reveals functional change,ESCA
+GSE229974,SKIP,ESCA,6,1.7 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Different gene expression in cisplatin chemo-resistant or se,ESCA
+GSE229973,SKIP,ESCA,24,7.4 MB,,no file recognisable as a count matrix,,Effect of cisplatin in depletion MAGEA6 expression  of esoph,ESCA
+GSE220613,SKIP,ESCA,6,8.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Effect of depletion of RBM4 on gene expression of esophageal,ESCA
+GSE209942,SKIP,ESCA,8,4.7 MB,,no file recognisable as a count matrix,,Transcriptomes Analysis of LHX2-knockdown in KYSE30 and KYSE,ESCA
+GSE209521,SKIP,UNKNOWN,12,210.8 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA sequencing analysis of OTUD6B-knockdown KYSE30 cells,ESCA
+GSE200714,SKIP,ESCA,4,464.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix | sample-type flag in the file names: CELL_LINE",,Effect of depletion of NUP153 on gene expression in esophage,ESCA
+GSE207721,SKIP,ESCA,9,645.0 KB,,sample-type flag in the file names: CELL_LINE,,KDM2A plays a dual role in regulating the expression of mali,ESCA
+GSE197677,SKIP,ESCA,30,14.3 GB,,no file recognisable as a count matrix,,Single cell RNA-sequence reveals the effect of neoadjuvant c,ESCA
+GSE227127,SKIP,ESCA,7,2.6 MB,,no file recognisable as a count matrix,,Diclofenac inhibits esophageal squamous cell carcinoma throu,ESCA
+GSE218491,SKIP,UNKNOWN,114,0.0 B,,no supplementary files: the data may only be in SRA,,Genome-wide CRISPR/Cas9 Screens Reveal Shared and Bespoke Me,ESCA
+GSE225131,SKIP,ESCA,16,4.8 MB,,"only circRNA/isoform/miRNA counts, not gene level",,NAT10 mediated ac4C tRNA modification promotes EGFR mRNA tra,ESCA
+GSE196756,SKIP,ESCA,6,211.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,"Profiling transcriptional heterogeneity of epithelium, fibro",ESCA
+GSE201735,SKIP,ESCA,12,3.7 MB,,no file recognisable as a count matrix,,CDCA7 promotes TGF-β-induced epithelial-mesenchymal transiti,ESCA
+GSE210647,SKIP,ESCA,29,1.1 MB,,no file recognisable as a count matrix,,Increased PXR and suppressed T-cell signaling are associated,ESCA
+GSE207526,SKIP,ESCA,120,3.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Identification of novel molecular subgroups in esophageal ad,ESCA
+GSE206845,SKIP,ESCA,6,4.4 MB,,no file recognisable as a count matrix,,Effect of depletion of USP36 on gene expression of ECA109 ce,ESCA
+GSE141781,SKIP,ESCA,12,2.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The protumor function of UHRF1 is linked to both the Akt sig,ESCA
+GSE219044,SKIP,ESCA,15,2.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Elevated methionine flux drives pyroptosis evasion in persis,ESCA
+GSE192734,SKIP,ESCA,6,9.2 MB,,no file recognisable as a count matrix,,MAFB promotes the malignant phenotypes by IGFBP6 in esophage,ESCA
+GSE216537,SKIP,UNKNOWN,8,970.6 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Novel Therapeutic Strategies Exploiting Unique Properties of,ESCA
+GSE200421,SKIP,UNKNOWN,84,15.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A Transcriptomic Map of EGFR-induced Epithelial-to-Mesenchym,ESCA
+GSE206246,SKIP,LIHC,6,9.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Research on mechanisms of miR-27a-3p on  Cisplatin sensitivi,ESCA
+GSE184654,SKIP,ESCA,12,2.6 MB,,no file recognisable as a count matrix,,Estrogen related receptor alpha drives mitochondrial biogene,ESCA
+GSE172001,SKIP,ESCA,20,6.4 MB,,no file recognisable as a count matrix,,Soybean derived phosphatidylserine synthetically targets OTU,ESCA
+GSE168344,SKIP,UNKNOWN,170,17.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Epigenetic crosstalk,ESCA
+GSE212662,SKIP,ESCA,6,1.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-seq of Eca109 cells.,ESCA
+GSE212200,SKIP,ESCA,6,3.1 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA-sequencing assay to Identify changed gene expression in ,ESCA
+GSE193946,SKIP,ESCA,57,7.7 KB,,no file recognisable as a count matrix,,Isoform switching events in Barrett's Esophagus and esophage,ESCA
+GSE188405,SKIP,UNKNOWN,90,216.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A cis-regulatory lexicon of DNA motif combinations mediating,ESCA
+GSE186947,SKIP,UNKNOWN,36,52.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A cis-regulatory lexicon of DNA motif combinations mediating,ESCA
+GSE209582,SKIP,ESCA,13,853.0 KB,,no file recognisable as a count matrix,,Chloroquine enhances the effectiveness of 5 Fluorouracil in ,ESCA
+GSE174302,SKIP,ESCA,230,17.7 MB,,no file recognisable as a count matrix,,Cancer specific microbiome revealed by cell-free RNA reads i,ESCA
+GSE207635,SKIP,ESCA,8,119.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Expression profiles of transfer RNA-derived small RNAs in es,ESCA
+GSE207527,SKIP,ESCA,200,0.0 B,,no supplementary files: the data may only be in SRA,,RNA sequencing of endoscopic biopsies from patients with eso,ESCA
+GSE173666,SKIP,ESCA,8,18.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,RNA-seq data of esophageal cancer cell Kyse510 after inhibit,ESCA
+GSE199654,SKIP,ESCA,47,23.2 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Computational identification of preneoplastic cells displayi,ESCA
+GSE171167,SKIP,ESCA,8,7.2 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,RNA-Seq on Eca109 and KYSE450 cell lines with DMSO and Elaio,ESCA
+GSE198569,SKIP,UNKNOWN,10,5.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-sequencing analysis of the KYSE150 cells overexpressing ,ESCA
+GSE188955,SKIP,ESCA,20,342.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The confused cell identity is associated with aggressiveness,ESCA
+GSE188900,SKIP,ESCA,8,6.6 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The confused cell identity is associated with aggressiveness,ESCA
+GSE128035,SKIP,ESCA,6,3.2 MB,,no file recognisable as a count matrix,,Long noncoding RNA LSINCT5 is up-regulated and related to  p,ESCA
+GSE182710,SKIP,ESCA,9,12.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA sequencing analysis in ESCC cells with Drp1 overexpressi,ESCA
+GSE126304,SKIP,ESCA,92,553.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Comprehensive molecular classification for adenocarcinoma of,ESCA
+GSE194277,SKIP,ESCA,12,36.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Modulation of the tumor promoting functions of cancer associ,ESCA
+GSE148005,SKIP,UNKNOWN,32,0.0 B,,no supplementary files: the data may only be in SRA,,Acetyl-lysine Reader CECR2 Drives Breast Cancer Metastasis b,ESCA
+GSE147995,SKIP,UNKNOWN,26,2.6 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Acetyl-lysine Reader CECR2 Drives Breast Cancer Metastasis b,ESCA
+GSE189830,SKIP,ESCA,12,3.3 MB,,"only circRNA/isoform/miRNA counts, not gene level",,"Differential expression of mRNA, lncRNA and circRNA in esoph",ESCA
+GSE156788,SKIP,UNKNOWN,74,3.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Increased ACTL6A Occupancy Within mSWI/SNF Chromatin Remodel,ESCA
+GSE156785,SKIP,UNKNOWN,16,2.5 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Altered BAF53A (ACTL6A) Stoichiometry Drives Human Squamous ,ESCA
+GSE121788,SKIP,ESCA,4,7.2 MB,,"only circRNA/isoform/miRNA counts, not gene level",,"Omeprazole regulates miRNA, mRNA and lncRNA networks reveale",ESCA
+GSE88805,SKIP,UNKNOWN,109,0.0 B,,no supplementary files: the data may only be in SRA,,RNA binding proteins in cancer spliceome,ESCA
+GSE179267,SKIP,ESCA,6,679.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,METTL3 mediated m6A mRNA modification promotes esophageal ca,ESCA
+GSE87410,SKIP,UNKNOWN,100,15.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,50 pairs of transcriptomes from 50 patients covering 9 types,ESCA
+GSE142863,SKIP,UNKNOWN,14,2.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Activation of bivalent factor DLX5 cooperates with master re,ESCA
+GSE142862,SKIP,UNKNOWN,3,15.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Activation of bivalent factor DLX5 cooperates with master re,ESCA
+GSE183924,SKIP,ESCA,37,6.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,A Phase II Trial of Adjuvant Durvalumab following Trimodalit,ESCA
+GSE156257,SKIP,ESCA,4,2.6 MB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,CEBPG promotes esophageal squamous cell carcinoma progressio,ESCA
+GSE131493,SKIP,ESCA,35,6.8 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Distal regulation mediated Core Transcriptional Regulatory C,ESCA
+GSE131492,SKIP,ESCA,3,7.4 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Distal regulation mediated Core Transcriptional Regulatory C,ESCA
+GSE173950,SKIP,ESCA,79,103.8 MB,,no file recognisable as a count matrix,,Single Cell RNA sequencing (DropSeq) of esophageal adenocarc,ESCA
+GSE173475,SKIP,ESCA,12,21.4 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Pan-cancer analysis of IFI6 and its tumor promotor effects i,ESCA
+GSE173169,SKIP,ESCA,8,292.0 KB,,no file recognisable as a count matrix,,HOXA13 in etiology and oncogenic potential of Barrett’s esop,ESCA
+GSE173166,SKIP,ESCA,6,1.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,HOXA13 in etiology and oncogenic potential of Barrett’s esop,ESCA
+GSE138734,SKIP,UNKNOWN,921,173.0 MB,,sample-type flag in the file names: CELL_LINE,,The RNA Atlas expands the catalog of human non-coding RNAs,ESCA
+GSE113268,SKIP,UNKNOWN,33,23.0 MB,,sample-type flag in the file names: CELL_LINE,,SLC36A1-mTORC1 signaling drives acquired resistance to CDK4/,ESCA
+GSE167367,SKIP,ESCA,86,11.0 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SOX2 Reprograms the Esophageal Squamous Carcinoma Epigenome ,ESCA
+GSE167365,SKIP,ESCA,30,3.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SOX2 Reprograms the Esophageal Squamous Carcinoma Epigenome ,ESCA
+GSE155187,SKIP,ESCA,38,665.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Bromodomain testis-specific protein BRDT directs ΔNp63 funct,ESCA
+GSE155186,SKIP,ESCA,26,3.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Bromodomain testis-specific protein BRDT directs ΔNp63 funct,ESCA
+GSE154555,SKIP,ESCA,4,3.0 MB,,no file recognisable as a count matrix | sample-type flag in the file names: NOT_RNASEQ,,MeRIP-sequencing in ESCC cells,ESCA
+GSE167488,SKIP,ESCA,12,884.9 KB,,sample-type flag in the file names: NOT_RNASEQ,,Transcriptomics based multi-dimensional characterization and,ESCA
+GSE165252,SKIP,ESCA,77,38.0 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,RNA sequencing of the phase II PERFECT trial combining a PD-,ESCA
+GSE164158,SKIP,ESCA,16,1.8 MB,,no file recognisable as a count matrix,,The clinical significance and potential molecular mechanism ,ESCA
+GSE112926,SKIP,ESCA,51,7.2 MB,,no file recognisable as a count matrix,,microRNA 125a Regulates MHC-I Expression on Esophageal Adeno,ESCA
+GSE162946,SKIP,UNKNOWN,53,0.0 B,,no supplementary files: the data may only be in SRA,,Stereotactic body radiotherapy is effective in modifying the,ESCA
+GSE162737,SKIP,ESCA,12,31.7 MB,,"only circRNA/isoform/miRNA counts, not gene level | sample-type flag in the file names: CELL_LINE",,TUT4 affected genes and lncRNA  in human  esophageal carcino,ESCA
+GSE158506,SKIP,UNKNOWN,62,1.2 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Fat1 deletion promotes hybrid EMT state with enhanced tumor ,ESCA
+GSE159721,SKIP,ESCA,246,38.0 MB,,no file recognisable as a count matrix,,Genomic and transcriptomic alterations associated with drug ,ESCA
+GSE160269,SKIP,ESCA,128,983.4 MB,,no file recognisable as a count matrix,,Dissecting esophageal squamous-cell carcinoma ecosystem by s,ESCA
+GSE142556,SKIP,ESCA,30,1.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,The oncogenomic function of androgen receptor in esophageal ,ESCA
+GSE145370,SKIP,ESCA,28,533.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Immune suppressive landscape in a human esophageal squamous ,ESCA
+GSE159220,SKIP,LIHC,6,1.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Search for a novel diagnostic marker for liver cancer.,ESCA
+GSE135510,SKIP,ESCA,6,1.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression analysis following depletion of LOXL2 in eso,ESCA
+GSE103111,SKIP,ESCA,4,1.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene Expression Profiling Provides Insights into the Molecul,ESCA
+GSE155360,SKIP,ESCA,20,961.0 KB,,no file recognisable as a count matrix,,Analysis of serum exosomal miRNAs associated with lymph node,ESCA
+GSE154450,SKIP,UNKNOWN,6,4.2 MB,,"only circRNA/isoform/miRNA counts, not gene level",,RNAseq analysis of EC109 cells transfected by lncRPL34-AS1 p,ESCA
+GSE144318,SKIP,UNKNOWN,6,60.0 MB,,"only circRNA/isoform/miRNA counts, not gene level",,Discovery of DAP3-binding RNA sites by eCLIP,ESCA
+GSE123020,SKIP,UNKNOWN,6,515.0 KB,,no file recognisable as a count matrix | sample-type flag in the file names: CELL_LINE,,Suppression of adenosine-to-inosine (A-to-I) RNA editome by ,ESCA
+GSE143803,SKIP,ESCA,13,552.5 KB,,sample-type flag in the file names: CELL_LINE,,SREBF1 coordinates with master transcription factors in regu,ESCA
+GSE132813,SKIP,ESCA,8,5.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Lineage-Specific Epigenomic and Genomic Activation of Oncoge,ESCA
+GSE143195,SKIP,ESCA,6,586.0 MB,,sample-type flag in the file names: CELL_LINE,,A Transcriptional Regulatory Loop of Master Regulator Transc,ESCA
+GSE124514,SKIP,ESCA,10,3.3 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Interferon-regulated lncRNA analysis identifies IRF1-AS as a,ESCA
+GSE149612,SKIP,ESCA,55,2.5 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Multi-omics analysis reveals divergent epigenetic regulation,ESCA
+GSE149609,SKIP,ESCA,35,21.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Multi-omics analysis reveals divergent epigenetic regulation,ESCA
+GSE143462,SKIP,ESCA,6,8.0 MB,,no file recognisable as a count matrix,,Omipalisib Inhibits Esophageal Cancer Growth through PI3K/AK,ESCA
+GSE131658,SKIP,UNKNOWN,8,34.0 KB,,"only circRNA/isoform/miRNA counts, not gene level",,Cis- and trans-regulation of alternative splicing by Adenosi,ESCA
+GSE130078,SKIP,ESCA,46,13.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,A Novel LincRNA HERES Epigenetically Regulates Wnt Signaling,ESCA
+GSE87665,SKIP,ESCA,6,491.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Next generation sequencing facilitates transcriptome analyse,ESCA
+GSE87664,SKIP,ESCA,2,190.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Next generation sequencing facilitates transcriptome analyse,ESCA
+GSE133568,SKIP,ESCA,6,760.7 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genome wide transcriptome analysis of palbociclib or GSK3326,ESCA
+GSE120101,SKIP,COAD,105,27.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,T-cell receptor repertoire analysis of advanced solid tumors,ESCA
+GSE120028,SKIP,COAD,19,2.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptomic analysis of advanced solid tumors in first-in,ESCA
+GSE84273,SKIP,ESCA,16,469.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of Functional Lung Adenocarcinoma Susceptibil,ESCA
+GSE111011,SKIP,ESCA,14,46.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Integrative analysis of mRNA and lncRNA profiles identified ,ESCA
+GSE94545,SKIP,ESCA,9,5.2 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Epigenetic repression via DNA methylation and trimethylation,ESCA
+GSE94544,SKIP,ESCA,3,3.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Epigenetic repression via DNA methylation and trimethylation,ESCA
+GSE118532,SKIP,UNKNOWN,6,9.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genome wide expression change by RNF168 knocking down in NEC,ESCA
+GSE121995,SKIP,ESCA,6,28.3 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,H1609088 Human RNA-Sequencing,ESCA
+GSE104926,SKIP,ESCA,18,13.1 MB,,"only circRNA/isoform/miRNA counts, not gene level | sample-type flag in the file names: NOT_TISSUE",,RNA-seq of exosomes identifies lncRNA profiles that distingu,ESCA
+GSE106565,SKIP,ESCA,17,2.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Super-enhancer-driven CCAT1 is co-activated by SOX2 and TP63,ESCA
+GSE106564,SKIP,ESCA,7,18.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Super-enhancer-driven CCAT1 is co-activated by SOX2 and TP63,ESCA
+GSE101743,SKIP,ESCA,8,4.6 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,LncRNA NMR knockdown and overexpression in esophageal squamo,ESCA
+GSE113779,SKIP,ESCA,6,217.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Expression and methylation profiling of esophageal NEC,ESCA
+GSE113777,SKIP,ESCA,2,760.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Analysis of a case of esophageal NEC at transcriptome level,ESCA
+GSE112083,SKIP,ESCA,2,740.2 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA-Seq of fibrosarcoma with ESCC case,ESCA
+GSE71412,SKIP,ESCA,4,461.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Integrated analysis of methylome and transcriptome of Esopha,ESCA
+GSE71411,SKIP,ESCA,2,28.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Transcriptome Analysis of Esophageal Squamous Cell Carcinoma,ESCA
+GSE88978,SKIP,UNKNOWN,56,1.7 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Genomic alterations activating KLF5,ESCA
+GSE81812,SKIP,ESCA,314,3.3 MB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2",,Next generation sequencing of esophageal squamous cell carci,ESCA
+GSE94869,SKIP,ESCA,80,3.5 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA sequencing of Esophageal adenocarcinomas,ESCA
+GSE93352,SKIP,ESCA,9,28.7 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Gene expression profile of T-DM1 resistant and parental cell,ESCA
+GSE88802,SKIP,ESCA,4,850.4 KB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Novel metastatic models of human esophageal adenocarcinoma h,ESCA
+GSE86014,SKIP,ESCA,2,3.1 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,ZNF750 is a lineage-specific tumor suppressor in squamous ce,ESCA
+GSE76861,SKIP,ESCA,16,431.0 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targetting super enhancer associated oncogenes in esophageal,ESCA
+GSE76860,SKIP,ESCA,12,19.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Targetting super enhancer associated oncogenes in esophageal,ESCA
+GSE62909,SKIP,ESCA,6,297.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,SOX15 governs a transcriptional program in human esophageal ,ESCA
+GSE47058,SKIP,ESCA,6,614.0 KB,,"only normalised values (FPKM/TPM/CPM), unusable by DESeq2 | sample-type flag in the file names: CELL_LINE",,Differential gene expression by suppression of either SOX2 o,ESCA
+GSE48240,SKIP,ESCA,3,1.8 MB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Long Noncoding RNA HNF1A-AS1 Regulates Proliferation and Mig,ESCA
+GSE32424,SKIP,ESCA,12,1.4 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,Identification of a Novel Angiogenesis and Tumor Suppressor ,ESCA
+GSE29968,SKIP,ESCA,6,1.9 GB,,"only a per-sample archive (<GSE>_RAW.tar), no count matrix",,RNA Sequencing Analysis Generates Comprehensive Transcriptom,ESCA

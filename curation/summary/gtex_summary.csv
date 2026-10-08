@@ -1,0 +1,11 @@
+tissue,wp1_label,samples,donors,male,female,excluded_other_assays,cldn1_detected,cldn1_median,cldn1_min,cldn1_max,meta_aligned
+Pancreas,PAAD,362,362,223,139,577,362,2505.5,284.0,48241.0,yes
+Colon - Transverse,COAD,479,479,307,172,740,479,96.0,2.0,1096.0,yes
+Colon - Sigmoid,COAD,419,419,268,151,418,419,60.0,6.0,1376.0,yes
+Stomach,STAD,407,407,259,148,438,407,80.0,10.0,5960.0,yes
+Esophagus - Mucosa,ESCA,614,614,399,215,752,614,5065.0,176.0,45708.0,yes
+Esophagus - Muscularis,ESCA,561,561,368,193,645,561,120.0,9.0,6103.0,yes
+Esophagus - Gastroesophageal Junction,ESCA,403,403,266,137,419,403,168.0,21.0,2028.0,yes
+Liver,LIHC_CHOL,262,262,184,78,314,262,10248.5,1822.0,33799.0,yes
+Small Intestine - Terminal Ileum,INTESTINE,207,207,135,72,206,207,101.0,16.0,780.0,yes
+TOTAL,,3714,3714,2409,1305,4509,3714,,,,

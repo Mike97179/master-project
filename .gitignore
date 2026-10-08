@@ -1,4 +1,5 @@
-# Data (large files, downloaded per-run)
+# Data (large files, downloaded per-run). The scripts can fetch it again;
+# the decisions about it live in curation/, which IS tracked.
 dataset/
 !dataset/.gitkeep
 

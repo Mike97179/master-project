@@ -68,14 +68,16 @@ import pandas as pd
 import requests
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import DATASET_DIR, CANCER_TYPES, CANCER_ORGAN_PATTERNS
+from config import (DATASET_DIR, CURATION_DIR, CANCER_TYPES,
+                    CANCER_ORGAN_PATTERNS)
 from run_logger import start_logging
 
 # ══════════════════════════════════════════════════════════════════════════
 #  Configuration
 # ══════════════════════════════════════════════════════════════════════════
 
-GEO_ROOT = os.path.join(DATASET_DIR, "GEO")
+GEO_ROOT = os.path.join(DATASET_DIR, "GEO")       # the files
+GEO_REC = os.path.join(CURATION_DIR, "GEO")       # why we kept them
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 ACC_CGI = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi"
 FTP_HTTPS = "https://ftp.ncbi.nlm.nih.gov/geo/series"
@@ -187,10 +189,20 @@ GENE_ID_PATTERNS = {
 
 
 def cancer_dir(short):
-    """dataset/GEO/<CANCER>/ — one folder per cancer, so each curation is
-    self-contained. The verdict cache stays at the root, because a series'
-    verdict does not depend on which search found it."""
+    """dataset/GEO/<CANCER>/ — where the downloaded files go."""
     path = os.path.join(GEO_ROOT, short.upper())
+    os.makedirs(path, exist_ok=True)
+    return path
+
+
+def cancer_rec(short):
+    """curation/GEO/<CANCER>/ — where the record of the decisions goes.
+
+    Separate from the data because dataset/ is gitignored wholesale: the
+    files can be downloaded again, the reasoning cannot. The verdict cache
+    sits at curation/GEO/, not under a cancer, because a series' verdict
+    does not depend on which search found it."""
+    path = os.path.join(GEO_REC, short.upper())
     os.makedirs(path, exist_ok=True)
     return path
 
@@ -773,8 +785,8 @@ def inspect_gse(gse_id, target="ALL", min_samples=10, quiet=False):
 
 def record_inspection(row, quiet=False):
     """Accumulate one row per series, newest value wins."""
-    os.makedirs(GEO_ROOT, exist_ok=True)
-    path = os.path.join(GEO_ROOT, "inspected.csv")
+    os.makedirs(GEO_REC, exist_ok=True)
+    path = os.path.join(GEO_REC, "inspected.csv")
     df = pd.DataFrame([row])
     if os.path.exists(path):
         old = pd.read_csv(path)
@@ -782,7 +794,7 @@ def record_inspection(row, quiet=False):
                        ignore_index=True)
     df.to_csv(path, index=False)
     if not quiet:
-        print(f"  Recorded in dataset/GEO/inspected.csv")
+        print(f"  Recorded in curation/GEO/inspected.csv")
 
 
 def cached_reasons(value):
@@ -995,14 +1007,14 @@ def run_pipeline(target, max_download=None, include_flagged=False,
 
     search_df = pd.DataFrame(found).drop_duplicates(subset="accession")
     for short, part in search_df.groupby("search_cancer"):
-        part.to_csv(os.path.join(cancer_dir(short), "search_results.csv"),
+        part.to_csv(os.path.join(cancer_rec(short), "search_results.csv"),
                     index=False)
     cancer_of = dict(zip(search_df["accession"], search_df["search_cancer"]))
     print(f"    {len(search_df)} unique candidates")
 
     # ── [2/5] Gates 1-2 over every candidate ────────────────────────────
     print("\n  [2/5] Gates 1-2: abstract and file names...")
-    insp_csv = os.path.join(GEO_ROOT, "inspected.csv")
+    insp_csv = os.path.join(GEO_REC, "inspected.csv")
     cached = set()
     if os.path.exists(insp_csv):
         cached = set(pd.read_csv(insp_csv)["accession"])
@@ -1062,7 +1074,7 @@ def run_pipeline(target, max_download=None, include_flagged=False,
     dec_df = pd.DataFrame(decisions)
     dec_df["search_cancer"] = dec_df["accession"].map(cancer_of)
     for short, part in dec_df.groupby("search_cancer"):
-        part.to_csv(os.path.join(cancer_dir(short), "decisions.csv"), index=False)
+        part.to_csv(os.path.join(cancer_rec(short), "decisions.csv"), index=False)
 
     print("\n    Why candidates were rejected:")
     skipped = dec_df[dec_df["decision"] == "SKIP"]
@@ -1077,7 +1089,7 @@ def run_pipeline(target, max_download=None, include_flagged=False,
         print(f"    capped at {max_download} by --max-download")
     if selected.empty:
         print("\n    Nothing reached a download. Reasons per candidate are in "
-              "dataset/GEO/<CANCER>/decisions.csv")
+              "curation/GEO/<CANCER>/decisions.csv")
         return
 
     # ── [4/5] Download ──────────────────────────────────────────────────
@@ -1131,10 +1143,10 @@ def run_search(target):
         return
     df = pd.DataFrame(rows).drop_duplicates(subset="accession")
     for short, part in df.groupby("search_cancer"):
-        part.to_csv(os.path.join(cancer_dir(short), "search_results.csv"),
+        part.to_csv(os.path.join(cancer_rec(short), "search_results.csv"),
                     index=False)
     print(f"\n  {len(df)} unique candidates, saved to "
-          f"dataset/GEO/<CANCER>/search_results.csv")
+          f"curation/GEO/<CANCER>/search_results.csv")
     print(f"  Next: python scripts/download_geo.py {target}")
 
 

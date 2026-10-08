@@ -1,8 +1,8 @@
 """
 summary_report.py — CLAUD-IA WP1: dataset summary table for reporting.
 
-Scans whatever has been downloaded under dataset/ and writes, into
-dataset/summary/:
+Scans whatever has been downloaded under dataset/, reads the GEO curation
+record from curation/GEO/, and writes, into curation/summary/:
 
     tcga_summary.csv   one row per TCGA cancer type
     gtex_summary.csv   one row per GTEx GI tissue
@@ -24,11 +24,11 @@ import hashlib
 import pandas as pd
 
 sys.path.insert(0, os.path.dirname(__file__))
-from config import (DATASET_DIR, CANCER_TYPES, TCGA_VALID_SAMPLE_CODES,
-                    GTEX_TISSUE_MAP)
+from config import (DATASET_DIR, CURATION_DIR, CANCER_TYPES,
+                    TCGA_VALID_SAMPLE_CODES, GTEX_TISSUE_MAP)
 from run_logger import start_logging
 
-SUMMARY_DIR = os.path.join(DATASET_DIR, "summary")
+SUMMARY_DIR = os.path.join(CURATION_DIR, "summary")
 
 
 def check_alignment(matrix_path, meta_path, id_col, n_lead):
@@ -300,28 +300,33 @@ def collect_geo():
     GEO is a curation step, not a bulk download: the useful summary is how
     many candidates survive each filter, not sample counts.
     """
-    base = os.path.join(DATASET_DIR, "GEO")
+    base = os.path.join(CURATION_DIR, "GEO")
     insp_csv = os.path.join(base, "inspected.csv")
     if not os.path.isdir(base):
         return pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
 
     insp = pd.read_csv(insp_csv) if os.path.exists(insp_csv) else pd.DataFrame()
 
-    # Search results and decisions live under dataset/GEO/<CANCER>/
+    # The record is under curation/GEO/<CANCER>/, the files themselves under
+    # dataset/GEO/<CANCER>/. Two roots, so count what is on disk from the
+    # second one — reading both from `base` silently reported 0 downloaded.
+    data_root = os.path.join(DATASET_DIR, "GEO")
     search_parts, dec_parts, downloaded = [], [], set()
     for short in [v["short"] for v in CANCER_TYPES.values()]:
         cdir = os.path.join(base, short)
-        if not os.path.isdir(cdir):
-            continue
-        for name, bucket in (("search_results.csv", search_parts),
-                             ("decisions.csv", dec_parts)):
-            path = os.path.join(cdir, name)
-            if os.path.exists(path):
-                part = pd.read_csv(path)
-                part["search_cancer"] = short
-                bucket.append(part)
-        downloaded |= {d for d in os.listdir(cdir)
-                       if d.startswith("GSE") and os.path.isdir(os.path.join(cdir, d))}
+        if os.path.isdir(cdir):
+            for name, bucket in (("search_results.csv", search_parts),
+                                 ("decisions.csv", dec_parts)):
+                path = os.path.join(cdir, name)
+                if os.path.exists(path):
+                    part = pd.read_csv(path)
+                    part["search_cancer"] = short
+                    bucket.append(part)
+        ddir = os.path.join(data_root, short)
+        if os.path.isdir(ddir):
+            downloaded |= {d for d in os.listdir(ddir)
+                           if d.startswith("GSE")
+                           and os.path.isdir(os.path.join(ddir, d))}
 
     search = pd.concat(search_parts, ignore_index=True) if search_parts else pd.DataFrame()
     decisions = pd.concat(dec_parts, ignore_index=True) if dec_parts else pd.DataFrame()
